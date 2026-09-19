@@ -1,0 +1,4 @@
+product,total_deals,won_deals,lost_deals,total_value,avg_value,weighted,win_rate_pct,revenue_won
+PipelineIQ Enterprise,378,46,27,59071157.43,156272.9,25928876.59,12.2,7657049.73
+PipelineIQ Pro,410,47,30,13106030.94,31965.93,5533900.41,11.5,1457595.86
+PipelineIQ Starter,412,46,23,4133293.5,10032.27,1785175.1,11.2,438798.57

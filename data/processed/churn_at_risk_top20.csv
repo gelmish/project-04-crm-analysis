@@ -1,0 +1,21 @@
+company_id,company_name,industry,region,churn_score,customer_ltv,revenue_won,churn_risk_band
+C0068,Harbor Innovations 068,RetailTech,Europe,0.801,223559.63,0.0,Critical
+C0194,Harbor Partners 194,EdTech,Latin America,0.724,311520.65,0.0,Critical
+C0168,Solara Innovations 168,HRTech,Latin America,0.691,483437.85,0.0,Critical
+C0038,Redpoint Dynamics 038,FinTech,Middle East & Africa,0.652,466560.46,0.0,Critical
+C0323,Meridian Partners 323,PropTech,Middle East & Africa,0.648,348937.34,9389.79,Critical
+C0114,Vertex Cloud 114,CyberSecurity,Latin America,0.646,247327.28,0.0,Critical
+C0392,Nova Enterprises 392,CyberSecurity,Latin America,0.644,272603.03,0.0,Critical
+C0190,Irongate Platforms 190,HealthTech,Middle East & Africa,0.616,71092.11,0.0,Critical
+C0321,Helix Enterprises 321,HRTech,North America,0.61,425416.09,0.0,Critical
+C0338,Solara Innovations 338,EdTech,Middle East & Africa,0.609,460388.89,0.0,Critical
+C0465,Nova Partners 465,HealthTech,Middle East & Africa,0.608,320408.89,5065.13,Critical
+C0329,Irongate Ventures 329,CyberSecurity,Latin America,0.605,42915.43,0.0,Critical
+C0500,Quantum Cloud 500,HealthTech,Latin America,0.605,298764.92,0.0,Critical
+C0367,Vega Analytics 367,CyberSecurity,Middle East & Africa,0.604,268860.39,0.0,Critical
+C0381,Orion Cloud 381,LegalTech,Middle East & Africa,0.601,451951.09,0.0,Critical
+C0248,Vertex Dynamics 248,RetailTech,Latin America,0.601,245103.68,38561.12,Critical
+C0326,Ember Services 326,RetailTech,APAC,0.6,236900.97,47554.4,High
+C0252,Vega Data 252,RetailTech,North America,0.59,453540.25,0.0,High
+C0360,Indigo Innovations 360,EdTech,North America,0.588,197704.26,0.0,High
+C0452,Bluewave Data 452,PropTech,North America,0.583,260641.72,0.0,High

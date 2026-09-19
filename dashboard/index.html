@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>PipelineIQ — CRM Analytics Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+/* ── Reset & Base ─────────────────────────────────────────── */
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:        #0d1117;
+  --surface:   #161b22;
+  --surface2:  #21262d;
+  --border:    #30363d;
+  --accent:    #1f6feb;
+  --accent2:   #f0883e;
+  --accent3:   #3fb950;
+  --accent4:   #ff7b72;
+  --accent5:   #a371f7;
+  --text:      #e6edf3;
+  --text2:     #8b949e;
+  --text3:     #6e7681;
+  --won:       #3fb950;
+  --lost:      #ff7b72;
+  --open:      #1f6feb;
+  --warning:   #f0883e;
+  --critical:  #ff7b72;
+}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',
+              Roboto,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  font-size:14px;
+}
+
+/* ── Header ──────────────────────────────────────────────── */
+.header{
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+  padding:16px 32px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  position:sticky;top:0;z-index:100;
+}
+.header-left{display:flex;align-items:center;gap:12px;}
+.logo{
+  width:36px;height:36px;
+  background:linear-gradient(135deg,var(--accent),var(--accent5));
+  border-radius:8px;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:16px;color:#fff;
+}
+.brand{font-size:18px;font-weight:700;color:var(--text);}
+.brand span{color:var(--accent);}
+.tagline{font-size:11px;color:var(--text2);margin-top:1px;}
+.header-right{display:flex;align-items:center;gap:16px;}
+.badge{
+  background:var(--surface2);
+  border:1px solid var(--border);
+  border-radius:6px;
+  padding:4px 10px;
+  font-size:11px;color:var(--text2);
+}
+.badge b{color:var(--accent3);}
+.generated{font-size:11px;color:var(--text3);}
+
+/* ── Nav Tabs ────────────────────────────────────────────── */
+.nav{
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+  padding:0 32px;
+  display:flex;gap:4px;
+  overflow-x:auto;
+}
+.nav-tab{
+  padding:12px 18px;
+  font-size:13px;font-weight:500;
+  color:var(--text2);
+  border:none;background:none;
+  cursor:pointer;
+  border-bottom:2px solid transparent;
+  white-space:nowrap;
+  transition:all .2s;
+}
+.nav-tab:hover{color:var(--text);}
+.nav-tab.active{
+  color:var(--accent);
+  border-bottom-color:var(--accent);
+}
+
+/* ── Layout ──────────────────────────────────────────────── */
+.main{padding:24px 32px;max-width:1600px;margin:0 auto;}
+.tab-content{display:none;}
+.tab-content.active{display:block;}
+
+/* ── KPI Cards ───────────────────────────────────────────── */
+.kpi-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:16px;margin-bottom:24px;
+}
+.kpi-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:20px;
+  position:relative;overflow:hidden;
+  transition:border-color .2s;
+}
+.kpi-card:hover{border-color:var(--accent);}
+.kpi-card::before{
+  content:'';
+  position:absolute;top:0;left:0;right:0;height:3px;
+  background:var(--accent-bar,var(--accent));
+}
+.kpi-label{
+  font-size:11px;color:var(--text2);
+  text-transform:uppercase;letter-spacing:.6px;
+  margin-bottom:8px;
+}
+.kpi-value{
+  font-size:28px;font-weight:700;
+  color:var(--text);line-height:1;
+}
+.kpi-sub{
+  font-size:11px;color:var(--text3);
+  margin-top:6px;
+}
+.kpi-icon{
+  position:absolute;right:16px;top:16px;
+  font-size:20px;opacity:.4;
+}
+
+/* ── Grid Layouts ────────────────────────────────────────── */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;
+        gap:20px;margin-bottom:20px;}
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;
+        gap:20px;margin-bottom:20px;}
+.grid-1-2{display:grid;grid-template-columns:1fr 2fr;
+           gap:20px;margin-bottom:20px;}
+.grid-2-1{display:grid;grid-template-columns:2fr 1fr;
+           gap:20px;margin-bottom:20px;}
+
+/* ── Chart Cards ─────────────────────────────────────────── */
+.card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:20px;
+}
+.card-header{
+  display:flex;align-items:center;
+  justify-content:space-between;
+  margin-bottom:16px;
+}
+.card-title{
+  font-size:14px;font-weight:600;color:var(--text);
+}
+.card-sub{font-size:11px;color:var(--text2);margin-top:2px;}
+.card-badge{
+  font-size:10px;
+  background:var(--surface2);
+  border:1px solid var(--border);
+  border-radius:4px;
+  padding:3px 8px;color:var(--text2);
+}
+.chart-wrap{position:relative;height:260px;}
+.chart-wrap-sm{position:relative;height:200px;}
+.chart-wrap-lg{position:relative;height:320px;}
+
+/* ── Tables ──────────────────────────────────────────────── */
+.tbl-wrap{overflow-x:auto;margin-top:8px;}
+table{width:100%;border-collapse:collapse;font-size:12px;}
+th{
+  text-align:left;padding:8px 12px;
+  color:var(--text2);font-weight:500;
+  border-bottom:1px solid var(--border);
+  white-space:nowrap;font-size:11px;
+  text-transform:uppercase;letter-spacing:.4px;
+}
+td{
+  padding:8px 12px;
+  border-bottom:1px solid var(--border);
+  color:var(--text);
+}
+tr:hover td{background:var(--surface2);}
+tr:last-child td{border-bottom:none;}
+
+/* ── Badges / Pills ──────────────────────────────────────── */
+.pill{
+  display:inline-block;
+  padding:2px 8px;border-radius:20px;
+  font-size:10px;font-weight:600;
+}
+.pill-won    {background:rgba(63,185,80,.15);color:var(--won);}
+.pill-lost   {background:rgba(255,123,114,.15);color:var(--lost);}
+.pill-open   {background:rgba(31,111,235,.15);color:var(--open);}
+.pill-low    {background:rgba(63,185,80,.15);color:var(--won);}
+.pill-medium {background:rgba(240,136,62,.15);color:var(--warning);}
+.pill-high   {background:rgba(255,123,114,.15);color:var(--lost);}
+.pill-critical{background:rgba(163,113,247,.15);color:var(--accent5);}
+
+/* ── Progress Bars ───────────────────────────────────────── */
+.progress-wrap{margin-bottom:14px;}
+.progress-label{
+  display:flex;justify-content:space-between;
+  font-size:12px;color:var(--text2);margin-bottom:4px;
+}
+.progress-bar{
+  height:6px;background:var(--surface2);
+  border-radius:3px;overflow:hidden;
+}
+.progress-fill{
+  height:100%;border-radius:3px;
+  transition:width .6s ease;
+}
+
+/* ── Stat Rows ───────────────────────────────────────────── */
+.stat-row{
+  display:flex;justify-content:space-between;
+  align-items:center;padding:10px 0;
+  border-bottom:1px solid var(--border);
+}
+.stat-row:last-child{border-bottom:none;}
+.stat-label{font-size:12px;color:var(--text2);}
+.stat-value{font-size:13px;font-weight:600;color:var(--text);}
+
+/* ── Funnel ──────────────────────────────────────────────── */
+.funnel-stage{
+  display:flex;align-items:center;
+  gap:12px;margin-bottom:10px;
+}
+.funnel-bar-wrap{flex:1;height:28px;
+  background:var(--surface2);border-radius:4px;overflow:hidden;}
+.funnel-bar{
+  height:100%;border-radius:4px;
+  display:flex;align-items:center;
+  padding-left:10px;
+  font-size:11px;font-weight:600;color:#fff;
+  transition:width .8s ease;
+  min-width:40px;
+}
+.funnel-label{font-size:12px;color:var(--text2);width:110px;}
+.funnel-count{
+  font-size:11px;color:var(--text3);
+  width:80px;text-align:right;
+}
+
+/* ── Insight Boxes ───────────────────────────────────────── */
+.insight-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:16px;margin-top:20px;
+}
+.insight-card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-left:3px solid var(--accent-left,var(--accent));
+  border-radius:10px;
+  padding:16px;
+}
+.insight-title{
+  font-size:12px;font-weight:600;
+  color:var(--text);margin-bottom:6px;
+}
+.insight-body{font-size:12px;color:var(--text2);line-height:1.5;}
+.insight-action{
+  margin-top:8px;font-size:11px;
+  color:var(--accent);font-weight:500;
+}
+
+/* ── Section Title ───────────────────────────────────────── */
+.section-title{
+  font-size:16px;font-weight:600;
+  color:var(--text);margin-bottom:16px;
+  padding-bottom:8px;
+  border-bottom:1px solid var(--border);
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media(max-width:1024px){
+  .grid-2,.grid-3,.grid-1-2,.grid-2-1{
+    grid-template-columns:1fr;
+  }
+}
+@media(max-width:600px){
+  .main{padding:16px;}
+  .header{padding:12px 16px;}
+  .nav{padding:0 16px;}
+}
+</style>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────────── -->
+<div class="header">
+  <div class="header-left">
+    <div class="logo">P</div>
+    <div>
+      <div class="brand">Pipeline<span>IQ</span></div>
+      <div class="tagline">Turn pipeline data into revenue decisions</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="badge">B2B SaaS · 24 Months · <b>500 Accounts</b></div>
+    <div class="badge">Built by <b>Gelmish Technology</b></div>
+    <div class="generated" id="gen-time"></div>
+  </div>
+</div>
+
+<!-- ── Navigation ──────────────────────────────────────────────── -->
+<nav class="nav">
+  <button class="nav-tab active" onclick="showTab('executive')">
+    📊 Executive
+  </button>
+  <button class="nav-tab" onclick="showTab('pipeline')">
+    🔀 Pipeline
+  </button>
+  <button class="nav-tab" onclick="showTab('revenue')">
+    💰 Revenue
+  </button>
+  <button class="nav-tab" onclick="showTab('reps')">
+    👥 Sales Reps
+  </button>
+  <button class="nav-tab" onclick="showTab('customers')">
+    🏢 Customers
+  </button>
+</nav>
+
+<div class="main">
+
+<!-- ================================================================
+     TAB 1 — EXECUTIVE OVERVIEW
+     ================================================================ -->
+<div id="tab-executive" class="tab-content active">
+
+  <!-- KPI Row -->
+  <div class="kpi-grid" id="kpi-grid"></div>
+
+  <div class="grid-2">
+    <!-- Pipeline Funnel -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Sales Pipeline Funnel</div>
+          <div class="card-sub">Deal count by stage</div>
+        </div>
+        <span class="card-badge">Live Pipeline</span>
+      </div>
+      <div id="funnel-wrap"></div>
+    </div>
+
+    <!-- Revenue Trend Mini -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Monthly Revenue Won</div>
+          <div class="card-sub">Closed Won deal value · 24 months</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="exec-revenue-chart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-3">
+    <!-- Win Rate by Product -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Win Rate by Product</div>
+          <div class="card-sub">% deals closed won</div>
+        </div>
+      </div>
+      <div class="chart-wrap-sm">
+        <canvas id="exec-winrate-chart"></canvas>
+      </div>
+    </div>
+
+    <!-- Loss Reasons -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Top Loss Reasons</div>
+          <div class="card-sub">Revenue lost by reason</div>
+        </div>
+      </div>
+      <div class="chart-wrap-sm">
+        <canvas id="exec-loss-chart"></canvas>
+      </div>
+    </div>
+
+    <!-- Churn Risk -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Churn Risk Distribution</div>
+          <div class="card-sub">Accounts by risk band</div>
+        </div>
+      </div>
+      <div class="chart-wrap-sm">
+        <canvas id="exec-churn-chart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Insights -->
+  <div class="section-title">Key Insights & Management Actions</div>
+  <div class="insight-grid" id="exec-insights"></div>
+</div>
+<!-- ================================================================
+     TAB 2 — PIPELINE ANALYSIS
+     ================================================================ -->
+<div id="tab-pipeline" class="tab-content">
+
+  <div class="grid-2">
+    <!-- Stage Distribution -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Pipeline Value by Stage</div>
+          <div class="card-sub">Total deal value at each stage</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="pipe-stage-bar"></canvas>
+      </div>
+    </div>
+
+    <!-- Weighted Pipeline -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Weighted Pipeline Value</div>
+          <div class="card-sub">Probability-adjusted deal value</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="pipe-weighted-bar"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <!-- Deal Velocity -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Deal Velocity by Product</div>
+          <div class="card-sub">Average days from open to close</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="pipe-velocity-chart"></canvas>
+      </div>
+    </div>
+
+    <!-- Loss Analysis -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Loss Reason Breakdown</div>
+          <div class="card-sub">Deal count and value lost</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="pipe-loss-chart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pipeline Stage Detail Table -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">Pipeline Stage Detail</div>
+        <div class="card-sub">
+          Full breakdown — count, value, velocity, conversion
+        </div>
+      </div>
+    </div>
+    <div class="tbl-wrap">
+      <table id="pipeline-table"></table>
+    </div>
+  </div>
+
+  <!-- Activity Effectiveness -->
+  <div class="card" style="margin-top:20px;">
+    <div class="card-header">
+      <div>
+        <div class="card-title">Activity Effectiveness</div>
+        <div class="card-sub">
+          Positive outcome rate by activity type
+        </div>
+      </div>
+    </div>
+    <div class="chart-wrap">
+      <canvas id="pipe-activity-chart"></canvas>
+    </div>
+  </div>
+</div>
+
+
+<!-- ================================================================
+     TAB 3 — REVENUE ANALYSIS
+     ================================================================ -->
+<div id="tab-revenue" class="tab-content">
+
+  <div class="grid-2">
+    <!-- Monthly Revenue -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Monthly Revenue Trend</div>
+          <div class="card-sub">
+            Closed Won revenue · 24-month view
+          </div>
+        </div>
+      </div>
+      <div class="chart-wrap-lg">
+        <canvas id="rev-monthly-chart"></canvas>
+      </div>
+    </div>
+
+    <!-- MoM Growth -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Month-on-Month Growth</div>
+          <div class="card-sub">Revenue % change vs prior month</div>
+        </div>
+      </div>
+      <div class="chart-wrap-lg">
+        <canvas id="rev-mom-chart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <!-- Product Revenue -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Revenue by Product</div>
+          <div class="card-sub">Closed Won value per product tier</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="rev-product-chart"></canvas>
+      </div>
+    </div>
+
+    <!-- Region Revenue -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Revenue by Region</div>
+          <div class="card-sub">Won deal value per territory</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="rev-region-chart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rolling Average -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">3-Month Rolling Average Revenue</div>
+        <div class="card-sub">
+          Smoothed trend line · removes seasonal noise
+        </div>
+      </div>
+    </div>
+    <div class="chart-wrap-lg">
+      <canvas id="rev-rolling-chart"></canvas>
+    </div>
+  </div>
+</div>
+
+
+<!-- ================================================================
+     TAB 4 — SALES REP PERFORMANCE
+     ================================================================ -->
+<div id="tab-reps" class="tab-content">
+
+  <div class="grid-2">
+    <!-- Revenue Won by Rep -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Revenue Won by Rep</div>
+          <div class="card-sub">Closed Won deal value</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="rep-revenue-chart"></canvas>
+      </div>
+    </div>
+
+    <!-- Quota Attainment -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Quota Attainment</div>
+          <div class="card-sub">
+            Revenue Won vs Annual Quota · %
+          </div>
+        </div>
+      </div>
+      <div id="rep-quota-wrap" style="padding-top:8px;"></div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <!-- Win Rate by Rep -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Win Rate by Rep</div>
+          <div class="card-sub">% of deals closed won</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="rep-winrate-chart"></canvas>
+      </div>
+    </div>
+
+    <!-- Avg Deal Size by Rep -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Average Deal Size by Rep</div>
+          <div class="card-sub">Mean deal value across all stages</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="rep-avgdeal-chart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rep Detail Table -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">Rep Performance Scorecard</div>
+        <div class="card-sub">
+          Full metrics — deals, revenue, quota, velocity
+        </div>
+      </div>
+    </div>
+    <div class="tbl-wrap">
+      <table id="rep-table"></table>
+    </div>
+  </div>
+</div>
+
+
+<!-- ================================================================
+     TAB 5 — CUSTOMER ANALYSIS
+     ================================================================ -->
+<div id="tab-customers" class="tab-content">
+
+  <div class="grid-2">
+    <!-- Churn Risk Distribution -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Churn Risk Distribution</div>
+          <div class="card-sub">Accounts by risk band</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="cust-churn-chart"></canvas>
+      </div>
+    </div>
+
+    <!-- LTV by Churn Band -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Average LTV by Churn Band</div>
+          <div class="card-sub">
+            Customer lifetime value at risk
+          </div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="cust-ltv-chart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <!-- Region Win Rate -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Win Rate by Region</div>
+          <div class="card-sub">% deals won per territory</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="cust-region-winrate"></canvas>
+      </div>
+    </div>
+
+    <!-- Deal Count by Region -->
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <div class="card-title">Deal Volume by Region</div>
+          <div class="card-sub">Total deals per territory</div>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="cust-region-deals"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- At Risk Accounts Table -->
+  <div class="card">
+    <div class="card-header">
+      <div>
+        <div class="card-title">
+          High & Critical Churn Risk Accounts
+        </div>
+        <div class="card-sub">
+          Top 20 accounts requiring immediate attention
+        </div>
+      </div>
+      <span class="card-badge" style="color:var(--critical);">
+        ⚠ Action Required
+      </span>
+    </div>
+    <div class="tbl-wrap">
+      <table id="churn-table"></table>
+    </div>
+  </div>
+</div>
+
+</div><!-- /.main --><script src="data.js"></script>
+<script>
+// ── Globals ───────────────────────────────────────────────────────
+const D = DASHBOARD_DATA;
+const C = {
+  accent:  '#1f6feb', accent2: '#f0883e', accent3: '#3fb950',
+  accent4: '#ff7b72', accent5: '#a371f7', accent6: '#58a6ff',
+  won:     '#3fb950', lost:    '#ff7b72', open:    '#1f6feb',
+  text:    '#e6edf3', text2:   '#8b949e', border:  '#30363d',
+  surface: '#21262d',
+};
+const CHART_DEFAULTS = {
+  responsive:true, maintainAspectRatio:false,
+  plugins:{
+    legend:{ labels:{ color:C.text2, font:{size:11} } },
+    tooltip:{ backgroundColor:'#1c2128', titleColor:C.text,
+              bodyColor:C.text2, borderColor:C.border,
+              borderWidth:1, padding:10 }
+  },
+  scales:{
+    x:{ ticks:{color:C.text2,font:{size:11}},
+        grid:{color:'rgba(48,54,61,0.5)'} },
+    y:{ ticks:{color:C.text2,font:{size:11}},
+        grid:{color:'rgba(48,54,61,0.5)'} }
+  }
+};
+
+function fmt(n){
+  if(n==null)return '—';
+  if(n>=1000000) return '$'+(n/1000000).toFixed(1)+'M';
+  if(n>=1000)    return '$'+(n/1000).toFixed(0)+'K';
+  return '$'+n.toLocaleString();
+}
+function fmtN(n){ return n==null?'—':Number(n).toLocaleString(); }
+function fmtP(n){ return n==null?'—':n+'%'; }
+function mkChart(id,cfg){
+  const el=document.getElementById(id);
+  if(!el)return;
+  return new Chart(el,cfg);
+}
+
+// ── Tab Navigation ────────────────────────────────────────────────
+function showTab(name){
+  document.querySelectorAll('.tab-content')
+    .forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.nav-tab')
+    .forEach(t=>t.classList.remove('active'));
+  document.getElementById('tab-'+name)
+    .classList.add('active');
+  event.currentTarget.classList.add('active');
+}
+
+// ── KPI Grid ──────────────────────────────────────────────────────
+function buildKPIs(){
+  const k = D.kpis;
+  const cards = [
+    { label:'Total Revenue Won',   value:fmt(k.total_revenue),
+      sub:'Closed Won deals',      icon:'💰', bar:C.won },
+    { label:'Weighted Pipeline',   value:fmt(k.pipeline_weighted),
+      sub:'Probability-adjusted',  icon:'🔀', bar:C.accent },
+    { label:'Win Rate',            value:fmtP(k.win_rate),
+      sub:`${fmtN(k.deals_won)} won of ${fmtN(k.deals_won+k.deals_lost)} closed`,
+      icon:'🎯', bar:C.accent3 },
+    { label:'Avg Deal Size',       value:fmt(k.avg_deal_size),
+      sub:'All deals',             icon:'📦', bar:C.accent5 },
+    { label:'Avg Deal Velocity',   value:(k.avg_velocity_days||0)+' days',
+      sub:'Open to close',         icon:'⚡', bar:C.accent2 },
+    { label:'Total Deals',         value:fmtN(k.total_deals),
+      sub:`${fmtN(k.deals_open)} open`,icon:'📋', bar:C.accent6 },
+    { label:'High Churn Risk',     value:fmtN(k.companies_high_churn),
+      sub:'Accounts need attention',icon:'⚠️', bar:C.lost },
+    { label:'Avg Customer LTV',    value:fmt(k.avg_customer_ltv),
+      sub:'Lifetime value',        icon:'👤', bar:C.accent5 },
+  ];
+  const grid = document.getElementById('kpi-grid');
+  grid.innerHTML = cards.map(c=>`
+    <div class="kpi-card" style="--accent-bar:${c.bar}">
+      <div class="kpi-icon">${c.icon}</div>
+      <div class="kpi-label">${c.label}</div>
+      <div class="kpi-value">${c.value}</div>
+      <div class="kpi-sub">${c.sub}</div>
+    </div>`).join('');
+}
+
+// ── Pipeline Funnel ───────────────────────────────────────────────
+function buildFunnel(){
+  const p = D.pipeline;
+  if(!p.labels) return;
+  const colors = [C.accent,C.accent5,C.accent2,
+                  C.accent6,C.won,C.lost];
+  const maxCount = Math.max(...p.deal_counts);
+  const wrap = document.getElementById('funnel-wrap');
+  wrap.innerHTML = p.labels.map((lbl,i)=>{
+    const pct = Math.round(p.deal_counts[i]/maxCount*100);
+    return `
+    <div class="funnel-stage">
+      <div class="funnel-label">${lbl}</div>
+      <div class="funnel-bar-wrap">
+        <div class="funnel-bar"
+             style="width:${pct}%;background:${colors[i]}">
+          ${fmt(p.total_values[i])}
+        </div>
+      </div>
+      <div class="funnel-count">${fmtN(p.deal_counts[i])} deals</div>
+    </div>`;
+  }).join('');
+}
+
+// ── Executive Charts ──────────────────────────────────────────────
+function buildExecCharts(){
+  const r = D.revenue_trend;
+  if(r.labels){
+    mkChart('exec-revenue-chart',{
+      type:'line',
+      data:{
+        labels:r.labels,
+        datasets:[{
+          label:'Revenue Won',
+          data:r.revenue,
+          borderColor:C.won,
+          backgroundColor:'rgba(63,185,80,0.08)',
+          fill:true, tension:.4,
+          pointRadius:2, pointHoverRadius:5
+        }]
+      },
+      options:{...CHART_DEFAULTS,
+        plugins:{...CHART_DEFAULTS.plugins,
+          legend:{display:false}},
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x,
+            ticks:{...CHART_DEFAULTS.scales.x.ticks,
+              maxTicksLimit:8}},
+          y:{...CHART_DEFAULTS.scales.y,
+            ticks:{...CHART_DEFAULTS.scales.y.ticks,
+              callback:v=>fmt(v)}}
+        }
+      }
+    });
+  }
+
+  const pp = D.product_performance;
+  if(pp.labels){
+    mkChart('exec-winrate-chart',{
+      type:'doughnut',
+      data:{
+        labels:pp.labels,
+        datasets:[{
+          data:pp.win_rate,
+          backgroundColor:[C.accent,C.accent5,C.accent2],
+          borderColor:C.surface, borderWidth:2
+        }]
+      },
+      options:{
+        responsive:true, maintainAspectRatio:false,
+        plugins:{
+          legend:{position:'bottom',
+            labels:{color:C.text2,font:{size:10},
+                    padding:8}},
+          tooltip:{
+            backgroundColor:'#1c2128',
+            callbacks:{
+              label:ctx=>` ${ctx.label}: ${ctx.raw}% win rate`
+            }
+          }
+        }
+      }
+    });
+  }
+
+  const la = D.loss_analysis;
+  if(la.labels){
+    mkChart('exec-loss-chart',{
+      type:'bar',
+      data:{
+        labels:la.labels.map(l=>l.length>15?l.slice(0,14)+'…':l),
+        datasets:[{
+          label:'Value Lost',
+          data:la.total_values,
+          backgroundColor:C.lost+'cc',
+          borderColor:C.lost,
+          borderWidth:1,borderRadius:4
+        }]
+      },
+      options:{...CHART_DEFAULTS,
+        indexAxis:'y',
+        plugins:{...CHART_DEFAULTS.plugins,
+          legend:{display:false}},
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x,
+            ticks:{callback:v=>fmt(v)}},
+          y:{...CHART_DEFAULTS.scales.y}
+        }
+      }
+    });
+  }
+
+  const ch = D.churn;
+  if(ch.band_labels){
+    mkChart('exec-churn-chart',{
+      type:'doughnut',
+      data:{
+        labels:ch.band_labels,
+        datasets:[{
+          data:ch.company_counts,
+          backgroundColor:[C.won,C.accent2,C.lost,C.accent5],
+          borderColor:C.surface,borderWidth:2
+        }]
+      },
+      options:{
+        responsive:true,maintainAspectRatio:false,
+        plugins:{
+          legend:{position:'bottom',
+            labels:{color:C.text2,font:{size:10},padding:8}},
+          tooltip:{backgroundColor:'#1c2128'}
+        }
+      }
+    });
+  }
+}
+
+// ── Executive Insights ────────────────────────────────────────────
+function buildInsights(){
+  const k  = D.kpis;
+  const la = D.loss_analysis;
+  const ch = D.churn;
+
+  const topLoss = la.labels ? la.labels[0] : 'Price';
+  const highRisk = ch.company_counts ?
+    (ch.company_counts[2]||0)+(ch.company_counts[3]||0) : 0;
+
+  const insights = [
+    {
+      color: C.won,
+      title: '📈 Revenue Opportunity',
+      body:  `Win rate sits at ${k.win_rate}% against a weighted pipeline of
+              ${fmt(k.pipeline_weighted)}. Improving win rate by 5 percentage
+              points would generate an estimated ${fmt(k.pipeline_weighted*0.05)}
+              in additional closed revenue.`,
+      action:'Action: Deploy deal coaching for reps below 40% win rate.'
+    },
+    {
+      color: C.lost,
+      title: '⚠ Churn Revenue at Risk',
+      body:  `${fmtN(highRisk)} accounts are rated High or Critical churn risk.
+              Average LTV per account is ${fmt(k.avg_customer_ltv)}, putting
+              an estimated ${fmt(highRisk * k.avg_customer_ltv * 0.4)}
+              of lifetime value at immediate risk.`,
+      action:'Action: Assign CSM intervention to all Critical accounts within 14 days.'
+    },
+    {
+      color: C.accent2,
+      title: '🔍 Top Loss Driver',
+      body:  `"${topLoss}" is the leading reason for lost deals.
+              Deals lost to this cause represent
+              ${fmt(la.total_values ? la.total_values[0] : 0)}
+              in unrecovered revenue. This is a commercial positioning
+              and pricing intelligence gap.`,
+      action:'Action: Build competitive battle cards and revisit pricing tiers.'
+    },
+    {
+      color: C.accent5,
+      title: '⚡ Deal Velocity Gap',
+      body:  `Average deal velocity is ${k.avg_velocity_days} days.
+              Enterprise deals stall longest at the Negotiation stage.
+              Compressing velocity by 15% across open deals would
+              accelerate ${fmt(k.pipeline_weighted * 0.15)} into the current quarter.`,
+      action:'Action: Introduce a 30-day deal review cadence for all Negotiation-stage deals.'
+    },
+  ];
+
+  document.getElementById('exec-insights').innerHTML =
+    insights.map(i=>`
+      <div class="insight-card"
+           style="--accent-left:${i.color}">
+        <div class="insight-title">${i.title}</div>
+        <div class="insight-body">${i.body}</div>
+        <div class="insight-action">${i.action}</div>
+      </div>`).join('');
+}
+
+// ── Pipeline Tab ──────────────────────────────────────────────────
+function buildPipelineTab(){
+  const p  = D.pipeline;
+  const v  = D.deal_velocity;
+  const la = D.loss_analysis;
+  const ae = D.activity_effectiveness;
+
+  if(p.labels){
+    mkChart('pipe-stage-bar',{
+      type:'bar',
+      data:{
+        labels:p.labels,
+        datasets:[{
+          label:'Total Value',
+          data:p.total_values,
+          backgroundColor:[C.accent,C.accent5,C.accent2,
+                           C.accent6,C.won,C.lost].map(c=>c+'cc'),
+          borderRadius:4
+        }]
+      },
+      options:{...CHART_DEFAULTS,
+        plugins:{...CHART_DEFAULTS.plugins,
+          legend:{display:false}},
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x},
+          y:{...CHART_DEFAULTS.scales.y,
+            ticks:{callback:v=>fmt(v)}}
+        }
+      }
+    });
+
+    mkChart('pipe-weighted-bar',{
+      type:'bar',
+      data:{
+        labels:p.labels,
+        datasets:[{
+          label:'Weighted Value',
+          data:p.weighted_values,
+          backgroundColor:C.accent5+'cc',
+          borderRadius:4
+        }]
+      },
+      options:{...CHART_DEFAULTS,
+        plugins:{...CHART_DEFAULTS.plugins,
+          legend:{display:false}},
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x},
+          y:{...CHART_DEFAULTS.scales.y,
+            ticks:{callback:v=>fmt(v)}}
+        }
+      }
+    });
+
+    // Pipeline table
+    const tbl = document.getElementById('pipeline-table');
+    tbl.innerHTML = `
+      <thead><tr>
+        <th>Stage</th><th>Deals</th><th>Total Value</th>
+        <th>Weighted Value</th><th>Avg Value</th>
+        <th>Avg Velocity</th><th>% of Pipeline</th>
+      </tr></thead>
+      <tbody>${p.labels.map((l,i)=>`
+        <tr>
+          <td><b>${l}</b></td>
+          <td>${fmtN(p.deal_counts[i])}</td>
+          <td>${fmt(p.total_values[i])}</td>
+          <td>${fmt(p.weighted_values[i])}</td>
+          <td>${fmt(p.total_values[i]/p.deal_counts[i])}</td>
+          <td>${p.avg_velocities[i]?p.avg_velocities[i]+' d':'—'}</td>
+          <td>${fmtP(p.conversion_pcts[i])}</td>
+        </tr>`).join('')}
+      </tbody>`;
+  }
+
+  if(v.labels){
+    mkChart('pipe-velocity-chart',{
+      type:'bar',
+      data:{
+        labels:v.labels.map(l=>l.replace('PipelineIQ ','')),
+        datasets:[
+          { label:'Avg Velocity',
+            data:v.avg_velocity,
+            backgroundColor:C.accent+'cc',
+            borderRadius:4 },
+          { label:'Median Velocity',
+            data:v.median_velocity,
+            backgroundColor:C.accent2+'cc',
+            borderRadius:4 }
+        ]
+      },
+      options:{...CHART_DEFAULTS,
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x},
+          y:{...CHART_DEFAULTS.scales.y,
+            ticks:{callback:v=>v+' d'}}
+        }
+      }
+    });
+  }
+
+  if(la.labels){
+    mkChart('pipe-loss-chart',{
+      type:'bar',
+      data:{
+        labels:la.labels,
+        datasets:[
+          { label:'Deals Lost',
+            data:la.deal_counts,
+            backgroundColor:C.lost+'cc',
+            borderRadius:4,
+            yAxisID:'y' },
+          { label:'Value Lost ($)',
+            data:la.total_values,
+            backgroundColor:C.accent2+'44',
+            borderColor:C.accent2,
+            borderWidth:1,
+            type:'line',
+            tension:.4,
+            yAxisID:'y1' }
+        ]
+      },
+      options:{...CHART_DEFAULTS,
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x},
+          y:{ ...CHART_DEFAULTS.scales.y,
+              position:'left',
+              ticks:{color:C.text2} },
+          y1:{ ...CHART_DEFAULTS.scales.y,
+               position:'right',
+               grid:{drawOnChartArea:false},
+               ticks:{callback:v=>fmt(v),color:C.text2} }
+        }
+      }
+    });
+  }
+
+  if(ae.labels){
+    mkChart('pipe-activity-chart',{
+      type:'bar',
+      data:{
+        labels:ae.labels,
+        datasets:[{
+          label:'Positive Rate %',
+          data:ae.positive_rate,
+          backgroundColor:C.accent3+'cc',
+          borderRadius:4
+        }]
+      },
+      options:{...CHART_DEFAULTS,
+        plugins:{...CHART_DEFAULTS.plugins,
+          legend:{display:false}},
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x},
+          y:{...CHART_DEFAULTS.scales.y,
+            max:100,
+            ticks:{callback:v=>v+'%'}}
+        }
+      }
+    });
+  }
+}
+
+// ── Revenue Tab ───────────────────────────────────────────────────
+function buildRevenueTab(){
+  const r  = D.revenue_trend;
+  const pp = D.product_performance;
+  const rp = D.region_performance;
+
+  if(r.labels){
+    mkChart('rev-monthly-chart',{
+      type:'bar',
+      data:{
+        labels:r.labels,
+        datasets:[
+          { label:'Monthly Revenue',
+            data:r.revenue,
+            backgroundColor:C.won+'88',
+            borderColor:C.won,
+            borderWidth:1,
+            borderRadius:3,
+            order:2 },
+          { label:'3M Rolling Avg',
+            data:r.rolling_3m,
+            type:'line',
+            borderColor:C.accent2,
+            backgroundColor:'transparent',
+            tension:.4,
+            pointRadius:0,
+            borderWidth:2,
+            order:1 }
+        ]
+      },
+      options:{...CHART_DEFAULTS,
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x,
+            ticks:{maxTicksLimit:12}},
+          y:{...CHART_DEFAULTS.scales.y,
+            ticks:{callback:v=>fmt(v)}}
+        }
+      }
+    });
+
+    mkChart('rev-mom-chart',{
+      type:'bar',
+      data:{
+        labels:r.labels,
+        datasets:[{
+          label:'MoM Growth %',
+          data:r.mom_growth,
+          backgroundColor:r.mom_growth.map(
+            v=>v==null?'transparent':v>=0?C.won+'99':C.lost+'99'),
+          borderRadius:3
+        }]
+      },
+      options:{...CHART_DEFAULTS,
+        plugins:{...CHART_DEFAULTS.plugins,
+          legend:{display:false}},
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x,
+            ticks:{maxTicksLimit:12}},
+          y:{...CHART_DEFAULTS.scales.y,
+            ticks:{callback:v=>v+'%'}}
+        }
+      }
+    });
+
+    mkChart('rev-rolling-chart',{
+      type:'line',
+      data:{
+        labels:r.labels,
+        datasets:[
+          { label:'Monthly Revenue',
+            data:r.revenue,
+            borderColor:C.accent+'66',
+            backgroundColor:'transparent',
+            tension:.4, pointRadius:2,
+            borderWidth:1 },
+          { label:'3M Rolling Average',
+            data:r.rolling_3m,
+            borderColor:C.accent2,
+            backgroundColor:'rgba(240,136,62,0.06)',
+            fill:true,
+            tension:.4, pointRadius:0,
+            borderWidth:2.5 }
+        ]
+      },
+      options:{...CHART_DEFAULTS,
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x,
+            ticks:{maxTicksLimit:12}},
+          y:{...CHART_DEFAULTS.scales.y,
+            ticks:{callback:v=>fmt(v)}}
+        }
+      }
+    });
+  }
+
+  if(pp.labels){
+    mkChart('rev-product-chart',{
+      type:'doughnut',
+      data:{
+        labels:pp.labels.map(l=>l.replace('PipelineIQ ','')),
+        datasets:[{
+          data:pp.revenue_won,
+          backgroundColor:[C.accent,C.accent5,C.accent2],
+          borderColor:'#161b22',borderWidth:3
+        }]
+      },
+      options:{
+        responsive:true,maintainAspectRatio:false,
+        plugins:{
+          legend:{position:'bottom',
+            labels:{color:C.text2,font:{size:11},padding:12}},
+          tooltip:{
+            backgroundColor:'#1c2128',
+            callbacks:{label:ctx=>
+              ` ${ctx.label}: ${fmt(ctx.raw)}`}
+          }
+        }
+      }
+    });
+  }
+
+  if(rp.labels){
+    mkChart('rev-region-chart',{
+      type:'bar',
+      data:{
+        labels:rp.labels,
+        datasets:[{
+          label:'Revenue Won',
+          data:rp.revenue_won,
+          backgroundColor:[C.accent,C.accent5,C.accent2,
+                           C.accent3,C.accent6].map(c=>c+'cc'),
+          borderRadius:4
+        }]
+      },
+      options:{...CHART_DEFAULTS,
+        plugins:{...CHART_DEFAULTS.plugins,
+          legend:{display:false}},
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x},
+          y:{...CHART_DEFAULTS.scales.y,
+            ticks:{callback:v=>fmt(v)}}
+        }
+      }
+    });
+  }
+}
+
+// ── Rep Tab ───────────────────────────────────────────────────────
+function buildRepTab(){
+  const rp = D.rep_performance;
+  if(!rp.labels) return;
+
+  mkChart('rep-revenue-chart',{
+    type:'bar',
+    data:{
+      labels:rp.labels,
+      datasets:[{
+        label:'Revenue Won',
+        data:rp.revenue_won,
+        backgroundColor:[C.accent,C.accent5,C.accent2,
+                         C.accent3,C.accent6].map(c=>c+'cc'),
+        borderRadius:4
+      }]
+    },
+    options:{...CHART_DEFAULTS,
+      plugins:{...CHART_DEFAULTS.plugins,
+        legend:{display:false}},
+      scales:{
+        x:{...CHART_DEFAULTS.scales.x},
+        y:{...CHART_DEFAULTS.scales.y,
+          ticks:{callback:v=>fmt(v)}}
+      }
+    }
+  });
+
+  mkChart('rep-winrate-chart',{
+    type:'bar',
+    data:{
+      labels:rp.labels,
+      datasets:[{
+        label:'Win Rate %',
+        data:rp.win_rate,
+        backgroundColor:rp.win_rate.map(
+          v=>v>=50?C.won+'cc':v>=35?C.accent2+'cc':C.lost+'cc'),
+        borderRadius:4
+      }]
+    },
+    options:{...CHART_DEFAULTS,
+      plugins:{...CHART_DEFAULTS.plugins,
+        legend:{display:false}},
+      scales:{
+        x:{...CHART_DEFAULTS.scales.x},
+        y:{...CHART_DEFAULTS.scales.y,
+          max:100,ticks:{callback:v=>v+'%'}}
+      }
+    }
+  });
+
+  mkChart('rep-avgdeal-chart',{
+    type:'bar',
+    data:{
+      labels:rp.labels,
+      datasets:[{
+        label:'Avg Deal Size',
+        data:rp.avg_deal_size,
+        backgroundColor:C.accent5+'cc',
+        borderRadius:4
+      }]
+    },
+    options:{...CHART_DEFAULTS,
+      plugins:{...CHART_DEFAULTS.plugins,
+        legend:{display:false}},
+      scales:{
+        x:{...CHART_DEFAULTS.scales.x},
+        y:{...CHART_DEFAULTS.scales.y,
+          ticks:{callback:v=>fmt(v)}}
+      }
+    }
+  });
+
+  // Quota progress bars
+  const wrap = document.getElementById('rep-quota-wrap');
+  wrap.innerHTML = rp.labels.map((name,i)=>{
+    const pct = Math.min(rp.quota_attainment[i]||0,150);
+    const color = pct>=100?C.won:pct>=75?C.accent2:C.lost;
+    return `
+      <div class="progress-wrap">
+        <div class="progress-label">
+          <span>${name}</span>
+          <span style="color:${color}">${fmtP(rp.quota_attainment[i])}</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill"
+               style="width:${pct}%;background:${color}">
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+
+  // Rep table
+  const tbl = document.getElementById('rep-table');
+  if(rp.table && rp.table.length){
+    tbl.innerHTML = `
+      <thead><tr>
+        <th>Rep</th><th>Region</th><th>Title</th>
+        <th>Deals</th><th>Won</th><th>Revenue Won</th>
+        <th>Win Rate</th><th>Quota %</th>
+        <th>Avg Deal</th><th>Avg Velocity</th>
+      </tr></thead>
+      <tbody>${rp.table.map(r=>{
+        const qa = r.quota_attainment_pct||0;
+        const color = qa>=100?C.won:qa>=75?C.accent2:C.lost;
+        return `<tr>
+          <td><b>${r.rep_name}</b></td>
+          <td>${r.region}</td>
+          <td>${r.title}</td>
+          <td>${fmtN(r.total_deals)}</td>
+          <td>${fmtN(r.won_deals)}</td>
+          <td>${fmt(r.revenue_won)}</td>
+          <td>${fmtP(r.win_rate_pct)}</td>
+          <td style="color:${color};font-weight:600">
+            ${fmtP(r.quota_attainment_pct)}</td>
+          <td>${fmt(r.avg_deal_size)}</td>
+          <td>${r.avg_velocity?r.avg_velocity+' d':'—'}</td>
+        </tr>`;}).join('')}
+      </tbody>`;
+  }
+}
+
+// ── Customer Tab ──────────────────────────────────────────────────
+function buildCustomerTab(){
+  const ch = D.churn;
+  const rp = D.region_performance;
+
+  if(ch.band_labels){
+    mkChart('cust-churn-chart',{
+      type:'doughnut',
+      data:{
+        labels:ch.band_labels,
+        datasets:[{
+          data:ch.company_counts,
+          backgroundColor:[C.won,C.accent2,C.lost,C.accent5],
+          borderColor:'#161b22',borderWidth:3
+        }]
+      },
+      options:{
+        responsive:true,maintainAspectRatio:false,
+        plugins:{
+          legend:{position:'right',
+            labels:{color:C.text2,font:{size:11},padding:12}},
+          tooltip:{backgroundColor:'#1c2128'}
+        }
+      }
+    });
+
+    mkChart('cust-ltv-chart',{
+      type:'bar',
+      data:{
+        labels:ch.band_labels,
+        datasets:[{
+          label:'Avg LTV',
+          data:ch.avg_ltv,
+          backgroundColor:[C.won,C.accent2,C.lost,C.accent5]
+            .map(c=>c+'cc'),
+          borderRadius:4
+        }]
+      },
+      options:{...CHART_DEFAULTS,
+        plugins:{...CHART_DEFAULTS.plugins,
+          legend:{display:false}},
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x},
+          y:{...CHART_DEFAULTS.scales.y,
+            ticks:{callback:v=>fmt(v)}}
+        }
+      }
+    });
+  }
+
+  if(rp.labels){
+    mkChart('cust-region-winrate',{
+      type:'bar',
+      data:{
+        labels:rp.labels,
+        datasets:[{
+          label:'Win Rate %',
+          data:rp.win_rate,
+          backgroundColor:rp.win_rate.map(
+            v=>v>=50?C.won+'cc':v>=35?C.accent2+'cc':C.lost+'cc'),
+          borderRadius:4
+        }]
+      },
+      options:{...CHART_DEFAULTS,
+        plugins:{...CHART_DEFAULTS.plugins,
+          legend:{display:false}},
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x},
+          y:{...CHART_DEFAULTS.scales.y,
+            max:100,ticks:{callback:v=>v+'%'}}
+        }
+      }
+    });
+
+    mkChart('cust-region-deals',{
+      type:'bar',
+      data:{
+        labels:rp.labels,
+        datasets:[{
+          label:'Total Deals',
+          data:rp.total_deals,
+          backgroundColor:C.accent+'cc',
+          borderRadius:4
+        }]
+      },
+      options:{...CHART_DEFAULTS,
+        plugins:{...CHART_DEFAULTS.plugins,
+          legend:{display:false}},
+        scales:{
+          x:{...CHART_DEFAULTS.scales.x},
+          y:{...CHART_DEFAULTS.scales.y}
+        }
+      }
+    });
+  }
+
+  // Churn at-risk table
+  const tbl = document.getElementById('churn-table');
+  if(ch.at_risk_table && ch.at_risk_table.length){
+    tbl.innerHTML = `
+      <thead><tr>
+        <th>Company</th><th>Industry</th><th>Region</th>
+        <th>Churn Score</th><th>LTV</th>
+        <th>Revenue Won</th><th>Risk Band</th>
+      </tr></thead>
+      <tbody>${ch.at_risk_table.map(r=>`
+        <tr>
+          <td><b>${r.company_name}</b></td>
+          <td>${r.industry}</td>
+          <td>${r.region}</td>
+          <td style="color:var(--lost);font-weight:600">
+            ${r.churn_score}</td>
+          <td>${fmt(r.customer_ltv)}</td>
+          <td>${fmt(r.revenue_won)}</td>
+          <td><span class="pill pill-${
+            (r.churn_risk_band||'').toLowerCase()}">${
+            r.churn_risk_band}</span></td>
+        </tr>`).join('')}
+      </tbody>`;
+  }
+}
+
+// ── Init ──────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded',()=>{
+  if(D.meta){
+    document.getElementById('gen-time').textContent =
+      'Generated: '+D.meta.generated_at;
+  }
+  buildKPIs();
+  buildFunnel();
+  buildExecCharts();
+  buildInsights();
+  buildPipelineTab();
+  buildRevenueTab();
+  buildRepTab();
+  buildCustomerTab();
+});
+</script>
+</body>
+</html>

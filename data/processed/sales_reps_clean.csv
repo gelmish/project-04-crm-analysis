@@ -1,0 +1,6 @@
+rep_id,rep_name,title,region,hire_date,annual_quota,active,years_of_service
+R001,Sarah Mitchell,Senior AE,North America,2020-08-16,300000,True,6.1
+R002,James Okafor,Account Executive,Europe,2021-07-17,400000,True,5.2
+R003,Priya Nair,Senior AE,APAC,2021-04-02,400000,True,5.5
+R004,Carlos Herrera,Account Executive,Latin America,2020-07-28,300000,True,6.1
+R005,Emma Thornton,Junior AE,Middle East & Africa,2022-05-14,300000,True,4.4

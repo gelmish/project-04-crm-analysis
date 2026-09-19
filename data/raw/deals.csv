@@ -1,0 +1,1201 @@
+deal_id,company_id,rep_id,deal_name,product,deal_value,stage,probability,created_date,close_date,expected_close_date,loss_reason,deal_velocity_days,weighted_value
+D00001,C0335,R003,PipelineIQ Starter — Deal 0001,PipelineIQ Starter,11457.72,Closed Lost,0,2023-03-19,2023-04-24,,Project cancelled,36.0,0.0
+D00002,C0135,R001,PipelineIQ Starter — Deal 0002,PipelineIQ Starter,7974.7,Prospecting,10,2023-11-06,,2023-11-25,,,797.47
+D00003,C0326,R002,PipelineIQ Pro — Deal 0003,PipelineIQ Pro,47554.4,Closed Won,100,2023-05-04,2023-08-30,,,118.0,47554.4
+D00004,C0058,R004,PipelineIQ Enterprise — Deal 0004,PipelineIQ Enterprise,240485.0,Negotiation,75,2023-06-28,,2023-06-30,,,180363.75
+D00005,C0140,R005,PipelineIQ Starter — Deal 0005,PipelineIQ Starter,12248.09,Proposal,50,2024-12-12,,2025-02-22,,,6124.05
+D00006,C0111,R001,PipelineIQ Pro — Deal 0006,PipelineIQ Pro,15789.56,Proposal,50,2024-12-09,,2024-12-29,,,7894.78
+D00007,C0426,R001,PipelineIQ Starter — Deal 0007,PipelineIQ Starter,8975.39,Qualification,25,2024-05-24,,2024-07-19,,,2243.85
+D00008,C0492,R005,PipelineIQ Pro — Deal 0008,PipelineIQ Pro,29434.85,Closed Lost,0,2023-02-15,2023-05-11,,Price too high,85.0,0.0
+D00009,C0344,R002,PipelineIQ Pro — Deal 0009,PipelineIQ Pro,39846.56,Negotiation,75,2023-10-01,,2023-10-05,,,29884.92
+D00010,C0023,R004,PipelineIQ Pro — Deal 0010,PipelineIQ Pro,48711.64,Prospecting,10,2023-01-02,,2023-03-27,,,4871.16
+D00011,C0147,R004,PipelineIQ Enterprise — Deal 0011,PipelineIQ Enterprise,217078.5,Qualification,25,2023-08-26,,2023-09-02,,,54269.62
+D00012,C0192,R004,PipelineIQ Pro — Deal 0012,PipelineIQ Pro,18094.56,Qualification,25,2024-07-11,,2024-08-01,,,4523.64
+D00013,C0377,R005,PipelineIQ Enterprise — Deal 0013,PipelineIQ Enterprise,230364.18,Negotiation,75,2023-05-30,,2023-07-11,,,172773.14
+D00014,C0178,R004,PipelineIQ Enterprise — Deal 0014,PipelineIQ Enterprise,119357.55,Prospecting,10,2024-01-17,,2024-03-17,,,11935.76
+D00015,C0209,R004,PipelineIQ Pro — Deal 0015,PipelineIQ Pro,20167.16,Negotiation,75,2024-11-22,,2025-01-31,,,15125.37
+D00016,C0474,R003,PipelineIQ Pro — Deal 0016,PipelineIQ Pro,48648.52,Prospecting,10,2023-05-21,,2023-07-03,,,4864.85
+D00017,C0456,R005,PipelineIQ Pro — Deal 0017,PipelineIQ Pro,37591.24,Proposal,50,2024-11-27,,2024-12-19,,,18795.62
+D00018,C0277,R002,PipelineIQ Starter — Deal 0018,PipelineIQ Starter,8434.54,Closed Won,100,2024-09-05,2024-10-19,,,44.0,8434.54
+D00019,C0423,R005,PipelineIQ Enterprise — Deal 0019,PipelineIQ Enterprise,216402.62,Prospecting,10,2023-05-23,,2023-06-19,,,21640.26
+D00020,C0022,R001,PipelineIQ Enterprise — Deal 0020,PipelineIQ Enterprise,129270.04,Closed Won,100,2024-05-28,2024-08-06,,,70.0,129270.04
+D00021,C0379,R005,PipelineIQ Enterprise — Deal 0021,PipelineIQ Enterprise,70763.06,Prospecting,10,2024-11-11,,2024-12-03,,,7076.31
+D00022,C0375,R004,PipelineIQ Starter — Deal 0022,PipelineIQ Starter,11840.11,Negotiation,75,2023-04-30,,2023-06-11,,,8880.08
+D00023,C0180,R004,PipelineIQ Pro — Deal 0023,PipelineIQ Pro,34195.77,Qualification,25,2023-08-13,,2023-10-26,,,8548.94
+D00024,C0330,R001,PipelineIQ Enterprise — Deal 0024,PipelineIQ Enterprise,131599.69,Negotiation,75,2023-08-20,,2023-11-10,,,98699.77
+D00025,C0410,R002,PipelineIQ Pro — Deal 0025,PipelineIQ Pro,20449.54,Negotiation,75,2023-01-01,,2023-03-07,,,15337.16
+D00026,C0208,R003,PipelineIQ Starter — Deal 0026,PipelineIQ Starter,9952.03,Closed Won,100,2023-09-05,2023-12-11,,,97.0,9952.03
+D00027,C0009,R001,PipelineIQ Pro — Deal 0027,PipelineIQ Pro,43883.12,Proposal,50,2023-07-15,,2023-07-19,,,21941.56
+D00028,C0232,R001,PipelineIQ Starter — Deal 0028,PipelineIQ Starter,7957.84,Qualification,25,2023-03-10,,2023-04-12,,,1989.46
+D00029,C0306,R004,PipelineIQ Starter — Deal 0029,PipelineIQ Starter,9219.18,Qualification,25,2023-01-11,,2023-04-11,,,2304.8
+D00030,C0302,R003,PipelineIQ Pro — Deal 0030,PipelineIQ Pro,27010.94,Qualification,25,2024-03-14,,2024-06-02,,,6752.73
+D00031,C0164,R004,PipelineIQ Pro — Deal 0031,PipelineIQ Pro,37232.69,Proposal,50,2023-02-02,,2023-04-07,,,18616.35
+D00032,C0217,R004,PipelineIQ Pro — Deal 0032,PipelineIQ Pro,16086.41,Negotiation,75,2024-07-05,,2024-07-18,,,12064.81
+D00033,C0020,R004,PipelineIQ Enterprise — Deal 0033,PipelineIQ Enterprise,167424.94,Closed Won,100,2023-01-28,2023-03-18,,,49.0,167424.94
+D00034,C0043,R003,PipelineIQ Pro — Deal 0034,PipelineIQ Pro,41566.73,Prospecting,10,2024-07-10,,2024-07-22,,,4156.67
+D00035,C0384,R001,PipelineIQ Starter — Deal 0035,PipelineIQ Starter,12242.79,Negotiation,75,2024-04-10,,2024-05-29,,,9182.09
+D00036,C0398,R001,PipelineIQ Pro — Deal 0036,PipelineIQ Pro,23448.25,Closed Lost,0,2023-11-27,2024-01-06,,Poor fit,40.0,0.0
+D00037,C0351,R004,PipelineIQ Enterprise — Deal 0037,PipelineIQ Enterprise,220928.44,Qualification,25,2023-04-08,,2023-04-10,,,55232.11
+D00038,C0036,R001,PipelineIQ Starter — Deal 0038,PipelineIQ Starter,10934.29,Negotiation,75,2024-06-02,,2024-07-29,,,8200.72
+D00039,C0335,R005,PipelineIQ Enterprise — Deal 0039,PipelineIQ Enterprise,86246.66,Qualification,25,2024-02-02,,2024-04-11,,,21561.67
+D00040,C0462,R005,PipelineIQ Enterprise — Deal 0040,PipelineIQ Enterprise,59742.98,Proposal,50,2024-05-17,,2024-06-09,,,29871.49
+D00041,C0219,R003,PipelineIQ Pro — Deal 0041,PipelineIQ Pro,25268.63,Prospecting,10,2024-09-07,,2024-10-20,,,2526.86
+D00042,C0128,R001,PipelineIQ Starter — Deal 0042,PipelineIQ Starter,11868.07,Closed Lost,0,2023-07-23,2023-09-23,,Project cancelled,62.0,0.0
+D00043,C0155,R002,PipelineIQ Starter — Deal 0043,PipelineIQ Starter,8873.04,Negotiation,75,2024-01-21,,2024-01-27,,,6654.78
+D00044,C0366,R005,PipelineIQ Starter — Deal 0044,PipelineIQ Starter,7234.23,Closed Won,100,2024-05-20,2024-06-19,,,30.0,7234.23
+D00045,C0068,R001,PipelineIQ Pro — Deal 0045,PipelineIQ Pro,43294.65,Closed Lost,0,2023-04-14,2023-05-06,,Chose competitor,22.0,0.0
+D00046,C0188,R001,PipelineIQ Enterprise — Deal 0046,PipelineIQ Enterprise,245759.39,Proposal,50,2024-03-24,,2024-05-27,,,122879.7
+D00047,C0055,R003,PipelineIQ Enterprise — Deal 0047,PipelineIQ Enterprise,135994.69,Negotiation,75,2024-10-12,,2024-12-21,,,101996.02
+D00048,C0035,R005,PipelineIQ Pro — Deal 0048,PipelineIQ Pro,31578.03,Qualification,25,2024-12-19,,2025-02-12,,,7894.51
+D00049,C0260,R003,PipelineIQ Starter — Deal 0049,PipelineIQ Starter,5872.43,Closed Won,100,2024-05-01,2024-06-22,,,52.0,5872.43
+D00050,C0045,R001,PipelineIQ Starter — Deal 0050,PipelineIQ Starter,14066.16,Closed Won,100,2023-01-25,2023-02-15,,,21.0,14066.16
+D00051,C0135,R005,PipelineIQ Enterprise — Deal 0051,PipelineIQ Enterprise,87358.14,Prospecting,10,2024-01-18,,2024-03-30,,,8735.81
+D00052,C0060,R002,PipelineIQ Pro — Deal 0052,PipelineIQ Pro,17338.66,Negotiation,75,2024-08-19,,2024-10-11,,,13003.99
+D00053,C0201,R003,PipelineIQ Enterprise — Deal 0053,PipelineIQ Enterprise,57951.15,Qualification,25,2023-05-17,,2023-08-15,,,14487.79
+D00054,C0341,R001,PipelineIQ Starter — Deal 0054,PipelineIQ Starter,8718.59,Proposal,50,2023-04-26,,2023-07-03,,,4359.3
+D00055,C0441,R002,PipelineIQ Pro — Deal 0055,PipelineIQ Pro,35495.05,Prospecting,10,2023-11-24,,2023-12-26,,,3549.51
+D00056,C0110,R004,PipelineIQ Pro — Deal 0056,PipelineIQ Pro,43042.89,Prospecting,10,2024-05-04,,2024-07-05,,,4304.29
+D00057,C0342,R005,PipelineIQ Starter — Deal 0057,PipelineIQ Starter,6724.18,Proposal,50,2023-03-14,,2023-04-02,,,3362.09
+D00058,C0038,R001,PipelineIQ Starter — Deal 0058,PipelineIQ Starter,13578.46,Prospecting,10,2024-05-04,,2024-07-09,,,1357.85
+D00059,C0481,R004,PipelineIQ Enterprise — Deal 0059,PipelineIQ Enterprise,82946.54,Proposal,50,2024-10-02,,2024-11-18,,,41473.27
+D00060,C0400,R004,PipelineIQ Starter — Deal 0060,PipelineIQ Starter,13279.76,Qualification,25,2023-02-13,,2023-03-27,,,3319.94
+D00061,C0311,R003,PipelineIQ Pro — Deal 0061,PipelineIQ Pro,15968.28,Negotiation,75,2024-02-05,,2024-04-03,,,11976.21
+D00062,C0331,R005,PipelineIQ Starter — Deal 0062,PipelineIQ Starter,12486.09,Prospecting,10,2024-06-05,,2024-07-28,,,1248.61
+D00063,C0222,R003,PipelineIQ Enterprise — Deal 0063,PipelineIQ Enterprise,81457.03,Proposal,50,2024-05-24,,2024-06-03,,,40728.51
+D00064,C0396,R001,PipelineIQ Enterprise — Deal 0064,PipelineIQ Enterprise,56182.8,Prospecting,10,2024-12-22,,2025-01-10,,,5618.28
+D00065,C0414,R003,PipelineIQ Enterprise — Deal 0065,PipelineIQ Enterprise,57989.71,Qualification,25,2024-04-20,,2024-07-13,,,14497.43
+D00066,C0262,R003,PipelineIQ Pro — Deal 0066,PipelineIQ Pro,25622.39,Proposal,50,2023-11-12,,2024-01-12,,,12811.19
+D00067,C0473,R005,PipelineIQ Pro — Deal 0067,PipelineIQ Pro,28513.28,Closed Won,100,2024-12-12,2024-12-31,,,19.0,28513.28
+D00068,C0173,R005,PipelineIQ Enterprise — Deal 0068,PipelineIQ Enterprise,171040.96,Negotiation,75,2023-05-21,,2023-07-21,,,128280.72
+D00069,C0033,R005,PipelineIQ Starter — Deal 0069,PipelineIQ Starter,11914.24,Closed Lost,0,2024-06-13,2024-08-31,,No decision made,79.0,0.0
+D00070,C0161,R003,PipelineIQ Pro — Deal 0070,PipelineIQ Pro,37019.25,Closed Lost,0,2024-08-31,2024-11-05,,Chose competitor,66.0,0.0
+D00071,C0423,R003,PipelineIQ Pro — Deal 0071,PipelineIQ Pro,46752.62,Proposal,50,2023-11-10,,2023-12-05,,,23376.31
+D00072,C0343,R003,PipelineIQ Pro — Deal 0072,PipelineIQ Pro,33118.51,Qualification,25,2024-09-04,,2024-10-29,,,8279.63
+D00073,C0098,R002,PipelineIQ Enterprise — Deal 0073,PipelineIQ Enterprise,87670.56,Proposal,50,2024-12-05,,2025-01-12,,,43835.28
+D00074,C0409,R005,PipelineIQ Enterprise — Deal 0074,PipelineIQ Enterprise,187195.93,Negotiation,75,2023-11-25,,2023-12-22,,,140396.95
+D00075,C0106,R003,PipelineIQ Pro — Deal 0075,PipelineIQ Pro,35361.22,Prospecting,10,2024-10-15,,2024-11-16,,,3536.12
+D00076,C0255,R002,PipelineIQ Enterprise — Deal 0076,PipelineIQ Enterprise,207989.01,Closed Won,100,2024-10-25,2024-12-31,,,67.0,207989.01
+D00077,C0276,R003,PipelineIQ Pro — Deal 0077,PipelineIQ Pro,23597.18,Proposal,50,2024-08-04,,2024-10-02,,,11798.59
+D00078,C0417,R003,PipelineIQ Pro — Deal 0078,PipelineIQ Pro,20121.9,Proposal,50,2023-05-08,,2023-06-26,,,10060.95
+D00079,C0233,R002,PipelineIQ Enterprise — Deal 0079,PipelineIQ Enterprise,246773.51,Prospecting,10,2023-09-18,,2023-11-21,,,24677.35
+D00080,C0137,R005,PipelineIQ Enterprise — Deal 0080,PipelineIQ Enterprise,166716.72,Qualification,25,2024-03-06,,2024-04-01,,,41679.18
+D00081,C0244,R004,PipelineIQ Starter — Deal 0081,PipelineIQ Starter,14815.78,Proposal,50,2024-09-01,,2024-09-15,,,7407.89
+D00082,C0390,R002,PipelineIQ Pro — Deal 0082,PipelineIQ Pro,28540.96,Prospecting,10,2023-05-06,,2023-06-22,,,2854.1
+D00083,C0138,R001,PipelineIQ Starter — Deal 0083,PipelineIQ Starter,5410.35,Prospecting,10,2024-07-15,,2024-09-22,,,541.04
+D00084,C0291,R004,PipelineIQ Starter — Deal 0084,PipelineIQ Starter,12838.71,Closed Lost,0,2023-07-29,2023-08-04,,No decision made,6.0,0.0
+D00085,C0221,R005,PipelineIQ Starter — Deal 0085,PipelineIQ Starter,5098.56,Qualification,25,2023-10-11,,2023-11-17,,,1274.64
+D00086,C0182,R005,PipelineIQ Starter — Deal 0086,PipelineIQ Starter,7304.88,Proposal,50,2023-10-01,,2023-12-11,,,3652.44
+D00087,C0413,R003,PipelineIQ Starter — Deal 0087,PipelineIQ Starter,6517.03,Proposal,50,2023-08-14,,2023-09-05,,,3258.51
+D00088,C0380,R002,PipelineIQ Pro — Deal 0088,PipelineIQ Pro,22109.94,Proposal,50,2023-04-04,,2023-06-17,,,11054.97
+D00089,C0127,R004,PipelineIQ Enterprise — Deal 0089,PipelineIQ Enterprise,245734.5,Qualification,25,2023-05-08,,2023-05-21,,,61433.62
+D00090,C0144,R002,PipelineIQ Pro — Deal 0090,PipelineIQ Pro,22734.07,Proposal,50,2023-06-27,,2023-07-26,,,11367.03
+D00091,C0435,R004,PipelineIQ Starter — Deal 0091,PipelineIQ Starter,5031.68,Negotiation,75,2024-08-16,,2024-11-01,,,3773.76
+D00092,C0227,R001,PipelineIQ Pro — Deal 0092,PipelineIQ Pro,30615.78,Qualification,25,2024-02-23,,2024-04-20,,,7653.94
+D00093,C0278,R005,PipelineIQ Starter — Deal 0093,PipelineIQ Starter,12391.64,Qualification,25,2024-01-25,,2024-01-28,,,3097.91
+D00094,C0165,R004,PipelineIQ Pro — Deal 0094,PipelineIQ Pro,22179.51,Negotiation,75,2024-06-20,,2024-08-03,,,16634.63
+D00095,C0191,R004,PipelineIQ Starter — Deal 0095,PipelineIQ Starter,9990.32,Proposal,50,2024-09-13,,2024-10-10,,,4995.16
+D00096,C0107,R004,PipelineIQ Starter — Deal 0096,PipelineIQ Starter,12034.56,Proposal,50,2023-06-22,,2023-08-13,,,6017.28
+D00097,C0195,R002,PipelineIQ Starter — Deal 0097,PipelineIQ Starter,8142.12,Qualification,25,2023-10-25,,2023-11-24,,,2035.53
+D00098,C0034,R005,PipelineIQ Enterprise — Deal 0098,PipelineIQ Enterprise,225546.11,Closed Lost,0,2023-09-07,2023-11-29,,No decision made,83.0,0.0
+D00099,C0196,R005,PipelineIQ Pro — Deal 0099,PipelineIQ Pro,39957.44,Prospecting,10,2023-12-20,,2024-02-05,,,3995.74
+D00100,C0131,R004,PipelineIQ Starter — Deal 0100,PipelineIQ Starter,9909.57,Negotiation,75,2023-04-02,,2023-05-28,,,7432.18
+D00101,C0087,R003,PipelineIQ Pro — Deal 0101,PipelineIQ Pro,22999.49,Qualification,25,2024-05-05,,2024-05-26,,,5749.87
+D00102,C0434,R005,PipelineIQ Starter — Deal 0102,PipelineIQ Starter,13536.47,Proposal,50,2024-06-27,,2024-07-23,,,6768.23
+D00103,C0048,R002,PipelineIQ Starter — Deal 0103,PipelineIQ Starter,14791.61,Qualification,25,2023-04-03,,2023-04-24,,,3697.9
+D00104,C0232,R001,PipelineIQ Enterprise — Deal 0104,PipelineIQ Enterprise,189062.56,Prospecting,10,2024-06-21,,2024-07-24,,,18906.26
+D00105,C0210,R003,PipelineIQ Starter — Deal 0105,PipelineIQ Starter,7931.53,Closed Won,100,2023-07-10,2023-08-09,,,30.0,7931.53
+D00106,C0294,R001,PipelineIQ Pro — Deal 0106,PipelineIQ Pro,20832.01,Prospecting,10,2024-09-27,,2024-10-04,,,2083.2
+D00107,C0241,R002,PipelineIQ Enterprise — Deal 0107,PipelineIQ Enterprise,206620.15,Closed Won,100,2023-10-23,2024-01-02,,,71.0,206620.15
+D00108,C0035,R002,PipelineIQ Pro — Deal 0108,PipelineIQ Pro,46322.27,Qualification,25,2024-09-09,,2024-09-19,,,11580.57
+D00109,C0284,R005,PipelineIQ Starter — Deal 0109,PipelineIQ Starter,7690.44,Negotiation,75,2023-05-08,,2023-07-07,,,5767.83
+D00110,C0167,R002,PipelineIQ Pro — Deal 0110,PipelineIQ Pro,40312.3,Prospecting,10,2023-09-09,,2023-09-11,,,4031.23
+D00111,C0459,R001,PipelineIQ Starter — Deal 0111,PipelineIQ Starter,12663.5,Proposal,50,2024-05-27,,2024-07-31,,,6331.75
+D00112,C0124,R004,PipelineIQ Starter — Deal 0112,PipelineIQ Starter,8938.06,Prospecting,10,2023-06-09,,2023-06-26,,,893.81
+D00113,C0233,R003,PipelineIQ Enterprise — Deal 0113,PipelineIQ Enterprise,216855.98,Proposal,50,2024-04-18,,2024-05-20,,,108427.99
+D00114,C0387,R002,PipelineIQ Starter — Deal 0114,PipelineIQ Starter,12102.09,Negotiation,75,2024-10-17,,2025-01-03,,,9076.57
+D00115,C0271,R001,PipelineIQ Starter — Deal 0115,PipelineIQ Starter,5670.74,Qualification,25,2023-10-22,,2023-12-20,,,1417.68
+D00116,C0239,R005,PipelineIQ Pro — Deal 0116,PipelineIQ Pro,38713.39,Qualification,25,2024-02-18,,2024-04-26,,,9678.35
+D00117,C0385,R005,PipelineIQ Enterprise — Deal 0117,PipelineIQ Enterprise,238657.07,Qualification,25,2024-08-14,,2024-10-05,,,59664.27
+D00118,C0413,R005,PipelineIQ Pro — Deal 0118,PipelineIQ Pro,33321.46,Qualification,25,2024-05-26,,2024-06-12,,,8330.36
+D00119,C0310,R003,PipelineIQ Starter — Deal 0119,PipelineIQ Starter,7068.93,Proposal,50,2023-11-02,,2023-11-17,,,3534.47
+D00120,C0102,R001,PipelineIQ Pro — Deal 0120,PipelineIQ Pro,28390.03,Qualification,25,2023-11-19,,2024-01-21,,,7097.51
+D00121,C0405,R002,PipelineIQ Starter — Deal 0121,PipelineIQ Starter,7155.7,Negotiation,75,2024-04-05,,2024-06-20,,,5366.77
+D00122,C0009,R004,PipelineIQ Enterprise — Deal 0122,PipelineIQ Enterprise,77969.02,Negotiation,75,2023-09-08,,2023-09-27,,,58476.76
+D00123,C0191,R004,PipelineIQ Starter — Deal 0123,PipelineIQ Starter,14036.64,Qualification,25,2024-04-22,,2024-06-21,,,3509.16
+D00124,C0460,R001,PipelineIQ Starter — Deal 0124,PipelineIQ Starter,9632.99,Qualification,25,2023-09-09,,2023-09-28,,,2408.25
+D00125,C0466,R001,PipelineIQ Enterprise — Deal 0125,PipelineIQ Enterprise,234549.35,Qualification,25,2023-12-25,,2024-02-23,,,58637.34
+D00126,C0182,R001,PipelineIQ Pro — Deal 0126,PipelineIQ Pro,46046.63,Closed Won,100,2024-09-04,2024-10-12,,,38.0,46046.63
+D00127,C0170,R004,PipelineIQ Enterprise — Deal 0127,PipelineIQ Enterprise,160321.35,Prospecting,10,2023-03-11,,2023-04-26,,,16032.14
+D00128,C0382,R001,PipelineIQ Starter — Deal 0128,PipelineIQ Starter,8103.42,Proposal,50,2023-04-14,,2023-05-03,,,4051.71
+D00129,C0267,R005,PipelineIQ Enterprise — Deal 0129,PipelineIQ Enterprise,162318.02,Prospecting,10,2023-08-12,,2023-11-01,,,16231.8
+D00130,C0319,R005,PipelineIQ Pro — Deal 0130,PipelineIQ Pro,15844.89,Qualification,25,2024-04-16,,2024-05-31,,,3961.22
+D00131,C0453,R005,PipelineIQ Pro — Deal 0131,PipelineIQ Pro,24972.45,Prospecting,10,2024-08-22,,2024-09-07,,,2497.25
+D00132,C0400,R005,PipelineIQ Pro — Deal 0132,PipelineIQ Pro,41547.24,Qualification,25,2023-02-07,,2023-05-04,,,10386.81
+D00133,C0170,R001,PipelineIQ Enterprise — Deal 0133,PipelineIQ Enterprise,195732.89,Proposal,50,2023-06-07,,2023-07-26,,,97866.45
+D00134,C0391,R003,PipelineIQ Enterprise — Deal 0134,PipelineIQ Enterprise,192854.23,Negotiation,75,2023-05-28,,2023-06-16,,,144640.67
+D00135,C0023,R004,PipelineIQ Starter — Deal 0135,PipelineIQ Starter,5931.9,Qualification,25,2023-08-14,,2023-08-20,,,1482.97
+D00136,C0214,R004,PipelineIQ Pro — Deal 0136,PipelineIQ Pro,15424.02,Prospecting,10,2024-08-05,,2024-08-30,,,1542.4
+D00137,C0084,R002,PipelineIQ Starter — Deal 0137,PipelineIQ Starter,9269.11,Proposal,50,2023-01-01,,2023-01-10,,,4634.56
+D00138,C0469,R001,PipelineIQ Starter — Deal 0138,PipelineIQ Starter,7655.08,Proposal,50,2023-08-13,,2023-10-12,,,3827.54
+D00139,C0416,R001,PipelineIQ Starter — Deal 0139,PipelineIQ Starter,14248.22,Proposal,50,2024-11-16,,2025-01-14,,,7124.11
+D00140,C0281,R004,PipelineIQ Pro — Deal 0140,PipelineIQ Pro,36587.94,Closed Lost,0,2023-09-22,2023-12-05,,Poor fit,74.0,0.0
+D00141,C0350,R005,PipelineIQ Enterprise — Deal 0141,PipelineIQ Enterprise,116119.97,Negotiation,75,2023-06-09,,2023-09-03,,,87089.98
+D00142,C0418,R005,PipelineIQ Enterprise — Deal 0142,PipelineIQ Enterprise,167955.92,Negotiation,75,2023-09-09,,2023-10-08,,,125966.94
+D00143,C0499,R005,PipelineIQ Starter — Deal 0143,PipelineIQ Starter,9338.73,Qualification,25,2023-11-04,,2024-01-07,,,2334.68
+D00144,C0055,R005,PipelineIQ Enterprise — Deal 0144,PipelineIQ Enterprise,248262.58,Prospecting,10,2023-11-04,,2023-12-07,,,24826.26
+D00145,C0464,R002,PipelineIQ Starter — Deal 0145,PipelineIQ Starter,10550.14,Closed Won,100,2023-09-12,2023-11-11,,,60.0,10550.14
+D00146,C0381,R005,PipelineIQ Starter — Deal 0146,PipelineIQ Starter,14260.52,Negotiation,75,2024-01-07,,2024-02-29,,,10695.39
+D00147,C0320,R001,PipelineIQ Pro — Deal 0147,PipelineIQ Pro,29675.2,Qualification,25,2023-09-06,,2023-09-27,,,7418.8
+D00148,C0208,R003,PipelineIQ Pro — Deal 0148,PipelineIQ Pro,48197.21,Negotiation,75,2023-02-28,,2023-04-25,,,36147.91
+D00149,C0061,R001,PipelineIQ Pro — Deal 0149,PipelineIQ Pro,20391.61,Proposal,50,2023-12-08,,2024-01-25,,,10195.81
+D00150,C0110,R004,PipelineIQ Pro — Deal 0150,PipelineIQ Pro,23248.88,Closed Won,100,2024-02-10,2024-04-26,,,76.0,23248.88
+D00151,C0173,R002,PipelineIQ Pro — Deal 0151,PipelineIQ Pro,30053.7,Qualification,25,2024-09-17,,2024-10-09,,,7513.43
+D00152,C0043,R001,PipelineIQ Starter — Deal 0152,PipelineIQ Starter,10979.82,Proposal,50,2023-04-14,,2023-04-25,,,5489.91
+D00153,C0332,R004,PipelineIQ Enterprise — Deal 0153,PipelineIQ Enterprise,51697.97,Proposal,50,2023-04-05,,2023-07-04,,,25848.99
+D00154,C0150,R002,PipelineIQ Starter — Deal 0154,PipelineIQ Starter,14918.37,Prospecting,10,2023-02-03,,2023-02-21,,,1491.84
+D00155,C0045,R003,PipelineIQ Pro — Deal 0155,PipelineIQ Pro,38755.89,Closed Won,100,2024-11-13,2024-12-31,,,48.0,38755.89
+D00156,C0043,R001,PipelineIQ Starter — Deal 0156,PipelineIQ Starter,6652.22,Qualification,25,2023-02-09,,2023-04-25,,,1663.06
+D00157,C0201,R002,PipelineIQ Starter — Deal 0157,PipelineIQ Starter,11143.63,Closed Won,100,2023-06-24,2023-10-17,,,115.0,11143.63
+D00158,C0426,R005,PipelineIQ Pro — Deal 0158,PipelineIQ Pro,18763.85,Proposal,50,2024-06-22,,2024-07-02,,,9381.92
+D00159,C0330,R005,PipelineIQ Enterprise — Deal 0159,PipelineIQ Enterprise,106888.97,Prospecting,10,2023-09-24,,2023-10-15,,,10688.9
+D00160,C0017,R002,PipelineIQ Enterprise — Deal 0160,PipelineIQ Enterprise,152978.29,Proposal,50,2024-12-06,,2025-01-12,,,76489.15
+D00161,C0488,R004,PipelineIQ Pro — Deal 0161,PipelineIQ Pro,44825.48,Negotiation,75,2024-04-08,,2024-05-24,,,33619.11
+D00162,C0407,R004,PipelineIQ Enterprise — Deal 0162,PipelineIQ Enterprise,111279.75,Negotiation,75,2024-03-04,,2024-04-04,,,83459.81
+D00163,C0019,R004,PipelineIQ Pro — Deal 0163,PipelineIQ Pro,38318.94,Qualification,25,2023-06-02,,2023-06-22,,,9579.74
+D00164,C0065,R002,PipelineIQ Starter — Deal 0164,PipelineIQ Starter,5587.48,Closed Won,100,2023-04-21,2023-06-18,,,58.0,5587.48
+D00165,C0297,R003,PipelineIQ Starter — Deal 0165,PipelineIQ Starter,12227.7,Qualification,25,2024-12-05,,2025-01-15,,,3056.93
+D00166,C0483,R001,PipelineIQ Starter — Deal 0166,PipelineIQ Starter,12186.4,Qualification,25,2024-10-21,,2025-01-15,,,3046.6
+D00167,C0018,R002,PipelineIQ Enterprise — Deal 0167,PipelineIQ Enterprise,160424.05,Proposal,50,2024-04-29,,2024-07-22,,,80212.02
+D00168,C0431,R001,PipelineIQ Pro — Deal 0168,PipelineIQ Pro,20478.58,Prospecting,10,2023-02-20,,2023-02-25,,,2047.86
+D00169,C0402,R004,PipelineIQ Pro — Deal 0169,PipelineIQ Pro,28634.57,Closed Won,100,2024-11-05,2024-12-26,,,51.0,28634.57
+D00170,C0338,R003,PipelineIQ Enterprise — Deal 0170,PipelineIQ Enterprise,222514.88,Qualification,25,2024-12-25,,2025-02-18,,,55628.72
+D00171,C0489,R002,PipelineIQ Pro — Deal 0171,PipelineIQ Pro,48532.28,Negotiation,75,2023-01-08,,2023-01-30,,,36399.21
+D00172,C0453,R003,PipelineIQ Pro — Deal 0172,PipelineIQ Pro,29553.04,Proposal,50,2023-06-01,,2023-06-07,,,14776.52
+D00173,C0214,R003,PipelineIQ Starter — Deal 0173,PipelineIQ Starter,7400.23,Proposal,50,2023-07-27,,2023-08-20,,,3700.11
+D00174,C0173,R003,PipelineIQ Starter — Deal 0174,PipelineIQ Starter,12708.6,Proposal,50,2024-09-21,,2024-11-08,,,6354.3
+D00175,C0076,R005,PipelineIQ Starter — Deal 0175,PipelineIQ Starter,6045.97,Negotiation,75,2023-07-26,,2023-08-23,,,4534.48
+D00176,C0201,R005,PipelineIQ Pro — Deal 0176,PipelineIQ Pro,38812.45,Closed Won,100,2023-10-08,2023-12-15,,,68.0,38812.45
+D00177,C0395,R005,PipelineIQ Enterprise — Deal 0177,PipelineIQ Enterprise,248726.21,Proposal,50,2023-07-21,,2023-09-15,,,124363.1
+D00178,C0276,R005,PipelineIQ Enterprise — Deal 0178,PipelineIQ Enterprise,210055.89,Proposal,50,2024-07-14,,2024-08-21,,,105027.95
+D00179,C0495,R004,PipelineIQ Pro — Deal 0179,PipelineIQ Pro,16557.98,Qualification,25,2024-08-26,,2024-11-15,,,4139.49
+D00180,C0119,R004,PipelineIQ Starter — Deal 0180,PipelineIQ Starter,9745.18,Closed Won,100,2024-09-15,2024-11-28,,,74.0,9745.18
+D00181,C0437,R003,PipelineIQ Pro — Deal 0181,PipelineIQ Pro,44218.08,Qualification,25,2023-11-04,,2024-01-27,,,11054.52
+D00182,C0136,R005,PipelineIQ Starter — Deal 0182,PipelineIQ Starter,13167.36,Negotiation,75,2023-09-18,,2023-11-08,,,9875.52
+D00183,C0002,R004,PipelineIQ Starter — Deal 0183,PipelineIQ Starter,10307.43,Prospecting,10,2023-09-02,,2023-10-23,,,1030.74
+D00184,C0482,R003,PipelineIQ Pro — Deal 0184,PipelineIQ Pro,16671.73,Prospecting,10,2024-07-02,,2024-09-10,,,1667.17
+D00185,C0027,R003,PipelineIQ Pro — Deal 0185,PipelineIQ Pro,15572.02,Closed Won,100,2024-09-06,2024-11-30,,,85.0,15572.02
+D00186,C0438,R005,PipelineIQ Pro — Deal 0186,PipelineIQ Pro,49610.39,Qualification,25,2023-10-22,,2023-11-06,,,12402.6
+D00187,C0336,R003,PipelineIQ Starter — Deal 0187,PipelineIQ Starter,14256.29,Qualification,25,2023-07-01,,2023-09-09,,,3564.07
+D00188,C0485,R003,PipelineIQ Starter — Deal 0188,PipelineIQ Starter,5142.11,Qualification,25,2024-10-24,,2024-11-25,,,1285.53
+D00189,C0150,R003,PipelineIQ Pro — Deal 0189,PipelineIQ Pro,15724.18,Prospecting,10,2023-06-23,,2023-09-16,,,1572.42
+D00190,C0186,R004,PipelineIQ Enterprise — Deal 0190,PipelineIQ Enterprise,101418.5,Prospecting,10,2023-07-28,,2023-08-18,,,10141.85
+D00191,C0328,R005,PipelineIQ Starter — Deal 0191,PipelineIQ Starter,12650.93,Qualification,25,2024-12-09,,2025-02-18,,,3162.73
+D00192,C0034,R001,PipelineIQ Starter — Deal 0192,PipelineIQ Starter,5762.26,Prospecting,10,2023-01-04,,2023-02-04,,,576.23
+D00193,C0257,R004,PipelineIQ Pro — Deal 0193,PipelineIQ Pro,48780.03,Prospecting,10,2023-12-12,,2023-12-28,,,4878.0
+D00194,C0183,R005,PipelineIQ Enterprise — Deal 0194,PipelineIQ Enterprise,143059.45,Prospecting,10,2023-10-12,,2023-10-23,,,14305.95
+D00195,C0372,R002,PipelineIQ Starter — Deal 0195,PipelineIQ Starter,8532.4,Qualification,25,2024-07-12,,2024-08-14,,,2133.1
+D00196,C0075,R001,PipelineIQ Starter — Deal 0196,PipelineIQ Starter,14109.2,Proposal,50,2023-03-06,,2023-03-27,,,7054.6
+D00197,C0474,R005,PipelineIQ Pro — Deal 0197,PipelineIQ Pro,20611.89,Closed Won,100,2023-07-18,2023-09-18,,,62.0,20611.89
+D00198,C0414,R004,PipelineIQ Enterprise — Deal 0198,PipelineIQ Enterprise,120276.52,Qualification,25,2024-03-18,,2024-04-01,,,30069.13
+D00199,C0327,R002,PipelineIQ Enterprise — Deal 0199,PipelineIQ Enterprise,205172.43,Qualification,25,2023-07-14,,2023-10-02,,,51293.11
+D00200,C0479,R001,PipelineIQ Pro — Deal 0200,PipelineIQ Pro,42071.22,Negotiation,75,2023-08-21,,2023-11-14,,,31553.42
+D00201,C0102,R003,PipelineIQ Pro — Deal 0201,PipelineIQ Pro,34511.02,Proposal,50,2024-10-19,,2024-12-06,,,17255.51
+D00202,C0341,R005,PipelineIQ Starter — Deal 0202,PipelineIQ Starter,5363.79,Prospecting,10,2023-12-30,,2024-01-02,,,536.38
+D00203,C0044,R001,PipelineIQ Pro — Deal 0203,PipelineIQ Pro,37705.09,Qualification,25,2023-11-19,,2024-01-18,,,9426.27
+D00204,C0070,R005,PipelineIQ Starter — Deal 0204,PipelineIQ Starter,13430.22,Proposal,50,2023-04-30,,2023-07-15,,,6715.11
+D00205,C0403,R003,PipelineIQ Pro — Deal 0205,PipelineIQ Pro,32302.09,Closed Lost,0,2023-05-03,2023-07-22,,Price too high,80.0,0.0
+D00206,C0440,R004,PipelineIQ Enterprise — Deal 0206,PipelineIQ Enterprise,113413.38,Qualification,25,2023-10-28,,2023-11-02,,,28353.35
+D00207,C0418,R002,PipelineIQ Starter — Deal 0207,PipelineIQ Starter,5549.13,Qualification,25,2024-12-13,,2025-01-16,,,1387.28
+D00208,C0187,R004,PipelineIQ Pro — Deal 0208,PipelineIQ Pro,49974.83,Qualification,25,2023-03-18,,2023-05-25,,,12493.71
+D00209,C0146,R004,PipelineIQ Starter — Deal 0209,PipelineIQ Starter,9982.87,Negotiation,75,2023-01-24,,2023-01-28,,,7487.15
+D00210,C0307,R002,PipelineIQ Pro — Deal 0210,PipelineIQ Pro,21467.17,Prospecting,10,2024-06-21,,2024-09-07,,,2146.72
+D00211,C0455,R003,PipelineIQ Starter — Deal 0211,PipelineIQ Starter,8625.32,Prospecting,10,2023-12-08,,2024-01-18,,,862.53
+D00212,C0142,R001,PipelineIQ Starter — Deal 0212,PipelineIQ Starter,6826.19,Qualification,25,2023-08-26,,2023-09-02,,,1706.55
+D00213,C0479,R005,PipelineIQ Pro — Deal 0213,PipelineIQ Pro,44451.35,Proposal,50,2023-03-23,,2023-06-02,,,22225.67
+D00214,C0052,R005,PipelineIQ Enterprise — Deal 0214,PipelineIQ Enterprise,224060.08,Proposal,50,2024-11-04,,2024-12-13,,,112030.04
+D00215,C0171,R004,PipelineIQ Pro — Deal 0215,PipelineIQ Pro,41330.57,Prospecting,10,2023-04-06,,2023-06-30,,,4133.06
+D00216,C0055,R001,PipelineIQ Pro — Deal 0216,PipelineIQ Pro,40938.3,Prospecting,10,2024-08-25,,2024-08-26,,,4093.83
+D00217,C0136,R004,PipelineIQ Pro — Deal 0217,PipelineIQ Pro,16488.37,Closed Won,100,2024-07-08,2024-07-22,,,14.0,16488.37
+D00218,C0087,R002,PipelineIQ Starter — Deal 0218,PipelineIQ Starter,10908.54,Proposal,50,2023-03-25,,2023-05-07,,,5454.27
+D00219,C0241,R001,PipelineIQ Starter — Deal 0219,PipelineIQ Starter,11484.86,Proposal,50,2024-10-07,,2024-10-10,,,5742.43
+D00220,C0003,R005,PipelineIQ Starter — Deal 0220,PipelineIQ Starter,12287.49,Prospecting,10,2023-09-02,,2023-10-25,,,1228.75
+D00221,C0122,R002,PipelineIQ Enterprise — Deal 0221,PipelineIQ Enterprise,154595.02,Qualification,25,2024-05-19,,2024-07-29,,,38648.75
+D00222,C0150,R004,PipelineIQ Starter — Deal 0222,PipelineIQ Starter,9297.23,Proposal,50,2023-07-17,,2023-09-23,,,4648.61
+D00223,C0128,R004,PipelineIQ Pro — Deal 0223,PipelineIQ Pro,19767.37,Closed Lost,0,2024-08-15,2024-09-21,,No budget,37.0,0.0
+D00224,C0310,R004,PipelineIQ Enterprise — Deal 0224,PipelineIQ Enterprise,221228.0,Prospecting,10,2023-09-19,,2023-12-11,,,22122.8
+D00225,C0354,R005,PipelineIQ Pro — Deal 0225,PipelineIQ Pro,15050.84,Prospecting,10,2023-07-15,,2023-08-17,,,1505.08
+D00226,C0128,R005,PipelineIQ Starter — Deal 0226,PipelineIQ Starter,10766.16,Closed Won,100,2023-05-03,2023-07-28,,,86.0,10766.16
+D00227,C0351,R002,PipelineIQ Starter — Deal 0227,PipelineIQ Starter,12110.68,Qualification,25,2023-02-17,,2023-02-27,,,3027.67
+D00228,C0334,R001,PipelineIQ Pro — Deal 0228,PipelineIQ Pro,19653.67,Qualification,25,2024-08-11,,2024-08-12,,,4913.42
+D00229,C0175,R001,PipelineIQ Starter — Deal 0229,PipelineIQ Starter,12172.37,Closed Won,100,2024-02-28,2024-03-13,,,14.0,12172.37
+D00230,C0211,R001,PipelineIQ Starter — Deal 0230,PipelineIQ Starter,9470.75,Prospecting,10,2024-01-13,,2024-02-24,,,947.08
+D00231,C0440,R004,PipelineIQ Pro — Deal 0231,PipelineIQ Pro,38083.21,Negotiation,75,2024-11-10,,2024-12-06,,,28562.41
+D00232,C0125,R002,PipelineIQ Enterprise — Deal 0232,PipelineIQ Enterprise,79183.1,Qualification,25,2024-11-12,,2025-02-05,,,19795.78
+D00233,C0222,R001,PipelineIQ Pro — Deal 0233,PipelineIQ Pro,32111.97,Qualification,25,2023-09-16,,2023-09-17,,,8027.99
+D00234,C0149,R001,PipelineIQ Pro — Deal 0234,PipelineIQ Pro,20551.18,Negotiation,75,2024-04-14,,2024-06-21,,,15413.39
+D00235,C0091,R002,PipelineIQ Starter — Deal 0235,PipelineIQ Starter,9134.04,Closed Won,100,2023-10-18,2023-11-23,,,36.0,9134.04
+D00236,C0233,R005,PipelineIQ Pro — Deal 0236,PipelineIQ Pro,41916.87,Proposal,50,2023-03-08,,2023-05-23,,,20958.44
+D00237,C0430,R002,PipelineIQ Pro — Deal 0237,PipelineIQ Pro,25611.85,Qualification,25,2024-12-05,,2025-01-10,,,6402.96
+D00238,C0464,R004,PipelineIQ Pro — Deal 0238,PipelineIQ Pro,48722.79,Qualification,25,2023-08-14,,2023-10-10,,,12180.7
+D00239,C0486,R004,PipelineIQ Starter — Deal 0239,PipelineIQ Starter,5171.46,Qualification,25,2024-01-29,,2024-02-27,,,1292.87
+D00240,C0268,R001,PipelineIQ Enterprise — Deal 0240,PipelineIQ Enterprise,151939.54,Closed Lost,0,2023-10-02,2024-01-03,,No budget,93.0,0.0
+D00241,C0011,R005,PipelineIQ Pro — Deal 0241,PipelineIQ Pro,39146.77,Qualification,25,2023-11-14,,2024-01-05,,,9786.69
+D00242,C0415,R002,PipelineIQ Starter — Deal 0242,PipelineIQ Starter,10671.56,Closed Won,100,2023-10-17,2023-11-19,,,33.0,10671.56
+D00243,C0410,R005,PipelineIQ Starter — Deal 0243,PipelineIQ Starter,12577.37,Negotiation,75,2024-09-20,,2024-12-03,,,9433.03
+D00244,C0491,R005,PipelineIQ Enterprise — Deal 0244,PipelineIQ Enterprise,234365.5,Proposal,50,2023-01-04,,2023-01-24,,,117182.75
+D00245,C0175,R005,PipelineIQ Starter — Deal 0245,PipelineIQ Starter,8273.77,Negotiation,75,2024-03-05,,2024-05-17,,,6205.33
+D00246,C0357,R003,PipelineIQ Starter — Deal 0246,PipelineIQ Starter,9810.19,Prospecting,10,2024-03-11,,2024-04-13,,,981.02
+D00247,C0183,R005,PipelineIQ Pro — Deal 0247,PipelineIQ Pro,35516.73,Proposal,50,2024-08-01,,2024-10-13,,,17758.37
+D00248,C0440,R002,PipelineIQ Starter — Deal 0248,PipelineIQ Starter,8799.22,Proposal,50,2023-11-29,,2023-12-05,,,4399.61
+D00249,C0117,R005,PipelineIQ Pro — Deal 0249,PipelineIQ Pro,27490.82,Negotiation,75,2023-12-08,,2024-02-10,,,20618.11
+D00250,C0459,R001,PipelineIQ Pro — Deal 0250,PipelineIQ Pro,48512.56,Prospecting,10,2023-04-16,,2023-06-28,,,4851.26
+D00251,C0274,R002,PipelineIQ Starter — Deal 0251,PipelineIQ Starter,7313.04,Closed Won,100,2024-04-23,2024-06-15,,,53.0,7313.04
+D00252,C0114,R005,PipelineIQ Enterprise — Deal 0252,PipelineIQ Enterprise,64520.79,Negotiation,75,2024-03-27,,2024-04-14,,,48390.59
+D00253,C0471,R001,PipelineIQ Enterprise — Deal 0253,PipelineIQ Enterprise,92906.75,Qualification,25,2023-09-20,,2023-09-22,,,23226.69
+D00254,C0048,R005,PipelineIQ Enterprise — Deal 0254,PipelineIQ Enterprise,131827.64,Closed Lost,0,2024-04-05,2024-07-29,,Chose competitor,115.0,0.0
+D00255,C0275,R001,PipelineIQ Pro — Deal 0255,PipelineIQ Pro,47324.85,Proposal,50,2023-09-14,,2023-11-30,,,23662.42
+D00256,C0142,R001,PipelineIQ Enterprise — Deal 0256,PipelineIQ Enterprise,175821.4,Negotiation,75,2024-05-02,,2024-07-30,,,131866.05
+D00257,C0408,R001,PipelineIQ Enterprise — Deal 0257,PipelineIQ Enterprise,83407.55,Negotiation,75,2024-05-16,,2024-06-13,,,62555.66
+D00258,C0474,R005,PipelineIQ Pro — Deal 0258,PipelineIQ Pro,46061.39,Prospecting,10,2024-08-19,,2024-09-18,,,4606.14
+D00259,C0285,R003,PipelineIQ Enterprise — Deal 0259,PipelineIQ Enterprise,105533.99,Qualification,25,2024-01-01,,2024-02-28,,,26383.5
+D00260,C0141,R005,PipelineIQ Enterprise — Deal 0260,PipelineIQ Enterprise,82858.87,Negotiation,75,2023-01-22,,2023-04-18,,,62144.15
+D00261,C0424,R001,PipelineIQ Starter — Deal 0261,PipelineIQ Starter,6720.68,Prospecting,10,2023-07-03,,2023-07-29,,,672.07
+D00262,C0116,R001,PipelineIQ Starter — Deal 0262,PipelineIQ Starter,6976.45,Qualification,25,2024-11-08,,2025-01-05,,,1744.11
+D00263,C0388,R002,PipelineIQ Enterprise — Deal 0263,PipelineIQ Enterprise,76903.01,Prospecting,10,2024-01-11,,2024-04-01,,,7690.3
+D00264,C0194,R001,PipelineIQ Pro — Deal 0264,PipelineIQ Pro,44216.12,Qualification,25,2023-06-12,,2023-08-12,,,11054.03
+D00265,C0056,R002,PipelineIQ Starter — Deal 0265,PipelineIQ Starter,6713.75,Prospecting,10,2024-12-01,,2025-01-24,,,671.38
+D00266,C0223,R002,PipelineIQ Starter — Deal 0266,PipelineIQ Starter,12644.18,Qualification,25,2024-03-01,,2024-03-15,,,3161.05
+D00267,C0453,R005,PipelineIQ Starter — Deal 0267,PipelineIQ Starter,11996.88,Prospecting,10,2024-12-31,,2025-03-13,,,1199.69
+D00268,C0454,R005,PipelineIQ Enterprise — Deal 0268,PipelineIQ Enterprise,156173.16,Closed Won,100,2024-08-22,2024-10-04,,,43.0,156173.16
+D00269,C0489,R005,PipelineIQ Pro — Deal 0269,PipelineIQ Pro,20508.9,Closed Lost,0,2024-11-07,2024-12-31,,Chose competitor,54.0,0.0
+D00270,C0134,R004,PipelineIQ Pro — Deal 0270,PipelineIQ Pro,29871.02,Proposal,50,2023-10-13,,2023-11-23,,,14935.51
+D00271,C0152,R001,PipelineIQ Enterprise — Deal 0271,PipelineIQ Enterprise,92829.42,Negotiation,75,2023-07-20,,2023-09-10,,,69622.07
+D00272,C0408,R001,PipelineIQ Pro — Deal 0272,PipelineIQ Pro,42039.53,Proposal,50,2024-08-18,,2024-09-02,,,21019.76
+D00273,C0246,R005,PipelineIQ Enterprise — Deal 0273,PipelineIQ Enterprise,75355.79,Prospecting,10,2023-04-26,,2023-07-07,,,7535.58
+D00274,C0093,R002,PipelineIQ Pro — Deal 0274,PipelineIQ Pro,46826.65,Proposal,50,2023-02-24,,2023-05-02,,,23413.33
+D00275,C0440,R002,PipelineIQ Enterprise — Deal 0275,PipelineIQ Enterprise,225159.82,Negotiation,75,2023-02-21,,2023-04-28,,,168869.86
+D00276,C0174,R005,PipelineIQ Enterprise — Deal 0276,PipelineIQ Enterprise,158734.1,Prospecting,10,2024-07-19,,2024-07-30,,,15873.41
+D00277,C0424,R003,PipelineIQ Enterprise — Deal 0277,PipelineIQ Enterprise,157513.29,Qualification,25,2024-07-16,,2024-08-03,,,39378.32
+D00278,C0358,R002,PipelineIQ Starter — Deal 0278,PipelineIQ Starter,5440.19,Proposal,50,2023-05-24,,2023-06-22,,,2720.09
+D00279,C0370,R004,PipelineIQ Enterprise — Deal 0279,PipelineIQ Enterprise,67876.62,Prospecting,10,2023-03-15,,2023-05-09,,,6787.66
+D00280,C0349,R003,PipelineIQ Enterprise — Deal 0280,PipelineIQ Enterprise,159345.26,Negotiation,75,2024-04-16,,2024-05-08,,,119508.95
+D00281,C0397,R001,PipelineIQ Pro — Deal 0281,PipelineIQ Pro,49746.32,Qualification,25,2023-01-12,,2023-01-16,,,12436.58
+D00282,C0085,R001,PipelineIQ Enterprise — Deal 0282,PipelineIQ Enterprise,188176.71,Closed Won,100,2023-03-27,2023-05-08,,,42.0,188176.71
+D00283,C0247,R001,PipelineIQ Enterprise — Deal 0283,PipelineIQ Enterprise,211594.43,Proposal,50,2024-12-05,,2024-12-30,,,105797.21
+D00284,C0323,R003,PipelineIQ Starter — Deal 0284,PipelineIQ Starter,9389.79,Closed Won,100,2023-02-28,2023-06-09,,,101.0,9389.79
+D00285,C0195,R002,PipelineIQ Enterprise — Deal 0285,PipelineIQ Enterprise,243728.73,Prospecting,10,2023-12-28,,2024-02-07,,,24372.87
+D00286,C0082,R003,PipelineIQ Enterprise — Deal 0286,PipelineIQ Enterprise,73031.51,Closed Won,100,2023-10-27,2023-11-30,,,34.0,73031.51
+D00287,C0148,R005,PipelineIQ Starter — Deal 0287,PipelineIQ Starter,10457.75,Prospecting,10,2024-07-06,,2024-09-06,,,1045.78
+D00288,C0257,R002,PipelineIQ Pro — Deal 0288,PipelineIQ Pro,33277.78,Negotiation,75,2023-06-29,,2023-08-05,,,24958.33
+D00289,C0223,R004,PipelineIQ Enterprise — Deal 0289,PipelineIQ Enterprise,207661.97,Qualification,25,2023-02-11,,2023-04-17,,,51915.49
+D00290,C0454,R001,PipelineIQ Pro — Deal 0290,PipelineIQ Pro,15918.8,Proposal,50,2024-11-08,,2024-12-12,,,7959.4
+D00291,C0141,R001,PipelineIQ Starter — Deal 0291,PipelineIQ Starter,8778.96,Proposal,50,2024-01-06,,2024-03-13,,,4389.48
+D00292,C0077,R001,PipelineIQ Enterprise — Deal 0292,PipelineIQ Enterprise,79991.72,Qualification,25,2023-08-30,,2023-10-22,,,19997.93
+D00293,C0159,R003,PipelineIQ Pro — Deal 0293,PipelineIQ Pro,32908.89,Closed Lost,0,2024-11-08,2024-11-15,,No budget,7.0,0.0
+D00294,C0321,R001,PipelineIQ Starter — Deal 0294,PipelineIQ Starter,12851.4,Qualification,25,2024-07-19,,2024-07-25,,,3212.85
+D00295,C0286,R004,PipelineIQ Pro — Deal 0295,PipelineIQ Pro,16856.29,Qualification,25,2024-09-08,,2024-11-26,,,4214.07
+D00296,C0488,R001,PipelineIQ Pro — Deal 0296,PipelineIQ Pro,36633.19,Negotiation,75,2024-10-01,,2024-12-22,,,27474.89
+D00297,C0444,R003,PipelineIQ Enterprise — Deal 0297,PipelineIQ Enterprise,86953.29,Prospecting,10,2023-02-18,,2023-03-06,,,8695.33
+D00298,C0134,R005,PipelineIQ Pro — Deal 0298,PipelineIQ Pro,23848.53,Proposal,50,2024-06-25,,2024-06-26,,,11924.26
+D00299,C0451,R002,PipelineIQ Enterprise — Deal 0299,PipelineIQ Enterprise,196657.0,Closed Lost,0,2024-07-14,2024-09-13,,Project cancelled,61.0,0.0
+D00300,C0033,R002,PipelineIQ Starter — Deal 0300,PipelineIQ Starter,10156.63,Qualification,25,2024-06-25,,2024-09-16,,,2539.16
+D00301,C0205,R001,PipelineIQ Pro — Deal 0301,PipelineIQ Pro,24372.98,Prospecting,10,2023-05-25,,2023-08-23,,,2437.3
+D00302,C0343,R005,PipelineIQ Enterprise — Deal 0302,PipelineIQ Enterprise,185580.61,Negotiation,75,2024-08-08,,2024-10-30,,,139185.46
+D00303,C0451,R002,PipelineIQ Enterprise — Deal 0303,PipelineIQ Enterprise,196110.35,Qualification,25,2023-01-22,,2023-02-23,,,49027.59
+D00304,C0054,R005,PipelineIQ Pro — Deal 0304,PipelineIQ Pro,41476.78,Prospecting,10,2024-03-17,,2024-04-14,,,4147.68
+D00305,C0150,R004,PipelineIQ Pro — Deal 0305,PipelineIQ Pro,48627.08,Qualification,25,2023-02-11,,2023-04-02,,,12156.77
+D00306,C0096,R003,PipelineIQ Enterprise — Deal 0306,PipelineIQ Enterprise,127976.17,Qualification,25,2023-10-25,,2023-10-31,,,31994.04
+D00307,C0350,R003,PipelineIQ Pro — Deal 0307,PipelineIQ Pro,42603.07,Negotiation,75,2023-12-15,,2024-02-23,,,31952.3
+D00308,C0194,R001,PipelineIQ Starter — Deal 0308,PipelineIQ Starter,7938.33,Closed Lost,0,2024-11-15,2024-11-26,,Project cancelled,11.0,0.0
+D00309,C0492,R003,PipelineIQ Pro — Deal 0309,PipelineIQ Pro,29391.71,Qualification,25,2024-06-09,,2024-08-22,,,7347.93
+D00310,C0124,R002,PipelineIQ Enterprise — Deal 0310,PipelineIQ Enterprise,151043.27,Closed Won,100,2023-04-22,2023-06-09,,,48.0,151043.27
+D00311,C0239,R003,PipelineIQ Enterprise — Deal 0311,PipelineIQ Enterprise,189481.23,Proposal,50,2023-12-06,,2023-12-24,,,94740.62
+D00312,C0352,R003,PipelineIQ Enterprise — Deal 0312,PipelineIQ Enterprise,216350.67,Prospecting,10,2023-02-08,,2023-03-18,,,21635.07
+D00313,C0111,R002,PipelineIQ Enterprise — Deal 0313,PipelineIQ Enterprise,61504.69,Closed Won,100,2023-07-29,2023-11-24,,,118.0,61504.69
+D00314,C0301,R002,PipelineIQ Starter — Deal 0314,PipelineIQ Starter,14697.32,Closed Won,100,2024-06-22,2024-07-25,,,33.0,14697.32
+D00315,C0047,R002,PipelineIQ Pro — Deal 0315,PipelineIQ Pro,45921.81,Prospecting,10,2023-05-25,,2023-06-08,,,4592.18
+D00316,C0025,R004,PipelineIQ Starter — Deal 0316,PipelineIQ Starter,12113.06,Proposal,50,2023-05-07,,2023-07-16,,,6056.53
+D00317,C0102,R001,PipelineIQ Enterprise — Deal 0317,PipelineIQ Enterprise,245118.05,Qualification,25,2024-10-08,,2025-01-03,,,61279.51
+D00318,C0452,R003,PipelineIQ Pro — Deal 0318,PipelineIQ Pro,22587.38,Qualification,25,2023-08-20,,2023-08-26,,,5646.85
+D00319,C0255,R001,PipelineIQ Pro — Deal 0319,PipelineIQ Pro,44918.47,Negotiation,75,2024-09-18,,2024-11-22,,,33688.85
+D00320,C0369,R005,PipelineIQ Pro — Deal 0320,PipelineIQ Pro,49699.77,Prospecting,10,2024-02-21,,2024-05-02,,,4969.98
+D00321,C0416,R002,PipelineIQ Enterprise — Deal 0321,PipelineIQ Enterprise,228364.78,Prospecting,10,2023-08-02,,2023-08-06,,,22836.48
+D00322,C0066,R004,PipelineIQ Starter — Deal 0322,PipelineIQ Starter,10860.9,Qualification,25,2023-04-25,,2023-07-05,,,2715.22
+D00323,C0327,R004,PipelineIQ Enterprise — Deal 0323,PipelineIQ Enterprise,154773.95,Prospecting,10,2023-12-08,,2024-02-07,,,15477.4
+D00324,C0470,R005,PipelineIQ Enterprise — Deal 0324,PipelineIQ Enterprise,149470.33,Negotiation,75,2023-05-03,,2023-06-26,,,112102.75
+D00325,C0406,R004,PipelineIQ Starter — Deal 0325,PipelineIQ Starter,13822.81,Negotiation,75,2024-01-12,,2024-03-31,,,10367.11
+D00326,C0414,R003,PipelineIQ Pro — Deal 0326,PipelineIQ Pro,19687.42,Prospecting,10,2024-09-10,,2024-09-20,,,1968.74
+D00327,C0277,R005,PipelineIQ Starter — Deal 0327,PipelineIQ Starter,13708.42,Proposal,50,2023-10-21,,2023-11-04,,,6854.21
+D00328,C0301,R004,PipelineIQ Pro — Deal 0328,PipelineIQ Pro,22904.54,Qualification,25,2023-12-18,,2023-12-22,,,5726.14
+D00329,C0311,R002,PipelineIQ Starter — Deal 0329,PipelineIQ Starter,12565.21,Qualification,25,2023-06-11,,2023-07-09,,,3141.3
+D00330,C0173,R004,PipelineIQ Enterprise — Deal 0330,PipelineIQ Enterprise,151170.52,Prospecting,10,2023-10-09,,2023-11-21,,,15117.05
+D00331,C0067,R001,PipelineIQ Pro — Deal 0331,PipelineIQ Pro,17686.06,Qualification,25,2024-12-13,,2025-01-20,,,4421.52
+D00332,C0399,R001,PipelineIQ Enterprise — Deal 0332,PipelineIQ Enterprise,157221.01,Closed Lost,0,2024-01-11,2024-04-01,,Price too high,81.0,0.0
+D00333,C0024,R004,PipelineIQ Pro — Deal 0333,PipelineIQ Pro,23317.7,Closed Lost,0,2024-03-21,2024-07-01,,No decision made,102.0,0.0
+D00334,C0481,R002,PipelineIQ Enterprise — Deal 0334,PipelineIQ Enterprise,188737.27,Prospecting,10,2024-03-12,,2024-03-15,,,18873.73
+D00335,C0105,R001,PipelineIQ Starter — Deal 0335,PipelineIQ Starter,14438.48,Closed Won,100,2024-06-16,2024-10-08,,,114.0,14438.48
+D00336,C0079,R001,PipelineIQ Pro — Deal 0336,PipelineIQ Pro,28670.64,Closed Won,100,2023-01-28,2023-03-19,,,50.0,28670.64
+D00337,C0394,R002,PipelineIQ Enterprise — Deal 0337,PipelineIQ Enterprise,141125.75,Qualification,25,2023-04-13,,2023-05-06,,,35281.44
+D00338,C0282,R001,PipelineIQ Starter — Deal 0338,PipelineIQ Starter,7540.27,Qualification,25,2024-03-16,,2024-05-21,,,1885.07
+D00339,C0330,R004,PipelineIQ Starter — Deal 0339,PipelineIQ Starter,9362.4,Prospecting,10,2024-03-10,,2024-05-21,,,936.24
+D00340,C0060,R003,PipelineIQ Starter — Deal 0340,PipelineIQ Starter,11211.79,Closed Lost,0,2023-10-25,2024-01-29,,Price too high,96.0,0.0
+D00341,C0176,R005,PipelineIQ Starter — Deal 0341,PipelineIQ Starter,8040.06,Proposal,50,2024-04-03,,2024-04-28,,,4020.03
+D00342,C0209,R005,PipelineIQ Pro — Deal 0342,PipelineIQ Pro,23309.9,Closed Won,100,2024-06-25,2024-07-13,,,18.0,23309.9
+D00343,C0053,R005,PipelineIQ Starter — Deal 0343,PipelineIQ Starter,7119.61,Proposal,50,2023-05-08,,2023-05-15,,,3559.8
+D00344,C0260,R001,PipelineIQ Enterprise — Deal 0344,PipelineIQ Enterprise,124112.56,Negotiation,75,2024-09-12,,2024-09-19,,,93084.42
+D00345,C0294,R001,PipelineIQ Pro — Deal 0345,PipelineIQ Pro,49761.67,Proposal,50,2023-10-24,,2023-11-30,,,24880.83
+D00346,C0414,R004,PipelineIQ Starter — Deal 0346,PipelineIQ Starter,14349.62,Negotiation,75,2023-09-19,,2023-12-03,,,10762.22
+D00347,C0216,R005,PipelineIQ Starter — Deal 0347,PipelineIQ Starter,9028.55,Proposal,50,2024-09-30,,2024-12-20,,,4514.27
+D00348,C0310,R003,PipelineIQ Enterprise — Deal 0348,PipelineIQ Enterprise,164543.05,Qualification,25,2024-07-19,,2024-10-10,,,41135.76
+D00349,C0152,R004,PipelineIQ Enterprise — Deal 0349,PipelineIQ Enterprise,199203.8,Negotiation,75,2023-04-02,,2023-06-08,,,149402.85
+D00350,C0128,R004,PipelineIQ Starter — Deal 0350,PipelineIQ Starter,10352.65,Qualification,25,2024-10-14,,2024-12-26,,,2588.16
+D00351,C0292,R001,PipelineIQ Starter — Deal 0351,PipelineIQ Starter,8303.54,Prospecting,10,2024-05-27,,2024-07-06,,,830.35
+D00352,C0095,R002,PipelineIQ Enterprise — Deal 0352,PipelineIQ Enterprise,208459.71,Closed Won,100,2023-07-14,2023-07-28,,,14.0,208459.71
+D00353,C0287,R004,PipelineIQ Starter — Deal 0353,PipelineIQ Starter,7944.32,Prospecting,10,2024-02-18,,2024-05-01,,,794.43
+D00354,C0204,R005,PipelineIQ Starter — Deal 0354,PipelineIQ Starter,9078.19,Negotiation,75,2024-04-29,,2024-05-19,,,6808.64
+D00355,C0090,R001,PipelineIQ Enterprise — Deal 0355,PipelineIQ Enterprise,73543.33,Negotiation,75,2024-10-19,,2024-12-15,,,55157.5
+D00356,C0113,R002,PipelineIQ Enterprise — Deal 0356,PipelineIQ Enterprise,93181.37,Proposal,50,2024-06-16,,2024-09-02,,,46590.68
+D00357,C0461,R003,PipelineIQ Pro — Deal 0357,PipelineIQ Pro,38455.13,Proposal,50,2024-10-27,,2024-11-28,,,19227.56
+D00358,C0002,R001,PipelineIQ Enterprise — Deal 0358,PipelineIQ Enterprise,77704.61,Closed Won,100,2023-10-19,2024-02-02,,,106.0,77704.61
+D00359,C0356,R001,PipelineIQ Pro — Deal 0359,PipelineIQ Pro,48600.72,Closed Won,100,2023-05-26,2023-09-19,,,116.0,48600.72
+D00360,C0303,R005,PipelineIQ Enterprise — Deal 0360,PipelineIQ Enterprise,172001.4,Qualification,25,2023-05-31,,2023-07-22,,,43000.35
+D00361,C0196,R003,PipelineIQ Pro — Deal 0361,PipelineIQ Pro,34057.51,Prospecting,10,2023-04-06,,2023-06-16,,,3405.75
+D00362,C0288,R001,PipelineIQ Enterprise — Deal 0362,PipelineIQ Enterprise,125659.22,Qualification,25,2023-08-10,,2023-08-12,,,31414.81
+D00363,C0161,R002,PipelineIQ Pro — Deal 0363,PipelineIQ Pro,43305.97,Prospecting,10,2023-07-14,,2023-09-20,,,4330.6
+D00364,C0398,R001,PipelineIQ Enterprise — Deal 0364,PipelineIQ Enterprise,117370.5,Closed Lost,0,2023-09-15,2024-01-01,,Chose competitor,108.0,0.0
+D00365,C0140,R005,PipelineIQ Pro — Deal 0365,PipelineIQ Pro,28953.47,Prospecting,10,2023-11-15,,2024-01-20,,,2895.35
+D00366,C0115,R002,PipelineIQ Enterprise — Deal 0366,PipelineIQ Enterprise,229798.78,Closed Won,100,2024-05-04,2024-08-09,,,97.0,229798.78
+D00367,C0465,R004,PipelineIQ Starter — Deal 0367,PipelineIQ Starter,5065.13,Closed Won,100,2024-09-06,2024-10-27,,,51.0,5065.13
+D00368,C0039,R004,PipelineIQ Pro — Deal 0368,PipelineIQ Pro,17191.17,Prospecting,10,2024-05-30,,2024-06-25,,,1719.12
+D00369,C0485,R003,PipelineIQ Starter — Deal 0369,PipelineIQ Starter,11683.15,Closed Won,100,2023-01-27,2023-02-03,,,7.0,11683.15
+D00370,C0323,R003,PipelineIQ Starter — Deal 0370,PipelineIQ Starter,8751.91,Prospecting,10,2023-03-24,,2023-05-01,,,875.19
+D00371,C0397,R001,PipelineIQ Enterprise — Deal 0371,PipelineIQ Enterprise,64632.56,Negotiation,75,2024-04-09,,2024-06-01,,,48474.42
+D00372,C0211,R005,PipelineIQ Starter — Deal 0372,PipelineIQ Starter,13628.98,Proposal,50,2024-03-29,,2024-06-20,,,6814.49
+D00373,C0139,R002,PipelineIQ Enterprise — Deal 0373,PipelineIQ Enterprise,78729.62,Negotiation,75,2024-10-14,,2024-11-19,,,59047.21
+D00374,C0084,R005,PipelineIQ Starter — Deal 0374,PipelineIQ Starter,13957.18,Qualification,25,2023-10-16,,2023-12-06,,,3489.3
+D00375,C0344,R002,PipelineIQ Starter — Deal 0375,PipelineIQ Starter,12143.15,Qualification,25,2024-02-17,,2024-04-10,,,3035.79
+D00376,C0372,R005,PipelineIQ Starter — Deal 0376,PipelineIQ Starter,10963.12,Qualification,25,2023-04-05,,2023-06-07,,,2740.78
+D00377,C0478,R001,PipelineIQ Enterprise — Deal 0377,PipelineIQ Enterprise,215201.21,Closed Lost,0,2023-06-14,2023-08-26,,No decision made,73.0,0.0
+D00378,C0346,R001,PipelineIQ Enterprise — Deal 0378,PipelineIQ Enterprise,63358.82,Negotiation,75,2024-02-11,,2024-04-19,,,47519.11
+D00379,C0046,R002,PipelineIQ Enterprise — Deal 0379,PipelineIQ Enterprise,102559.82,Closed Lost,0,2023-07-27,2023-09-24,,Chose competitor,59.0,0.0
+D00380,C0469,R002,PipelineIQ Starter — Deal 0380,PipelineIQ Starter,14541.93,Qualification,25,2023-07-27,,2023-09-10,,,3635.48
+D00381,C0105,R001,PipelineIQ Pro — Deal 0381,PipelineIQ Pro,18804.97,Proposal,50,2024-04-20,,2024-04-22,,,9402.49
+D00382,C0058,R002,PipelineIQ Starter — Deal 0382,PipelineIQ Starter,11780.33,Prospecting,10,2023-01-01,,2023-02-19,,,1178.03
+D00383,C0068,R005,PipelineIQ Starter — Deal 0383,PipelineIQ Starter,12503.38,Qualification,25,2024-11-16,,2024-12-27,,,3125.84
+D00384,C0098,R003,PipelineIQ Pro — Deal 0384,PipelineIQ Pro,32351.18,Proposal,50,2024-01-21,,2024-02-06,,,16175.59
+D00385,C0136,R005,PipelineIQ Starter — Deal 0385,PipelineIQ Starter,9474.89,Closed Won,100,2023-10-31,2023-12-10,,,40.0,9474.89
+D00386,C0443,R005,PipelineIQ Enterprise — Deal 0386,PipelineIQ Enterprise,59836.84,Closed Lost,0,2023-11-27,2023-12-04,,Chose competitor,7.0,0.0
+D00387,C0146,R001,PipelineIQ Pro — Deal 0387,PipelineIQ Pro,25290.58,Prospecting,10,2024-03-17,,2024-04-22,,,2529.06
+D00388,C0241,R003,PipelineIQ Starter — Deal 0388,PipelineIQ Starter,7365.08,Qualification,25,2023-04-15,,2023-06-05,,,1841.27
+D00389,C0263,R004,PipelineIQ Enterprise — Deal 0389,PipelineIQ Enterprise,71656.52,Prospecting,10,2024-05-26,,2024-08-20,,,7165.65
+D00390,C0450,R002,PipelineIQ Starter — Deal 0390,PipelineIQ Starter,14151.71,Prospecting,10,2024-10-16,,2024-10-28,,,1415.17
+D00391,C0100,R002,PipelineIQ Pro — Deal 0391,PipelineIQ Pro,46299.32,Proposal,50,2023-04-15,,2023-07-05,,,23149.66
+D00392,C0377,R002,PipelineIQ Pro — Deal 0392,PipelineIQ Pro,33179.86,Closed Lost,0,2024-08-09,2024-10-18,,No budget,70.0,0.0
+D00393,C0444,R004,PipelineIQ Pro — Deal 0393,PipelineIQ Pro,42453.81,Negotiation,75,2023-08-28,,2023-10-22,,,31840.36
+D00394,C0279,R001,PipelineIQ Starter — Deal 0394,PipelineIQ Starter,13747.33,Proposal,50,2024-06-11,,2024-07-04,,,6873.66
+D00395,C0385,R003,PipelineIQ Enterprise — Deal 0395,PipelineIQ Enterprise,249183.01,Qualification,25,2023-08-23,,2023-11-05,,,62295.75
+D00396,C0220,R005,PipelineIQ Pro — Deal 0396,PipelineIQ Pro,48591.86,Prospecting,10,2024-07-11,,2024-10-01,,,4859.19
+D00397,C0207,R004,PipelineIQ Pro — Deal 0397,PipelineIQ Pro,38826.09,Closed Lost,0,2024-05-04,2024-08-02,,Price too high,90.0,0.0
+D00398,C0392,R002,PipelineIQ Pro — Deal 0398,PipelineIQ Pro,23258.25,Qualification,25,2023-01-16,,2023-03-04,,,5814.56
+D00399,C0323,R002,PipelineIQ Starter — Deal 0399,PipelineIQ Starter,8761.17,Prospecting,10,2023-07-04,,2023-08-02,,,876.12
+D00400,C0188,R004,PipelineIQ Pro — Deal 0400,PipelineIQ Pro,26476.17,Prospecting,10,2024-11-26,,2025-02-19,,,2647.62
+D00401,C0136,R004,PipelineIQ Starter — Deal 0401,PipelineIQ Starter,12772.87,Proposal,50,2023-04-18,,2023-07-15,,,6386.44
+D00402,C0038,R005,PipelineIQ Pro — Deal 0402,PipelineIQ Pro,34930.11,Negotiation,75,2024-10-28,,2024-11-20,,,26197.58
+D00403,C0286,R004,PipelineIQ Enterprise — Deal 0403,PipelineIQ Enterprise,77748.82,Proposal,50,2024-08-31,,2024-09-06,,,38874.41
+D00404,C0312,R002,PipelineIQ Enterprise — Deal 0404,PipelineIQ Enterprise,156851.9,Negotiation,75,2024-03-16,,2024-06-04,,,117638.92
+D00405,C0457,R001,PipelineIQ Enterprise — Deal 0405,PipelineIQ Enterprise,107760.82,Proposal,50,2023-06-12,,2023-06-29,,,53880.41
+D00406,C0340,R005,PipelineIQ Starter — Deal 0406,PipelineIQ Starter,13508.72,Negotiation,75,2024-12-09,,2025-01-08,,,10131.54
+D00407,C0332,R003,PipelineIQ Enterprise — Deal 0407,PipelineIQ Enterprise,136630.17,Negotiation,75,2024-06-03,,2024-07-11,,,102472.63
+D00408,C0323,R005,PipelineIQ Starter — Deal 0408,PipelineIQ Starter,7981.37,Proposal,50,2024-06-08,,2024-08-18,,,3990.68
+D00409,C0260,R004,PipelineIQ Starter — Deal 0409,PipelineIQ Starter,11472.71,Qualification,25,2024-10-03,,2024-12-12,,,2868.18
+D00410,C0226,R001,PipelineIQ Pro — Deal 0410,PipelineIQ Pro,48685.05,Negotiation,75,2024-12-12,,2025-03-06,,,36513.79
+D00411,C0200,R005,PipelineIQ Starter — Deal 0411,PipelineIQ Starter,8569.38,Prospecting,10,2024-02-16,,2024-04-14,,,856.94
+D00412,C0232,R002,PipelineIQ Pro — Deal 0412,PipelineIQ Pro,21859.61,Negotiation,75,2023-01-27,,2023-04-16,,,16394.71
+D00413,C0340,R005,PipelineIQ Pro — Deal 0413,PipelineIQ Pro,28315.69,Prospecting,10,2023-03-07,,2023-05-27,,,2831.57
+D00414,C0439,R004,PipelineIQ Pro — Deal 0414,PipelineIQ Pro,32321.44,Proposal,50,2024-07-08,,2024-07-28,,,16160.72
+D00415,C0164,R004,PipelineIQ Enterprise — Deal 0415,PipelineIQ Enterprise,164918.57,Qualification,25,2023-06-07,,2023-06-24,,,41229.64
+D00416,C0163,R001,PipelineIQ Enterprise — Deal 0416,PipelineIQ Enterprise,165360.85,Proposal,50,2024-10-20,,2024-12-28,,,82680.43
+D00417,C0406,R002,PipelineIQ Enterprise — Deal 0417,PipelineIQ Enterprise,154877.35,Qualification,25,2024-11-29,,2025-02-18,,,38719.34
+D00418,C0387,R001,PipelineIQ Starter — Deal 0418,PipelineIQ Starter,8686.81,Negotiation,75,2024-11-10,,2024-12-27,,,6515.11
+D00419,C0016,R004,PipelineIQ Pro — Deal 0419,PipelineIQ Pro,28332.87,Proposal,50,2024-08-05,,2024-08-10,,,14166.43
+D00420,C0437,R005,PipelineIQ Enterprise — Deal 0420,PipelineIQ Enterprise,74965.1,Qualification,25,2023-06-30,,2023-08-13,,,18741.28
+D00421,C0304,R005,PipelineIQ Pro — Deal 0421,PipelineIQ Pro,24391.29,Prospecting,10,2024-02-07,,2024-04-06,,,2439.13
+D00422,C0327,R005,PipelineIQ Pro — Deal 0422,PipelineIQ Pro,21863.75,Qualification,25,2023-10-29,,2023-11-22,,,5465.94
+D00423,C0405,R005,PipelineIQ Starter — Deal 0423,PipelineIQ Starter,11339.49,Prospecting,10,2024-08-12,,2024-09-16,,,1133.95
+D00424,C0479,R002,PipelineIQ Pro — Deal 0424,PipelineIQ Pro,44060.79,Qualification,25,2024-07-13,,2024-09-25,,,11015.2
+D00425,C0469,R001,PipelineIQ Starter — Deal 0425,PipelineIQ Starter,8401.86,Prospecting,10,2024-12-01,,2025-02-27,,,840.19
+D00426,C0200,R004,PipelineIQ Pro — Deal 0426,PipelineIQ Pro,21531.06,Negotiation,75,2023-07-02,,2023-08-15,,,16148.3
+D00427,C0114,R005,PipelineIQ Starter — Deal 0427,PipelineIQ Starter,14686.28,Prospecting,10,2023-08-15,,2023-11-12,,,1468.63
+D00428,C0441,R003,PipelineIQ Pro — Deal 0428,PipelineIQ Pro,33540.93,Negotiation,75,2023-04-15,,2023-05-14,,,25155.7
+D00429,C0488,R003,PipelineIQ Enterprise — Deal 0429,PipelineIQ Enterprise,71242.12,Negotiation,75,2024-01-10,,2024-01-14,,,53431.59
+D00430,C0009,R004,PipelineIQ Enterprise — Deal 0430,PipelineIQ Enterprise,147926.42,Qualification,25,2024-07-26,,2024-09-06,,,36981.61
+D00431,C0004,R003,PipelineIQ Enterprise — Deal 0431,PipelineIQ Enterprise,114088.28,Proposal,50,2023-09-25,,2023-10-24,,,57044.14
+D00432,C0475,R005,PipelineIQ Starter — Deal 0432,PipelineIQ Starter,8066.19,Proposal,50,2024-08-13,,2024-08-23,,,4033.09
+D00433,C0268,R002,PipelineIQ Starter — Deal 0433,PipelineIQ Starter,14138.8,Proposal,50,2023-02-18,,2023-03-16,,,7069.4
+D00434,C0108,R001,PipelineIQ Enterprise — Deal 0434,PipelineIQ Enterprise,116723.03,Qualification,25,2023-03-30,,2023-05-16,,,29180.76
+D00435,C0424,R004,PipelineIQ Pro — Deal 0435,PipelineIQ Pro,25765.32,Qualification,25,2023-04-21,,2023-06-02,,,6441.33
+D00436,C0454,R002,PipelineIQ Pro — Deal 0436,PipelineIQ Pro,22080.4,Qualification,25,2024-01-10,,2024-03-30,,,5520.1
+D00437,C0409,R005,PipelineIQ Starter — Deal 0437,PipelineIQ Starter,13175.39,Proposal,50,2023-04-10,,2023-05-11,,,6587.69
+D00438,C0488,R001,PipelineIQ Pro — Deal 0438,PipelineIQ Pro,30656.44,Qualification,25,2024-09-27,,2024-11-01,,,7664.11
+D00439,C0019,R001,PipelineIQ Starter — Deal 0439,PipelineIQ Starter,11971.26,Proposal,50,2023-10-18,,2023-10-30,,,5985.63
+D00440,C0303,R005,PipelineIQ Pro — Deal 0440,PipelineIQ Pro,21206.37,Qualification,25,2023-05-05,,2023-08-03,,,5301.59
+D00441,C0140,R002,PipelineIQ Enterprise — Deal 0441,PipelineIQ Enterprise,144577.54,Prospecting,10,2024-05-04,,2024-05-05,,,14457.75
+D00442,C0393,R005,PipelineIQ Pro — Deal 0442,PipelineIQ Pro,19542.16,Closed Won,100,2024-07-25,2024-11-12,,,110.0,19542.16
+D00443,C0468,R003,PipelineIQ Pro — Deal 0443,PipelineIQ Pro,29076.78,Closed Won,100,2024-07-24,2024-11-05,,,104.0,29076.78
+D00444,C0276,R005,PipelineIQ Pro — Deal 0444,PipelineIQ Pro,29562.91,Closed Lost,0,2024-06-02,2024-07-26,,Project cancelled,54.0,0.0
+D00445,C0173,R002,PipelineIQ Pro — Deal 0445,PipelineIQ Pro,24783.83,Closed Won,100,2024-05-19,2024-08-18,,,91.0,24783.83
+D00446,C0174,R003,PipelineIQ Enterprise — Deal 0446,PipelineIQ Enterprise,117457.07,Negotiation,75,2024-07-08,,2024-09-27,,,88092.8
+D00447,C0148,R003,PipelineIQ Enterprise — Deal 0447,PipelineIQ Enterprise,167664.24,Closed Lost,0,2024-12-30,2024-12-31,,Poor fit,1.0,0.0
+D00448,C0416,R005,PipelineIQ Starter — Deal 0448,PipelineIQ Starter,10020.31,Qualification,25,2023-05-02,,2023-05-13,,,2505.08
+D00449,C0022,R002,PipelineIQ Enterprise — Deal 0449,PipelineIQ Enterprise,135621.46,Qualification,25,2023-01-07,,2023-01-13,,,33905.36
+D00450,C0450,R002,PipelineIQ Starter — Deal 0450,PipelineIQ Starter,13016.21,Qualification,25,2024-08-23,,2024-11-14,,,3254.05
+D00451,C0036,R001,PipelineIQ Starter — Deal 0451,PipelineIQ Starter,5727.48,Qualification,25,2023-11-30,,2024-01-10,,,1431.87
+D00452,C0325,R001,PipelineIQ Starter — Deal 0452,PipelineIQ Starter,5055.7,Qualification,25,2024-06-18,,2024-07-15,,,1263.92
+D00453,C0146,R001,PipelineIQ Enterprise — Deal 0453,PipelineIQ Enterprise,135136.57,Negotiation,75,2023-10-18,,2023-11-26,,,101352.43
+D00454,C0074,R005,PipelineIQ Enterprise — Deal 0454,PipelineIQ Enterprise,154958.38,Qualification,25,2024-09-26,,2024-11-28,,,38739.6
+D00455,C0461,R002,PipelineIQ Pro — Deal 0455,PipelineIQ Pro,48708.33,Negotiation,75,2024-03-09,,2024-05-06,,,36531.25
+D00456,C0077,R003,PipelineIQ Enterprise — Deal 0456,PipelineIQ Enterprise,207765.53,Negotiation,75,2024-10-20,,2024-12-12,,,155824.15
+D00457,C0471,R005,PipelineIQ Enterprise — Deal 0457,PipelineIQ Enterprise,51273.08,Qualification,25,2024-12-21,,2025-01-12,,,12818.27
+D00458,C0363,R001,PipelineIQ Pro — Deal 0458,PipelineIQ Pro,25076.96,Closed Lost,0,2024-06-22,2024-07-20,,Chose competitor,28.0,0.0
+D00459,C0065,R002,PipelineIQ Enterprise — Deal 0459,PipelineIQ Enterprise,211545.83,Prospecting,10,2023-07-14,,2023-07-23,,,21154.58
+D00460,C0320,R001,PipelineIQ Starter — Deal 0460,PipelineIQ Starter,11065.79,Closed Won,100,2024-10-03,2024-11-12,,,40.0,11065.79
+D00461,C0213,R001,PipelineIQ Starter — Deal 0461,PipelineIQ Starter,5589.84,Negotiation,75,2024-06-16,,2024-07-18,,,4192.38
+D00462,C0013,R005,PipelineIQ Pro — Deal 0462,PipelineIQ Pro,32133.82,Qualification,25,2024-04-19,,2024-06-03,,,8033.45
+D00463,C0341,R005,PipelineIQ Enterprise — Deal 0463,PipelineIQ Enterprise,83011.83,Proposal,50,2024-12-24,,2025-01-05,,,41505.92
+D00464,C0165,R003,PipelineIQ Pro — Deal 0464,PipelineIQ Pro,21192.94,Prospecting,10,2024-05-06,,2024-07-05,,,2119.29
+D00465,C0195,R003,PipelineIQ Pro — Deal 0465,PipelineIQ Pro,41138.93,Qualification,25,2024-05-10,,2024-05-28,,,10284.73
+D00466,C0262,R003,PipelineIQ Starter — Deal 0466,PipelineIQ Starter,13627.38,Closed Lost,0,2023-05-26,2023-08-14,,Price too high,80.0,0.0
+D00467,C0201,R005,PipelineIQ Enterprise — Deal 0467,PipelineIQ Enterprise,198380.27,Qualification,25,2023-09-04,,2023-09-18,,,49595.07
+D00468,C0241,R004,PipelineIQ Starter — Deal 0468,PipelineIQ Starter,10493.74,Prospecting,10,2023-05-04,,2023-07-26,,,1049.37
+D00469,C0475,R002,PipelineIQ Starter — Deal 0469,PipelineIQ Starter,5633.22,Negotiation,75,2024-03-29,,2024-04-26,,,4224.91
+D00470,C0080,R001,PipelineIQ Enterprise — Deal 0470,PipelineIQ Enterprise,181079.22,Closed Lost,0,2023-11-30,2023-12-24,,Chose competitor,24.0,0.0
+D00471,C0088,R002,PipelineIQ Enterprise — Deal 0471,PipelineIQ Enterprise,241038.56,Closed Won,100,2024-02-26,2024-06-18,,,113.0,241038.56
+D00472,C0156,R005,PipelineIQ Starter — Deal 0472,PipelineIQ Starter,12328.05,Negotiation,75,2023-03-19,,2023-06-09,,,9246.04
+D00473,C0187,R002,PipelineIQ Starter — Deal 0473,PipelineIQ Starter,10531.36,Prospecting,10,2023-11-29,,2024-02-21,,,1053.14
+D00474,C0285,R005,PipelineIQ Enterprise — Deal 0474,PipelineIQ Enterprise,242830.3,Negotiation,75,2023-07-28,,2023-09-07,,,182122.72
+D00475,C0083,R004,PipelineIQ Pro — Deal 0475,PipelineIQ Pro,24337.24,Prospecting,10,2024-05-19,,2024-06-17,,,2433.72
+D00476,C0296,R005,PipelineIQ Pro — Deal 0476,PipelineIQ Pro,25144.5,Closed Lost,0,2023-12-07,2024-01-10,,No budget,34.0,0.0
+D00477,C0423,R002,PipelineIQ Pro — Deal 0477,PipelineIQ Pro,36392.45,Negotiation,75,2024-04-02,,2024-06-19,,,27294.34
+D00478,C0083,R002,PipelineIQ Enterprise — Deal 0478,PipelineIQ Enterprise,137759.2,Prospecting,10,2024-03-26,,2024-04-04,,,13775.92
+D00479,C0467,R005,PipelineIQ Starter — Deal 0479,PipelineIQ Starter,8311.1,Negotiation,75,2024-04-24,,2024-07-01,,,6233.33
+D00480,C0488,R003,PipelineIQ Pro — Deal 0480,PipelineIQ Pro,40156.76,Qualification,25,2023-05-22,,2023-08-05,,,10039.19
+D00481,C0416,R002,PipelineIQ Enterprise — Deal 0481,PipelineIQ Enterprise,239160.86,Proposal,50,2023-06-02,,2023-06-06,,,119580.43
+D00482,C0281,R003,PipelineIQ Enterprise — Deal 0482,PipelineIQ Enterprise,200549.8,Prospecting,10,2024-02-11,,2024-02-18,,,20054.98
+D00483,C0311,R003,PipelineIQ Starter — Deal 0483,PipelineIQ Starter,6732.66,Closed Won,100,2024-07-21,2024-09-22,,,63.0,6732.66
+D00484,C0179,R005,PipelineIQ Enterprise — Deal 0484,PipelineIQ Enterprise,226965.08,Proposal,50,2024-08-05,,2024-10-01,,,113482.54
+D00485,C0183,R003,PipelineIQ Enterprise — Deal 0485,PipelineIQ Enterprise,92117.15,Negotiation,75,2024-11-14,,2025-01-19,,,69087.86
+D00486,C0009,R001,PipelineIQ Starter — Deal 0486,PipelineIQ Starter,7367.96,Proposal,50,2023-02-11,,2023-03-09,,,3683.98
+D00487,C0418,R004,PipelineIQ Pro — Deal 0487,PipelineIQ Pro,49229.64,Qualification,25,2024-10-22,,2024-11-02,,,12307.41
+D00488,C0178,R001,PipelineIQ Enterprise — Deal 0488,PipelineIQ Enterprise,221037.13,Proposal,50,2024-04-16,,2024-04-25,,,110518.57
+D00489,C0399,R005,PipelineIQ Starter — Deal 0489,PipelineIQ Starter,14540.94,Closed Won,100,2023-04-06,2023-04-09,,,3.0,14540.94
+D00490,C0013,R005,PipelineIQ Starter — Deal 0490,PipelineIQ Starter,11429.12,Prospecting,10,2023-12-23,,2024-03-17,,,1142.91
+D00491,C0314,R005,PipelineIQ Starter — Deal 0491,PipelineIQ Starter,8027.91,Proposal,50,2023-07-17,,2023-07-25,,,4013.95
+D00492,C0352,R004,PipelineIQ Starter — Deal 0492,PipelineIQ Starter,14116.54,Proposal,50,2023-03-26,,2023-04-22,,,7058.27
+D00493,C0025,R001,PipelineIQ Enterprise — Deal 0493,PipelineIQ Enterprise,149973.05,Proposal,50,2023-05-29,,2023-07-19,,,74986.52
+D00494,C0444,R002,PipelineIQ Enterprise — Deal 0494,PipelineIQ Enterprise,80186.34,Prospecting,10,2023-06-11,,2023-06-27,,,8018.63
+D00495,C0072,R004,PipelineIQ Enterprise — Deal 0495,PipelineIQ Enterprise,234797.5,Closed Lost,0,2024-04-22,2024-07-28,,No decision made,97.0,0.0
+D00496,C0196,R001,PipelineIQ Starter — Deal 0496,PipelineIQ Starter,6151.66,Negotiation,75,2023-04-29,,2023-05-14,,,4613.74
+D00497,C0370,R001,PipelineIQ Pro — Deal 0497,PipelineIQ Pro,18657.69,Closed Won,100,2023-05-04,2023-07-23,,,80.0,18657.69
+D00498,C0102,R005,PipelineIQ Starter — Deal 0498,PipelineIQ Starter,9464.91,Negotiation,75,2024-03-24,,2024-04-25,,,7098.68
+D00499,C0221,R003,PipelineIQ Enterprise — Deal 0499,PipelineIQ Enterprise,199354.62,Qualification,25,2024-08-08,,2024-09-02,,,49838.65
+D00500,C0449,R002,PipelineIQ Pro — Deal 0500,PipelineIQ Pro,26805.96,Proposal,50,2024-04-11,,2024-07-04,,,13402.98
+D00501,C0091,R001,PipelineIQ Enterprise — Deal 0501,PipelineIQ Enterprise,212251.84,Negotiation,75,2023-06-03,,2023-07-10,,,159188.88
+D00502,C0321,R005,PipelineIQ Starter — Deal 0502,PipelineIQ Starter,5901.0,Prospecting,10,2024-11-30,,2025-01-20,,,590.1
+D00503,C0168,R001,PipelineIQ Enterprise — Deal 0503,PipelineIQ Enterprise,78122.24,Qualification,25,2024-08-13,,2024-11-07,,,19530.56
+D00504,C0100,R002,PipelineIQ Starter — Deal 0504,PipelineIQ Starter,6501.28,Qualification,25,2023-01-18,,2023-04-04,,,1625.32
+D00505,C0415,R003,PipelineIQ Enterprise — Deal 0505,PipelineIQ Enterprise,219374.62,Closed Lost,0,2024-01-25,2024-05-12,,Price too high,108.0,0.0
+D00506,C0306,R002,PipelineIQ Enterprise — Deal 0506,PipelineIQ Enterprise,197196.65,Prospecting,10,2024-11-13,,2025-01-25,,,19719.67
+D00507,C0118,R004,PipelineIQ Pro — Deal 0507,PipelineIQ Pro,19487.12,Negotiation,75,2023-01-18,,2023-01-31,,,14615.34
+D00508,C0168,R004,PipelineIQ Pro — Deal 0508,PipelineIQ Pro,19152.76,Qualification,25,2024-01-03,,2024-03-14,,,4788.19
+D00509,C0133,R002,PipelineIQ Enterprise — Deal 0509,PipelineIQ Enterprise,123338.12,Qualification,25,2023-08-06,,2023-08-10,,,30834.53
+D00510,C0477,R001,PipelineIQ Starter — Deal 0510,PipelineIQ Starter,13881.02,Negotiation,75,2023-05-25,,2023-07-26,,,10410.76
+D00511,C0286,R002,PipelineIQ Starter — Deal 0511,PipelineIQ Starter,9224.6,Qualification,25,2024-05-05,,2024-06-04,,,2306.15
+D00512,C0369,R005,PipelineIQ Pro — Deal 0512,PipelineIQ Pro,24727.58,Prospecting,10,2023-03-04,,2023-04-30,,,2472.76
+D00513,C0117,R005,PipelineIQ Enterprise — Deal 0513,PipelineIQ Enterprise,242798.8,Qualification,25,2023-01-23,,2023-03-17,,,60699.7
+D00514,C0134,R001,PipelineIQ Starter — Deal 0514,PipelineIQ Starter,6264.83,Qualification,25,2023-12-17,,2024-01-27,,,1566.21
+D00515,C0364,R001,PipelineIQ Starter — Deal 0515,PipelineIQ Starter,13277.68,Negotiation,75,2023-08-16,,2023-11-14,,,9958.26
+D00516,C0465,R001,PipelineIQ Pro — Deal 0516,PipelineIQ Pro,16133.4,Prospecting,10,2024-09-22,,2024-11-08,,,1613.34
+D00517,C0458,R004,PipelineIQ Pro — Deal 0517,PipelineIQ Pro,48480.62,Proposal,50,2024-01-13,,2024-03-08,,,24240.31
+D00518,C0191,R005,PipelineIQ Pro — Deal 0518,PipelineIQ Pro,36801.72,Qualification,25,2024-11-24,,2025-01-08,,,9200.43
+D00519,C0431,R002,PipelineIQ Pro — Deal 0519,PipelineIQ Pro,29880.95,Prospecting,10,2023-09-15,,2023-11-16,,,2988.1
+D00520,C0057,R004,PipelineIQ Starter — Deal 0520,PipelineIQ Starter,6368.59,Closed Won,100,2024-03-20,2024-03-21,,,1.0,6368.59
+D00521,C0107,R005,PipelineIQ Starter — Deal 0521,PipelineIQ Starter,10549.41,Negotiation,75,2023-05-06,,2023-05-11,,,7912.06
+D00522,C0052,R004,PipelineIQ Starter — Deal 0522,PipelineIQ Starter,13060.97,Negotiation,75,2024-07-21,,2024-08-20,,,9795.73
+D00523,C0217,R001,PipelineIQ Pro — Deal 0523,PipelineIQ Pro,28952.34,Negotiation,75,2024-05-15,,2024-06-05,,,21714.26
+D00524,C0230,R001,PipelineIQ Enterprise — Deal 0524,PipelineIQ Enterprise,58524.69,Prospecting,10,2024-11-17,,2025-01-03,,,5852.47
+D00525,C0238,R001,PipelineIQ Starter — Deal 0525,PipelineIQ Starter,6481.32,Prospecting,10,2023-12-17,,2023-12-25,,,648.13
+D00526,C0028,R004,PipelineIQ Starter — Deal 0526,PipelineIQ Starter,6954.86,Prospecting,10,2023-04-15,,2023-05-17,,,695.49
+D00527,C0497,R001,PipelineIQ Pro — Deal 0527,PipelineIQ Pro,39941.74,Qualification,25,2023-10-22,,2023-12-08,,,9985.43
+D00528,C0059,R002,PipelineIQ Enterprise — Deal 0528,PipelineIQ Enterprise,240777.5,Proposal,50,2024-02-15,,2024-03-09,,,120388.75
+D00529,C0273,R004,PipelineIQ Enterprise — Deal 0529,PipelineIQ Enterprise,89310.72,Prospecting,10,2023-07-06,,2023-08-20,,,8931.07
+D00530,C0255,R004,PipelineIQ Enterprise — Deal 0530,PipelineIQ Enterprise,185273.23,Qualification,25,2024-09-02,,2024-10-05,,,46318.31
+D00531,C0412,R003,PipelineIQ Starter — Deal 0531,PipelineIQ Starter,7045.62,Proposal,50,2023-07-23,,2023-10-17,,,3522.81
+D00532,C0456,R004,PipelineIQ Starter — Deal 0532,PipelineIQ Starter,11069.63,Prospecting,10,2023-09-18,,2023-11-13,,,1106.96
+D00533,C0269,R003,PipelineIQ Pro — Deal 0533,PipelineIQ Pro,30288.31,Prospecting,10,2024-08-22,,2024-08-31,,,3028.83
+D00534,C0030,R004,PipelineIQ Starter — Deal 0534,PipelineIQ Starter,13306.93,Negotiation,75,2023-01-20,,2023-01-25,,,9980.2
+D00535,C0302,R003,PipelineIQ Pro — Deal 0535,PipelineIQ Pro,29104.45,Qualification,25,2023-12-05,,2024-02-24,,,7276.11
+D00536,C0249,R001,PipelineIQ Starter — Deal 0536,PipelineIQ Starter,12550.96,Negotiation,75,2024-04-02,,2024-06-17,,,9413.22
+D00537,C0336,R001,PipelineIQ Enterprise — Deal 0537,PipelineIQ Enterprise,143471.72,Closed Won,100,2023-01-21,2023-04-27,,,96.0,143471.72
+D00538,C0388,R005,PipelineIQ Pro — Deal 0538,PipelineIQ Pro,35494.76,Proposal,50,2023-03-11,,2023-05-23,,,17747.38
+D00539,C0162,R003,PipelineIQ Enterprise — Deal 0539,PipelineIQ Enterprise,221584.06,Proposal,50,2024-08-10,,2024-08-11,,,110792.03
+D00540,C0131,R003,PipelineIQ Starter — Deal 0540,PipelineIQ Starter,11677.1,Negotiation,75,2023-06-26,,2023-07-02,,,8757.83
+D00541,C0426,R005,PipelineIQ Enterprise — Deal 0541,PipelineIQ Enterprise,171769.84,Prospecting,10,2023-11-01,,2024-01-23,,,17176.98
+D00542,C0328,R004,PipelineIQ Enterprise — Deal 0542,PipelineIQ Enterprise,214342.33,Closed Lost,0,2024-09-12,2024-11-19,,Project cancelled,68.0,0.0
+D00543,C0062,R005,PipelineIQ Starter — Deal 0543,PipelineIQ Starter,11480.27,Prospecting,10,2024-03-25,,2024-06-21,,,1148.03
+D00544,C0465,R003,PipelineIQ Pro — Deal 0544,PipelineIQ Pro,28377.74,Proposal,50,2023-04-15,,2023-06-07,,,14188.87
+D00545,C0249,R004,PipelineIQ Pro — Deal 0545,PipelineIQ Pro,48440.82,Prospecting,10,2023-10-21,,2023-10-28,,,4844.08
+D00546,C0094,R002,PipelineIQ Pro — Deal 0546,PipelineIQ Pro,34985.63,Qualification,25,2023-11-27,,2024-01-22,,,8746.41
+D00547,C0292,R005,PipelineIQ Starter — Deal 0547,PipelineIQ Starter,12369.68,Closed Lost,0,2024-09-01,2024-10-09,,Poor fit,38.0,0.0
+D00548,C0085,R001,PipelineIQ Starter — Deal 0548,PipelineIQ Starter,14956.71,Qualification,25,2023-03-10,,2023-04-13,,,3739.18
+D00549,C0027,R002,PipelineIQ Pro — Deal 0549,PipelineIQ Pro,44684.25,Closed Lost,0,2023-01-27,2023-02-24,,Project cancelled,28.0,0.0
+D00550,C0211,R002,PipelineIQ Enterprise — Deal 0550,PipelineIQ Enterprise,142148.36,Closed Won,100,2023-04-19,2023-05-01,,,12.0,142148.36
+D00551,C0322,R001,PipelineIQ Starter — Deal 0551,PipelineIQ Starter,13410.27,Negotiation,75,2024-10-07,,2024-12-31,,,10057.7
+D00552,C0351,R005,PipelineIQ Pro — Deal 0552,PipelineIQ Pro,18327.73,Closed Lost,0,2023-03-27,2023-04-27,,No budget,31.0,0.0
+D00553,C0230,R005,PipelineIQ Enterprise — Deal 0553,PipelineIQ Enterprise,200185.13,Proposal,50,2024-05-31,,2024-08-14,,,100092.57
+D00554,C0258,R004,PipelineIQ Starter — Deal 0554,PipelineIQ Starter,13974.47,Prospecting,10,2023-01-23,,2023-04-02,,,1397.45
+D00555,C0497,R005,PipelineIQ Enterprise — Deal 0555,PipelineIQ Enterprise,167529.48,Qualification,25,2023-02-01,,2023-02-11,,,41882.37
+D00556,C0083,R003,PipelineIQ Enterprise — Deal 0556,PipelineIQ Enterprise,235615.15,Closed Won,100,2024-07-01,2024-07-19,,,18.0,235615.15
+D00557,C0378,R003,PipelineIQ Starter — Deal 0557,PipelineIQ Starter,9512.91,Closed Won,100,2024-06-18,2024-08-23,,,66.0,9512.91
+D00558,C0478,R005,PipelineIQ Starter — Deal 0558,PipelineIQ Starter,10710.88,Qualification,25,2024-01-18,,2024-03-15,,,2677.72
+D00559,C0024,R001,PipelineIQ Starter — Deal 0559,PipelineIQ Starter,10391.0,Prospecting,10,2023-09-23,,2023-12-02,,,1039.1
+D00560,C0195,R001,PipelineIQ Pro — Deal 0560,PipelineIQ Pro,31600.77,Proposal,50,2023-07-04,,2023-07-29,,,15800.39
+D00561,C0044,R001,PipelineIQ Enterprise — Deal 0561,PipelineIQ Enterprise,67025.61,Proposal,50,2024-10-25,,2025-01-19,,,33512.81
+D00562,C0308,R005,PipelineIQ Starter — Deal 0562,PipelineIQ Starter,10108.98,Proposal,50,2023-10-04,,2023-10-26,,,5054.49
+D00563,C0386,R002,PipelineIQ Enterprise — Deal 0563,PipelineIQ Enterprise,134694.9,Closed Won,100,2024-04-19,2024-07-21,,,93.0,134694.9
+D00564,C0137,R004,PipelineIQ Pro — Deal 0564,PipelineIQ Pro,35250.86,Closed Lost,0,2024-11-11,2024-12-31,,Price too high,50.0,0.0
+D00565,C0405,R001,PipelineIQ Starter — Deal 0565,PipelineIQ Starter,10888.42,Qualification,25,2023-09-22,,2023-10-04,,,2722.11
+D00566,C0329,R001,PipelineIQ Enterprise — Deal 0566,PipelineIQ Enterprise,134704.56,Qualification,25,2024-05-21,,2024-07-31,,,33676.14
+D00567,C0171,R005,PipelineIQ Starter — Deal 0567,PipelineIQ Starter,6770.29,Qualification,25,2024-07-25,,2024-08-23,,,1692.57
+D00568,C0344,R004,PipelineIQ Enterprise — Deal 0568,PipelineIQ Enterprise,125477.37,Prospecting,10,2024-08-17,,2024-11-10,,,12547.74
+D00569,C0360,R001,PipelineIQ Enterprise — Deal 0569,PipelineIQ Enterprise,129631.64,Qualification,25,2024-09-11,,2024-11-04,,,32407.91
+D00570,C0369,R004,PipelineIQ Enterprise — Deal 0570,PipelineIQ Enterprise,106608.0,Proposal,50,2024-07-13,,2024-08-14,,,53304.0
+D00571,C0160,R003,PipelineIQ Pro — Deal 0571,PipelineIQ Pro,47744.48,Qualification,25,2024-04-08,,2024-06-13,,,11936.12
+D00572,C0198,R005,PipelineIQ Starter — Deal 0572,PipelineIQ Starter,5647.6,Prospecting,10,2023-12-13,,2023-12-27,,,564.76
+D00573,C0209,R005,PipelineIQ Starter — Deal 0573,PipelineIQ Starter,6598.07,Closed Lost,0,2023-09-06,2023-12-21,,No decision made,106.0,0.0
+D00574,C0137,R005,PipelineIQ Pro — Deal 0574,PipelineIQ Pro,33991.69,Prospecting,10,2024-08-10,,2024-09-08,,,3399.17
+D00575,C0451,R002,PipelineIQ Enterprise — Deal 0575,PipelineIQ Enterprise,130026.11,Negotiation,75,2024-09-20,,2024-09-26,,,97519.58
+D00576,C0228,R004,PipelineIQ Pro — Deal 0576,PipelineIQ Pro,19811.08,Qualification,25,2023-06-04,,2023-08-11,,,4952.77
+D00577,C0154,R005,PipelineIQ Enterprise — Deal 0577,PipelineIQ Enterprise,165150.05,Qualification,25,2023-03-06,,2023-03-18,,,41287.51
+D00578,C0339,R005,PipelineIQ Starter — Deal 0578,PipelineIQ Starter,7144.52,Closed Won,100,2023-09-12,2023-10-28,,,46.0,7144.52
+D00579,C0120,R002,PipelineIQ Enterprise — Deal 0579,PipelineIQ Enterprise,178019.4,Prospecting,10,2024-02-22,,2024-03-07,,,17801.94
+D00580,C0128,R001,PipelineIQ Starter — Deal 0580,PipelineIQ Starter,9751.1,Qualification,25,2023-12-16,,2024-01-09,,,2437.78
+D00581,C0171,R005,PipelineIQ Starter — Deal 0581,PipelineIQ Starter,14183.51,Qualification,25,2023-04-07,,2023-05-29,,,3545.88
+D00582,C0075,R003,PipelineIQ Enterprise — Deal 0582,PipelineIQ Enterprise,54386.17,Prospecting,10,2023-11-06,,2024-01-09,,,5438.62
+D00583,C0447,R003,PipelineIQ Pro — Deal 0583,PipelineIQ Pro,19359.93,Prospecting,10,2024-10-27,,2024-11-01,,,1935.99
+D00584,C0433,R005,PipelineIQ Starter — Deal 0584,PipelineIQ Starter,11970.15,Qualification,25,2024-03-02,,2024-04-23,,,2992.54
+D00585,C0359,R001,PipelineIQ Starter — Deal 0585,PipelineIQ Starter,9700.46,Negotiation,75,2024-06-12,,2024-06-29,,,7275.34
+D00586,C0280,R005,PipelineIQ Pro — Deal 0586,PipelineIQ Pro,35809.15,Proposal,50,2024-10-07,,2024-10-13,,,17904.58
+D00587,C0075,R004,PipelineIQ Enterprise — Deal 0587,PipelineIQ Enterprise,241285.22,Negotiation,75,2024-04-17,,2024-06-27,,,180963.92
+D00588,C0404,R004,PipelineIQ Starter — Deal 0588,PipelineIQ Starter,7714.99,Qualification,25,2024-06-13,,2024-06-27,,,1928.75
+D00589,C0485,R004,PipelineIQ Starter — Deal 0589,PipelineIQ Starter,13397.35,Proposal,50,2024-10-03,,2024-11-21,,,6698.68
+D00590,C0358,R005,PipelineIQ Pro — Deal 0590,PipelineIQ Pro,34107.03,Proposal,50,2024-09-24,,2024-10-26,,,17053.51
+D00591,C0196,R004,PipelineIQ Enterprise — Deal 0591,PipelineIQ Enterprise,129165.51,Proposal,50,2023-11-16,,2024-01-20,,,64582.75
+D00592,C0302,R001,PipelineIQ Enterprise — Deal 0592,PipelineIQ Enterprise,112470.06,Closed Won,100,2023-12-02,2024-01-15,,,44.0,112470.06
+D00593,C0315,R001,PipelineIQ Pro — Deal 0593,PipelineIQ Pro,49261.37,Closed Won,100,2023-04-24,2023-05-10,,,16.0,49261.37
+D00594,C0185,R001,PipelineIQ Starter — Deal 0594,PipelineIQ Starter,12223.82,Negotiation,75,2024-12-04,,2025-02-04,,,9167.86
+D00595,C0037,R001,PipelineIQ Starter — Deal 0595,PipelineIQ Starter,11969.91,Qualification,25,2023-12-26,,2024-01-10,,,2992.48
+D00596,C0276,R001,PipelineIQ Pro — Deal 0596,PipelineIQ Pro,17751.22,Negotiation,75,2023-08-21,,2023-11-06,,,13313.42
+D00597,C0500,R003,PipelineIQ Enterprise — Deal 0597,PipelineIQ Enterprise,211500.78,Qualification,25,2023-09-12,,2023-11-04,,,52875.19
+D00598,C0191,R005,PipelineIQ Enterprise — Deal 0598,PipelineIQ Enterprise,179523.7,Prospecting,10,2023-09-24,,2023-11-05,,,17952.37
+D00599,C0336,R001,PipelineIQ Enterprise — Deal 0599,PipelineIQ Enterprise,61162.27,Proposal,50,2023-01-26,,2023-04-13,,,30581.13
+D00600,C0129,R003,PipelineIQ Enterprise — Deal 0600,PipelineIQ Enterprise,164479.97,Closed Won,100,2024-06-27,2024-09-10,,,75.0,164479.97
+D00601,C0403,R004,PipelineIQ Starter — Deal 0601,PipelineIQ Starter,5469.58,Closed Lost,0,2024-11-29,2024-12-31,,No budget,32.0,0.0
+D00602,C0026,R004,PipelineIQ Enterprise — Deal 0602,PipelineIQ Enterprise,222312.85,Proposal,50,2024-05-24,,2024-07-16,,,111156.43
+D00603,C0217,R001,PipelineIQ Pro — Deal 0603,PipelineIQ Pro,42621.23,Qualification,25,2023-11-15,,2023-12-26,,,10655.31
+D00604,C0231,R005,PipelineIQ Pro — Deal 0604,PipelineIQ Pro,32151.03,Qualification,25,2023-01-30,,2023-04-14,,,8037.76
+D00605,C0015,R002,PipelineIQ Pro — Deal 0605,PipelineIQ Pro,41880.19,Closed Lost,0,2024-06-02,2024-09-14,,Poor fit,104.0,0.0
+D00606,C0208,R003,PipelineIQ Pro — Deal 0606,PipelineIQ Pro,19579.95,Closed Won,100,2023-09-22,2024-01-03,,,103.0,19579.95
+D00607,C0359,R002,PipelineIQ Pro — Deal 0607,PipelineIQ Pro,42414.77,Closed Won,100,2024-03-04,2024-04-17,,,44.0,42414.77
+D00608,C0178,R003,PipelineIQ Pro — Deal 0608,PipelineIQ Pro,16896.73,Qualification,25,2024-09-10,,2024-11-27,,,4224.18
+D00609,C0061,R004,PipelineIQ Starter — Deal 0609,PipelineIQ Starter,14253.52,Prospecting,10,2023-06-14,,2023-07-08,,,1425.35
+D00610,C0356,R004,PipelineIQ Starter — Deal 0610,PipelineIQ Starter,6521.56,Prospecting,10,2024-03-14,,2024-05-15,,,652.16
+D00611,C0200,R003,PipelineIQ Enterprise — Deal 0611,PipelineIQ Enterprise,144789.69,Qualification,25,2024-09-19,,2024-09-28,,,36197.42
+D00612,C0467,R001,PipelineIQ Starter — Deal 0612,PipelineIQ Starter,6036.56,Prospecting,10,2023-04-05,,2023-05-23,,,603.66
+D00613,C0031,R005,PipelineIQ Enterprise — Deal 0613,PipelineIQ Enterprise,213057.1,Qualification,25,2024-10-16,,2024-12-05,,,53264.28
+D00614,C0265,R001,PipelineIQ Starter — Deal 0614,PipelineIQ Starter,12604.93,Closed Lost,0,2023-04-21,2023-06-21,,Poor fit,61.0,0.0
+D00615,C0448,R005,PipelineIQ Pro — Deal 0615,PipelineIQ Pro,31842.01,Proposal,50,2023-05-11,,2023-06-06,,,15921.0
+D00616,C0477,R003,PipelineIQ Starter — Deal 0616,PipelineIQ Starter,6728.89,Proposal,50,2024-03-30,,2024-04-01,,,3364.45
+D00617,C0327,R004,PipelineIQ Pro — Deal 0617,PipelineIQ Pro,30614.04,Closed Lost,0,2023-09-27,2024-01-15,,Chose competitor,110.0,0.0
+D00618,C0271,R002,PipelineIQ Pro — Deal 0618,PipelineIQ Pro,17664.89,Negotiation,75,2023-02-24,,2023-03-23,,,13248.67
+D00619,C0221,R004,PipelineIQ Pro — Deal 0619,PipelineIQ Pro,23008.26,Negotiation,75,2023-12-17,,2024-01-16,,,17256.19
+D00620,C0284,R005,PipelineIQ Pro — Deal 0620,PipelineIQ Pro,39375.2,Negotiation,75,2023-02-19,,2023-04-20,,,29531.4
+D00621,C0090,R003,PipelineIQ Pro — Deal 0621,PipelineIQ Pro,49079.6,Proposal,50,2023-09-29,,2023-12-04,,,24539.8
+D00622,C0450,R002,PipelineIQ Pro — Deal 0622,PipelineIQ Pro,19477.08,Negotiation,75,2024-05-30,,2024-07-11,,,14607.81
+D00623,C0347,R003,PipelineIQ Pro — Deal 0623,PipelineIQ Pro,27671.02,Negotiation,75,2023-02-18,,2023-02-23,,,20753.26
+D00624,C0174,R003,PipelineIQ Pro — Deal 0624,PipelineIQ Pro,23906.26,Negotiation,75,2024-10-29,,2024-12-28,,,17929.69
+D00625,C0484,R001,PipelineIQ Enterprise — Deal 0625,PipelineIQ Enterprise,79128.4,Prospecting,10,2023-04-25,,2023-05-13,,,7912.84
+D00626,C0315,R004,PipelineIQ Starter — Deal 0626,PipelineIQ Starter,6541.64,Negotiation,75,2023-10-20,,2023-12-28,,,4906.23
+D00627,C0225,R005,PipelineIQ Enterprise — Deal 0627,PipelineIQ Enterprise,196194.44,Proposal,50,2023-03-28,,2023-05-25,,,98097.22
+D00628,C0348,R003,PipelineIQ Pro — Deal 0628,PipelineIQ Pro,41745.5,Qualification,25,2024-10-22,,2025-01-13,,,10436.38
+D00629,C0195,R002,PipelineIQ Enterprise — Deal 0629,PipelineIQ Enterprise,83271.53,Prospecting,10,2024-07-22,,2024-09-29,,,8327.15
+D00630,C0336,R004,PipelineIQ Enterprise — Deal 0630,PipelineIQ Enterprise,83943.19,Prospecting,10,2023-12-29,,2023-12-31,,,8394.32
+D00631,C0424,R005,PipelineIQ Enterprise — Deal 0631,PipelineIQ Enterprise,62155.64,Closed Won,100,2024-02-01,2024-03-04,,,32.0,62155.64
+D00632,C0312,R002,PipelineIQ Starter — Deal 0632,PipelineIQ Starter,7549.3,Negotiation,75,2023-02-03,,2023-03-25,,,5661.98
+D00633,C0458,R002,PipelineIQ Starter — Deal 0633,PipelineIQ Starter,8250.0,Proposal,50,2023-10-01,,2023-12-20,,,4125.0
+D00634,C0440,R003,PipelineIQ Starter — Deal 0634,PipelineIQ Starter,8310.24,Qualification,25,2023-01-13,,2023-01-18,,,2077.56
+D00635,C0226,R005,PipelineIQ Enterprise — Deal 0635,PipelineIQ Enterprise,207567.85,Negotiation,75,2023-03-12,,2023-05-02,,,155675.89
+D00636,C0089,R001,PipelineIQ Pro — Deal 0636,PipelineIQ Pro,32680.48,Proposal,50,2024-03-11,,2024-04-25,,,16340.24
+D00637,C0219,R003,PipelineIQ Pro — Deal 0637,PipelineIQ Pro,23893.59,Closed Won,100,2023-09-25,2023-10-29,,,34.0,23893.59
+D00638,C0034,R005,PipelineIQ Starter — Deal 0638,PipelineIQ Starter,13258.52,Qualification,25,2024-01-06,,2024-04-04,,,3314.63
+D00639,C0329,R005,PipelineIQ Pro — Deal 0639,PipelineIQ Pro,36096.86,Qualification,25,2023-04-20,,2023-04-22,,,9024.22
+D00640,C0306,R003,PipelineIQ Enterprise — Deal 0640,PipelineIQ Enterprise,180182.19,Closed Won,100,2023-09-04,2023-11-26,,,83.0,180182.19
+D00641,C0131,R005,PipelineIQ Starter — Deal 0641,PipelineIQ Starter,6470.84,Proposal,50,2024-06-08,,2024-09-01,,,3235.42
+D00642,C0301,R005,PipelineIQ Enterprise — Deal 0642,PipelineIQ Enterprise,197068.23,Closed Won,100,2024-08-16,2024-10-10,,,55.0,197068.23
+D00643,C0162,R005,PipelineIQ Enterprise — Deal 0643,PipelineIQ Enterprise,152898.49,Prospecting,10,2023-03-04,,2023-04-13,,,15289.85
+D00644,C0430,R004,PipelineIQ Pro — Deal 0644,PipelineIQ Pro,35257.13,Prospecting,10,2023-04-18,,2023-05-24,,,3525.71
+D00645,C0442,R002,PipelineIQ Pro — Deal 0645,PipelineIQ Pro,38835.83,Qualification,25,2023-02-07,,2023-02-19,,,9708.96
+D00646,C0090,R004,PipelineIQ Enterprise — Deal 0646,PipelineIQ Enterprise,247299.14,Proposal,50,2024-12-28,,2025-01-30,,,123649.57
+D00647,C0304,R005,PipelineIQ Pro — Deal 0647,PipelineIQ Pro,19627.04,Qualification,25,2024-10-26,,2024-11-24,,,4906.76
+D00648,C0500,R005,PipelineIQ Pro — Deal 0648,PipelineIQ Pro,20695.69,Qualification,25,2023-04-16,,2023-05-06,,,5173.92
+D00649,C0472,R004,PipelineIQ Starter — Deal 0649,PipelineIQ Starter,14853.31,Negotiation,75,2023-01-31,,2023-03-23,,,11139.98
+D00650,C0474,R002,PipelineIQ Starter — Deal 0650,PipelineIQ Starter,14437.01,Proposal,50,2024-06-13,,2024-08-18,,,7218.51
+D00651,C0063,R002,PipelineIQ Starter — Deal 0651,PipelineIQ Starter,12116.91,Proposal,50,2023-06-21,,2023-07-10,,,6058.45
+D00652,C0009,R002,PipelineIQ Starter — Deal 0652,PipelineIQ Starter,13162.14,Prospecting,10,2023-06-29,,2023-06-30,,,1316.21
+D00653,C0024,R004,PipelineIQ Starter — Deal 0653,PipelineIQ Starter,11916.65,Qualification,25,2024-01-24,,2024-02-08,,,2979.16
+D00654,C0367,R005,PipelineIQ Starter — Deal 0654,PipelineIQ Starter,10079.23,Proposal,50,2024-11-23,,2025-01-24,,,5039.61
+D00655,C0197,R003,PipelineIQ Pro — Deal 0655,PipelineIQ Pro,19259.59,Proposal,50,2023-07-13,,2023-08-30,,,9629.8
+D00656,C0476,R002,PipelineIQ Starter — Deal 0656,PipelineIQ Starter,7887.64,Closed Won,100,2024-07-20,2024-08-27,,,38.0,7887.64
+D00657,C0387,R001,PipelineIQ Pro — Deal 0657,PipelineIQ Pro,37745.65,Proposal,50,2024-08-26,,2024-10-31,,,18872.83
+D00658,C0100,R005,PipelineIQ Starter — Deal 0658,PipelineIQ Starter,12861.69,Qualification,25,2024-10-18,,2024-11-05,,,3215.42
+D00659,C0347,R005,PipelineIQ Pro — Deal 0659,PipelineIQ Pro,25826.55,Closed Won,100,2023-11-20,2024-03-06,,,107.0,25826.55
+D00660,C0469,R001,PipelineIQ Starter — Deal 0660,PipelineIQ Starter,5348.69,Prospecting,10,2024-04-13,,2024-06-04,,,534.87
+D00661,C0302,R003,PipelineIQ Starter — Deal 0661,PipelineIQ Starter,5035.08,Closed Won,100,2023-12-04,2024-03-09,,,96.0,5035.08
+D00662,C0224,R001,PipelineIQ Pro — Deal 0662,PipelineIQ Pro,30313.72,Prospecting,10,2024-12-06,,2024-12-12,,,3031.37
+D00663,C0038,R004,PipelineIQ Pro — Deal 0663,PipelineIQ Pro,49035.54,Negotiation,75,2023-10-03,,2023-10-15,,,36776.65
+D00664,C0363,R003,PipelineIQ Starter — Deal 0664,PipelineIQ Starter,14049.87,Qualification,25,2023-11-03,,2023-11-15,,,3512.47
+D00665,C0414,R002,PipelineIQ Starter — Deal 0665,PipelineIQ Starter,12040.8,Closed Won,100,2023-10-16,2023-10-17,,,1.0,12040.8
+D00666,C0396,R005,PipelineIQ Pro — Deal 0666,PipelineIQ Pro,33957.88,Prospecting,10,2024-08-28,,2024-10-02,,,3395.79
+D00667,C0390,R001,PipelineIQ Enterprise — Deal 0667,PipelineIQ Enterprise,143886.76,Proposal,50,2024-01-12,,2024-03-24,,,71943.38
+D00668,C0194,R003,PipelineIQ Starter — Deal 0668,PipelineIQ Starter,9298.97,Proposal,50,2024-07-21,,2024-08-09,,,4649.48
+D00669,C0311,R004,PipelineIQ Enterprise — Deal 0669,PipelineIQ Enterprise,195123.12,Proposal,50,2023-06-13,,2023-08-02,,,97561.56
+D00670,C0285,R005,PipelineIQ Pro — Deal 0670,PipelineIQ Pro,42471.91,Proposal,50,2024-03-19,,2024-05-30,,,21235.96
+D00671,C0339,R004,PipelineIQ Enterprise — Deal 0671,PipelineIQ Enterprise,229541.22,Proposal,50,2024-06-25,,2024-09-21,,,114770.61
+D00672,C0412,R003,PipelineIQ Enterprise — Deal 0672,PipelineIQ Enterprise,147059.01,Proposal,50,2023-02-01,,2023-03-21,,,73529.51
+D00673,C0460,R001,PipelineIQ Enterprise — Deal 0673,PipelineIQ Enterprise,135750.86,Qualification,25,2024-08-06,,2024-10-04,,,33937.71
+D00674,C0068,R002,PipelineIQ Pro — Deal 0674,PipelineIQ Pro,15818.08,Proposal,50,2023-01-23,,2023-02-04,,,7909.04
+D00675,C0268,R003,PipelineIQ Pro — Deal 0675,PipelineIQ Pro,45841.28,Negotiation,75,2024-04-10,,2024-06-30,,,34380.96
+D00676,C0041,R004,PipelineIQ Enterprise — Deal 0676,PipelineIQ Enterprise,161813.56,Closed Won,100,2023-01-16,2023-02-24,,,39.0,161813.56
+D00677,C0482,R005,PipelineIQ Enterprise — Deal 0677,PipelineIQ Enterprise,220956.12,Negotiation,75,2024-01-13,,2024-01-31,,,165717.09
+D00678,C0236,R005,PipelineIQ Starter — Deal 0678,PipelineIQ Starter,12839.65,Qualification,25,2023-11-18,,2023-12-04,,,3209.91
+D00679,C0198,R002,PipelineIQ Pro — Deal 0679,PipelineIQ Pro,30992.14,Negotiation,75,2024-05-14,,2024-06-21,,,23244.1
+D00680,C0283,R005,PipelineIQ Enterprise — Deal 0680,PipelineIQ Enterprise,86975.64,Prospecting,10,2024-11-20,,2025-02-11,,,8697.56
+D00681,C0224,R005,PipelineIQ Starter — Deal 0681,PipelineIQ Starter,7803.31,Proposal,50,2024-02-17,,2024-03-06,,,3901.66
+D00682,C0301,R004,PipelineIQ Pro — Deal 0682,PipelineIQ Pro,21195.92,Prospecting,10,2023-12-09,,2024-02-13,,,2119.59
+D00683,C0470,R003,PipelineIQ Starter — Deal 0683,PipelineIQ Starter,9492.79,Closed Won,100,2024-01-11,2024-02-15,,,35.0,9492.79
+D00684,C0427,R003,PipelineIQ Starter — Deal 0684,PipelineIQ Starter,6052.36,Proposal,50,2024-01-17,,2024-03-20,,,3026.18
+D00685,C0073,R002,PipelineIQ Starter — Deal 0685,PipelineIQ Starter,8189.6,Negotiation,75,2023-01-03,,2023-03-18,,,6142.2
+D00686,C0010,R001,PipelineIQ Starter — Deal 0686,PipelineIQ Starter,13445.64,Qualification,25,2024-12-28,,2025-03-12,,,3361.41
+D00687,C0210,R002,PipelineIQ Enterprise — Deal 0687,PipelineIQ Enterprise,59956.21,Proposal,50,2024-12-22,,2025-02-04,,,29978.1
+D00688,C0434,R002,PipelineIQ Pro — Deal 0688,PipelineIQ Pro,48272.37,Proposal,50,2023-05-20,,2023-06-25,,,24136.19
+D00689,C0455,R005,PipelineIQ Pro — Deal 0689,PipelineIQ Pro,49715.78,Proposal,50,2024-09-17,,2024-10-29,,,24857.89
+D00690,C0267,R001,PipelineIQ Enterprise — Deal 0690,PipelineIQ Enterprise,227095.76,Qualification,25,2023-04-02,,2023-06-04,,,56773.94
+D00691,C0135,R002,PipelineIQ Enterprise — Deal 0691,PipelineIQ Enterprise,239063.97,Closed Won,100,2023-06-14,2023-09-11,,,89.0,239063.97
+D00692,C0483,R004,PipelineIQ Enterprise — Deal 0692,PipelineIQ Enterprise,140524.79,Prospecting,10,2023-03-16,,2023-05-05,,,14052.48
+D00693,C0034,R003,PipelineIQ Enterprise — Deal 0693,PipelineIQ Enterprise,234839.2,Negotiation,75,2023-01-07,,2023-03-10,,,176129.4
+D00694,C0191,R001,PipelineIQ Starter — Deal 0694,PipelineIQ Starter,12863.01,Closed Lost,0,2023-04-04,2023-04-19,,Poor fit,15.0,0.0
+D00695,C0162,R001,PipelineIQ Starter — Deal 0695,PipelineIQ Starter,11104.18,Closed Won,100,2024-11-03,2024-11-15,,,12.0,11104.18
+D00696,C0485,R001,PipelineIQ Starter — Deal 0696,PipelineIQ Starter,9274.04,Negotiation,75,2024-01-07,,2024-02-06,,,6955.53
+D00697,C0237,R002,PipelineIQ Pro — Deal 0697,PipelineIQ Pro,16863.4,Proposal,50,2023-02-14,,2023-02-19,,,8431.7
+D00698,C0132,R001,PipelineIQ Starter — Deal 0698,PipelineIQ Starter,13096.62,Proposal,50,2023-01-05,,2023-03-08,,,6548.31
+D00699,C0288,R005,PipelineIQ Enterprise — Deal 0699,PipelineIQ Enterprise,215995.42,Negotiation,75,2024-08-10,,2024-09-19,,,161996.57
+D00700,C0240,R002,PipelineIQ Enterprise — Deal 0700,PipelineIQ Enterprise,115445.76,Qualification,25,2024-08-04,,2024-10-10,,,28861.44
+D00701,C0305,R004,PipelineIQ Pro — Deal 0701,PipelineIQ Pro,35758.43,Proposal,50,2023-12-19,,2024-01-05,,,17879.22
+D00702,C0492,R001,PipelineIQ Pro — Deal 0702,PipelineIQ Pro,24766.0,Proposal,50,2024-02-28,,2024-03-11,,,12383.0
+D00703,C0413,R002,PipelineIQ Enterprise — Deal 0703,PipelineIQ Enterprise,208606.31,Proposal,50,2024-04-30,,2024-05-26,,,104303.15
+D00704,C0171,R001,PipelineIQ Pro — Deal 0704,PipelineIQ Pro,43382.79,Prospecting,10,2023-02-06,,2023-03-12,,,4338.28
+D00705,C0351,R005,PipelineIQ Starter — Deal 0705,PipelineIQ Starter,6537.29,Negotiation,75,2024-02-17,,2024-03-17,,,4902.97
+D00706,C0132,R002,PipelineIQ Starter — Deal 0706,PipelineIQ Starter,5687.21,Closed Won,100,2024-01-04,2024-03-01,,,57.0,5687.21
+D00707,C0272,R003,PipelineIQ Enterprise — Deal 0707,PipelineIQ Enterprise,202788.18,Closed Won,100,2023-06-05,2023-07-29,,,54.0,202788.18
+D00708,C0382,R005,PipelineIQ Starter — Deal 0708,PipelineIQ Starter,9056.32,Qualification,25,2024-03-21,,2024-03-26,,,2264.08
+D00709,C0477,R002,PipelineIQ Pro — Deal 0709,PipelineIQ Pro,30673.16,Proposal,50,2023-09-15,,2023-10-24,,,15336.58
+D00710,C0196,R002,PipelineIQ Enterprise — Deal 0710,PipelineIQ Enterprise,150675.96,Proposal,50,2023-11-22,,2023-12-22,,,75337.98
+D00711,C0170,R002,PipelineIQ Enterprise — Deal 0711,PipelineIQ Enterprise,243809.44,Qualification,25,2024-07-07,,2024-07-14,,,60952.36
+D00712,C0202,R003,PipelineIQ Pro — Deal 0712,PipelineIQ Pro,16857.55,Closed Won,100,2024-12-22,2024-12-29,,,7.0,16857.55
+D00713,C0082,R001,PipelineIQ Pro — Deal 0713,PipelineIQ Pro,30714.5,Qualification,25,2024-01-08,,2024-02-28,,,7678.62
+D00714,C0277,R001,PipelineIQ Starter — Deal 0714,PipelineIQ Starter,10645.71,Negotiation,75,2024-08-31,,2024-09-05,,,7984.28
+D00715,C0359,R001,PipelineIQ Pro — Deal 0715,PipelineIQ Pro,46580.97,Qualification,25,2024-05-20,,2024-08-09,,,11645.24
+D00716,C0052,R005,PipelineIQ Pro — Deal 0716,PipelineIQ Pro,40571.7,Negotiation,75,2023-04-15,,2023-05-15,,,30428.77
+D00717,C0308,R005,PipelineIQ Starter — Deal 0717,PipelineIQ Starter,14967.81,Proposal,50,2024-02-02,,2024-02-15,,,7483.9
+D00718,C0350,R003,PipelineIQ Enterprise — Deal 0718,PipelineIQ Enterprise,53819.32,Qualification,25,2024-12-22,,2025-02-17,,,13454.83
+D00719,C0208,R002,PipelineIQ Pro — Deal 0719,PipelineIQ Pro,16889.42,Negotiation,75,2024-10-11,,2024-10-15,,,12667.06
+D00720,C0482,R003,PipelineIQ Enterprise — Deal 0720,PipelineIQ Enterprise,174196.5,Closed Won,100,2023-10-02,2023-12-31,,,90.0,174196.5
+D00721,C0225,R001,PipelineIQ Starter — Deal 0721,PipelineIQ Starter,11825.88,Closed Lost,0,2024-11-13,2024-12-01,,Chose competitor,18.0,0.0
+D00722,C0081,R003,PipelineIQ Pro — Deal 0722,PipelineIQ Pro,42472.68,Closed Won,100,2023-03-02,2023-03-04,,,2.0,42472.68
+D00723,C0057,R001,PipelineIQ Pro — Deal 0723,PipelineIQ Pro,41584.13,Negotiation,75,2023-03-22,,2023-05-02,,,31188.1
+D00724,C0352,R002,PipelineIQ Pro — Deal 0724,PipelineIQ Pro,22510.96,Negotiation,75,2023-12-22,,2024-03-15,,,16883.22
+D00725,C0225,R005,PipelineIQ Enterprise — Deal 0725,PipelineIQ Enterprise,167640.11,Qualification,25,2023-12-14,,2023-12-19,,,41910.03
+D00726,C0098,R001,PipelineIQ Pro — Deal 0726,PipelineIQ Pro,16533.91,Closed Won,100,2024-03-29,2024-06-28,,,91.0,16533.91
+D00727,C0346,R003,PipelineIQ Starter — Deal 0727,PipelineIQ Starter,9636.96,Proposal,50,2024-12-26,,2025-03-12,,,4818.48
+D00728,C0202,R001,PipelineIQ Pro — Deal 0728,PipelineIQ Pro,37536.97,Closed Won,100,2023-02-19,2023-02-21,,,2.0,37536.97
+D00729,C0354,R003,PipelineIQ Pro — Deal 0729,PipelineIQ Pro,48508.74,Proposal,50,2023-01-13,,2023-02-09,,,24254.37
+D00730,C0220,R002,PipelineIQ Enterprise — Deal 0730,PipelineIQ Enterprise,73703.5,Qualification,25,2023-02-02,,2023-03-02,,,18425.88
+D00731,C0278,R003,PipelineIQ Starter — Deal 0731,PipelineIQ Starter,10064.82,Negotiation,75,2023-03-07,,2023-03-17,,,7548.61
+D00732,C0451,R002,PipelineIQ Pro — Deal 0732,PipelineIQ Pro,36940.13,Closed Won,100,2024-10-31,2024-12-14,,,44.0,36940.13
+D00733,C0390,R005,PipelineIQ Enterprise — Deal 0733,PipelineIQ Enterprise,173319.89,Prospecting,10,2024-01-03,,2024-02-17,,,17331.99
+D00734,C0186,R003,PipelineIQ Starter — Deal 0734,PipelineIQ Starter,14093.03,Negotiation,75,2023-05-31,,2023-06-06,,,10569.77
+D00735,C0007,R004,PipelineIQ Pro — Deal 0735,PipelineIQ Pro,17473.16,Prospecting,10,2024-08-06,,2024-10-19,,,1747.32
+D00736,C0280,R005,PipelineIQ Enterprise — Deal 0736,PipelineIQ Enterprise,53844.32,Proposal,50,2023-03-02,,2023-03-12,,,26922.16
+D00737,C0246,R001,PipelineIQ Pro — Deal 0737,PipelineIQ Pro,40099.51,Proposal,50,2024-12-13,,2025-01-13,,,20049.76
+D00738,C0292,R002,PipelineIQ Enterprise — Deal 0738,PipelineIQ Enterprise,103411.18,Negotiation,75,2024-11-09,,2024-12-04,,,77558.38
+D00739,C0002,R003,PipelineIQ Pro — Deal 0739,PipelineIQ Pro,25736.49,Negotiation,75,2023-08-19,,2023-08-22,,,19302.37
+D00740,C0005,R002,PipelineIQ Pro — Deal 0740,PipelineIQ Pro,32177.18,Qualification,25,2023-12-09,,2024-01-20,,,8044.3
+D00741,C0109,R001,PipelineIQ Starter — Deal 0741,PipelineIQ Starter,6606.8,Qualification,25,2023-03-16,,2023-05-19,,,1651.7
+D00742,C0055,R004,PipelineIQ Pro — Deal 0742,PipelineIQ Pro,25958.63,Prospecting,10,2023-07-08,,2023-08-14,,,2595.86
+D00743,C0339,R001,PipelineIQ Pro — Deal 0743,PipelineIQ Pro,33803.36,Prospecting,10,2024-10-04,,2024-10-28,,,3380.34
+D00744,C0439,R002,PipelineIQ Enterprise — Deal 0744,PipelineIQ Enterprise,190491.29,Prospecting,10,2023-11-12,,2023-12-25,,,19049.13
+D00745,C0330,R001,PipelineIQ Starter — Deal 0745,PipelineIQ Starter,5697.44,Negotiation,75,2024-08-08,,2024-08-14,,,4273.08
+D00746,C0392,R002,PipelineIQ Pro — Deal 0746,PipelineIQ Pro,44362.56,Prospecting,10,2023-01-06,,2023-03-29,,,4436.26
+D00747,C0078,R003,PipelineIQ Enterprise — Deal 0747,PipelineIQ Enterprise,161157.17,Qualification,25,2023-09-06,,2023-09-08,,,40289.29
+D00748,C0475,R002,PipelineIQ Starter — Deal 0748,PipelineIQ Starter,5883.86,Qualification,25,2023-05-20,,2023-08-07,,,1470.96
+D00749,C0285,R004,PipelineIQ Starter — Deal 0749,PipelineIQ Starter,7815.9,Negotiation,75,2023-12-09,,2024-02-20,,,5861.92
+D00750,C0304,R002,PipelineIQ Enterprise — Deal 0750,PipelineIQ Enterprise,140229.52,Closed Won,100,2023-03-31,2023-04-22,,,22.0,140229.52
+D00751,C0119,R002,PipelineIQ Enterprise — Deal 0751,PipelineIQ Enterprise,168719.34,Qualification,25,2024-02-09,,2024-02-15,,,42179.83
+D00752,C0356,R002,PipelineIQ Starter — Deal 0752,PipelineIQ Starter,9190.8,Closed Won,100,2023-01-09,2023-05-03,,,114.0,9190.8
+D00753,C0237,R002,PipelineIQ Starter — Deal 0753,PipelineIQ Starter,9575.73,Qualification,25,2023-03-21,,2023-04-23,,,2393.93
+D00754,C0059,R002,PipelineIQ Pro — Deal 0754,PipelineIQ Pro,46147.48,Negotiation,75,2023-01-02,,2023-02-28,,,34610.61
+D00755,C0282,R002,PipelineIQ Starter — Deal 0755,PipelineIQ Starter,13011.53,Closed Won,100,2024-12-31,2024-12-31,,,0.0,13011.53
+D00756,C0408,R002,PipelineIQ Starter — Deal 0756,PipelineIQ Starter,6809.33,Qualification,25,2023-04-12,,2023-07-04,,,1702.33
+D00757,C0268,R003,PipelineIQ Enterprise — Deal 0757,PipelineIQ Enterprise,195111.43,Prospecting,10,2024-06-21,,2024-07-07,,,19511.14
+D00758,C0223,R003,PipelineIQ Enterprise — Deal 0758,PipelineIQ Enterprise,231972.16,Negotiation,75,2024-08-02,,2024-08-15,,,173979.12
+D00759,C0171,R002,PipelineIQ Starter — Deal 0759,PipelineIQ Starter,12728.03,Proposal,50,2024-07-02,,2024-08-19,,,6364.02
+D00760,C0354,R003,PipelineIQ Enterprise — Deal 0760,PipelineIQ Enterprise,160120.22,Negotiation,75,2024-08-05,,2024-10-04,,,120090.17
+D00761,C0023,R004,PipelineIQ Pro — Deal 0761,PipelineIQ Pro,20861.78,Negotiation,75,2024-07-23,,2024-09-28,,,15646.33
+D00762,C0392,R003,PipelineIQ Enterprise — Deal 0762,PipelineIQ Enterprise,60068.79,Closed Lost,0,2023-08-31,2023-11-01,,Poor fit,62.0,0.0
+D00763,C0483,R005,PipelineIQ Enterprise — Deal 0763,PipelineIQ Enterprise,170774.78,Qualification,25,2024-01-20,,2024-04-07,,,42693.69
+D00764,C0170,R002,PipelineIQ Starter — Deal 0764,PipelineIQ Starter,10085.2,Proposal,50,2024-06-05,,2024-07-11,,,5042.6
+D00765,C0370,R005,PipelineIQ Pro — Deal 0765,PipelineIQ Pro,45318.14,Negotiation,75,2023-05-22,,2023-06-13,,,33988.6
+D00766,C0151,R005,PipelineIQ Pro — Deal 0766,PipelineIQ Pro,20687.98,Prospecting,10,2023-08-07,,2023-10-25,,,2068.8
+D00767,C0031,R002,PipelineIQ Enterprise — Deal 0767,PipelineIQ Enterprise,75492.17,Closed Lost,0,2023-05-19,2023-08-12,,Chose competitor,85.0,0.0
+D00768,C0375,R003,PipelineIQ Pro — Deal 0768,PipelineIQ Pro,18103.82,Qualification,25,2024-11-01,,2024-11-29,,,4525.95
+D00769,C0499,R001,PipelineIQ Starter — Deal 0769,PipelineIQ Starter,14245.55,Closed Won,100,2023-03-09,2023-05-02,,,54.0,14245.55
+D00770,C0377,R001,PipelineIQ Pro — Deal 0770,PipelineIQ Pro,35204.6,Negotiation,75,2024-11-20,,2024-12-07,,,26403.45
+D00771,C0480,R002,PipelineIQ Enterprise — Deal 0771,PipelineIQ Enterprise,196957.28,Prospecting,10,2023-02-21,,2023-03-29,,,19695.73
+D00772,C0255,R002,PipelineIQ Enterprise — Deal 0772,PipelineIQ Enterprise,189175.71,Qualification,25,2023-05-14,,2023-07-10,,,47293.93
+D00773,C0368,R001,PipelineIQ Pro — Deal 0773,PipelineIQ Pro,44767.03,Prospecting,10,2023-09-07,,2023-10-25,,,4476.7
+D00774,C0214,R002,PipelineIQ Starter — Deal 0774,PipelineIQ Starter,5414.29,Negotiation,75,2024-05-30,,2024-06-11,,,4060.72
+D00775,C0350,R004,PipelineIQ Pro — Deal 0775,PipelineIQ Pro,46021.76,Qualification,25,2023-07-21,,2023-07-22,,,11505.44
+D00776,C0236,R002,PipelineIQ Starter — Deal 0776,PipelineIQ Starter,8444.34,Negotiation,75,2024-03-26,,2024-05-24,,,6333.26
+D00777,C0068,R005,PipelineIQ Pro — Deal 0777,PipelineIQ Pro,28925.93,Proposal,50,2024-07-04,,2024-08-02,,,14462.97
+D00778,C0350,R005,PipelineIQ Starter — Deal 0778,PipelineIQ Starter,11837.87,Negotiation,75,2023-04-02,,2023-05-26,,,8878.4
+D00779,C0021,R003,PipelineIQ Enterprise — Deal 0779,PipelineIQ Enterprise,245656.04,Prospecting,10,2024-01-23,,2024-04-10,,,24565.6
+D00780,C0135,R002,PipelineIQ Starter — Deal 0780,PipelineIQ Starter,10820.4,Closed Lost,0,2023-05-03,2023-08-12,,Price too high,101.0,0.0
+D00781,C0199,R003,PipelineIQ Starter — Deal 0781,PipelineIQ Starter,13421.47,Negotiation,75,2023-03-10,,2023-05-29,,,10066.1
+D00782,C0250,R002,PipelineIQ Pro — Deal 0782,PipelineIQ Pro,20677.08,Proposal,50,2023-05-02,,2023-06-25,,,10338.54
+D00783,C0431,R005,PipelineIQ Starter — Deal 0783,PipelineIQ Starter,10010.87,Qualification,25,2024-01-13,,2024-03-07,,,2502.72
+D00784,C0359,R001,PipelineIQ Pro — Deal 0784,PipelineIQ Pro,31117.66,Negotiation,75,2024-01-28,,2024-02-27,,,23338.24
+D00785,C0186,R005,PipelineIQ Pro — Deal 0785,PipelineIQ Pro,47545.15,Prospecting,10,2024-02-08,,2024-03-26,,,4754.52
+D00786,C0019,R003,PipelineIQ Starter — Deal 0786,PipelineIQ Starter,8031.97,Qualification,25,2023-11-04,,2024-01-27,,,2007.99
+D00787,C0310,R002,PipelineIQ Pro — Deal 0787,PipelineIQ Pro,48785.93,Qualification,25,2024-12-02,,2025-01-11,,,12196.48
+D00788,C0332,R003,PipelineIQ Starter — Deal 0788,PipelineIQ Starter,12172.8,Proposal,50,2023-01-09,,2023-02-17,,,6086.4
+D00789,C0069,R002,PipelineIQ Enterprise — Deal 0789,PipelineIQ Enterprise,125385.76,Proposal,50,2023-06-22,,2023-08-11,,,62692.88
+D00790,C0111,R003,PipelineIQ Pro — Deal 0790,PipelineIQ Pro,45872.25,Prospecting,10,2023-05-31,,2023-07-03,,,4587.23
+D00791,C0357,R003,PipelineIQ Pro — Deal 0791,PipelineIQ Pro,38291.26,Closed Won,100,2024-11-01,2024-12-31,,,60.0,38291.26
+D00792,C0454,R005,PipelineIQ Pro — Deal 0792,PipelineIQ Pro,24329.43,Prospecting,10,2024-06-09,,2024-08-30,,,2432.94
+D00793,C0051,R005,PipelineIQ Starter — Deal 0793,PipelineIQ Starter,10338.01,Proposal,50,2024-12-04,,2025-02-22,,,5169.01
+D00794,C0337,R002,PipelineIQ Enterprise — Deal 0794,PipelineIQ Enterprise,174554.93,Qualification,25,2023-11-15,,2023-11-26,,,43638.73
+D00795,C0174,R002,PipelineIQ Enterprise — Deal 0795,PipelineIQ Enterprise,164178.73,Qualification,25,2023-07-25,,2023-10-05,,,41044.68
+D00796,C0456,R003,PipelineIQ Starter — Deal 0796,PipelineIQ Starter,13873.62,Negotiation,75,2024-04-16,,2024-05-10,,,10405.22
+D00797,C0134,R002,PipelineIQ Pro — Deal 0797,PipelineIQ Pro,38334.87,Qualification,25,2023-08-19,,2023-09-20,,,9583.72
+D00798,C0362,R002,PipelineIQ Starter — Deal 0798,PipelineIQ Starter,14493.64,Prospecting,10,2023-03-21,,2023-04-01,,,1449.36
+D00799,C0369,R004,PipelineIQ Pro — Deal 0799,PipelineIQ Pro,44691.88,Proposal,50,2023-01-29,,2023-03-18,,,22345.94
+D00800,C0346,R004,PipelineIQ Pro — Deal 0800,PipelineIQ Pro,27942.82,Proposal,50,2024-12-07,,2025-02-18,,,13971.41
+D00801,C0370,R004,PipelineIQ Pro — Deal 0801,PipelineIQ Pro,32478.28,Negotiation,75,2024-08-23,,2024-09-27,,,24358.71
+D00802,C0289,R002,PipelineIQ Enterprise — Deal 0802,PipelineIQ Enterprise,117100.71,Prospecting,10,2024-03-23,,2024-05-10,,,11710.07
+D00803,C0196,R004,PipelineIQ Pro — Deal 0803,PipelineIQ Pro,49689.49,Qualification,25,2024-08-31,,2024-11-04,,,12422.37
+D00804,C0176,R002,PipelineIQ Starter — Deal 0804,PipelineIQ Starter,9309.08,Closed Won,100,2023-03-22,2023-04-14,,,23.0,9309.08
+D00805,C0474,R001,PipelineIQ Pro — Deal 0805,PipelineIQ Pro,27947.87,Proposal,50,2024-08-09,,2024-09-21,,,13973.93
+D00806,C0390,R001,PipelineIQ Enterprise — Deal 0806,PipelineIQ Enterprise,233413.01,Qualification,25,2023-12-16,,2024-01-09,,,58353.25
+D00807,C0204,R003,PipelineIQ Pro — Deal 0807,PipelineIQ Pro,35858.06,Qualification,25,2024-08-12,,2024-09-30,,,8964.51
+D00808,C0446,R002,PipelineIQ Pro — Deal 0808,PipelineIQ Pro,44548.38,Prospecting,10,2023-01-14,,2023-03-14,,,4454.84
+D00809,C0093,R005,PipelineIQ Pro — Deal 0809,PipelineIQ Pro,19784.81,Qualification,25,2023-05-02,,2023-06-06,,,4946.2
+D00810,C0334,R001,PipelineIQ Pro — Deal 0810,PipelineIQ Pro,19288.89,Closed Won,100,2024-11-14,2024-12-18,,,34.0,19288.89
+D00811,C0155,R002,PipelineIQ Enterprise — Deal 0811,PipelineIQ Enterprise,166704.24,Qualification,25,2024-03-01,,2024-03-16,,,41676.06
+D00812,C0212,R001,PipelineIQ Pro — Deal 0812,PipelineIQ Pro,46014.58,Qualification,25,2024-04-08,,2024-06-20,,,11503.65
+D00813,C0016,R001,PipelineIQ Starter — Deal 0813,PipelineIQ Starter,11577.85,Proposal,50,2024-11-28,,2024-12-01,,,5788.93
+D00814,C0471,R004,PipelineIQ Enterprise — Deal 0814,PipelineIQ Enterprise,179123.32,Negotiation,75,2024-06-27,,2024-08-12,,,134342.49
+D00815,C0048,R003,PipelineIQ Starter — Deal 0815,PipelineIQ Starter,6420.89,Prospecting,10,2024-07-16,,2024-09-12,,,642.09
+D00816,C0379,R003,PipelineIQ Enterprise — Deal 0816,PipelineIQ Enterprise,106170.26,Prospecting,10,2024-11-04,,2024-12-10,,,10617.03
+D00817,C0433,R004,PipelineIQ Starter — Deal 0817,PipelineIQ Starter,9329.46,Closed Won,100,2023-09-23,2023-10-28,,,35.0,9329.46
+D00818,C0100,R001,PipelineIQ Enterprise — Deal 0818,PipelineIQ Enterprise,180097.37,Negotiation,75,2023-04-26,,2023-06-29,,,135073.03
+D00819,C0211,R001,PipelineIQ Enterprise — Deal 0819,PipelineIQ Enterprise,242974.69,Closed Won,100,2024-12-09,2024-12-31,,,22.0,242974.69
+D00820,C0232,R002,PipelineIQ Pro — Deal 0820,PipelineIQ Pro,45635.92,Closed Won,100,2024-03-31,2024-05-30,,,60.0,45635.92
+D00821,C0100,R003,PipelineIQ Starter — Deal 0821,PipelineIQ Starter,10773.05,Qualification,25,2024-02-21,,2024-03-17,,,2693.26
+D00822,C0474,R001,PipelineIQ Pro — Deal 0822,PipelineIQ Pro,15119.19,Qualification,25,2024-10-23,,2024-10-29,,,3779.8
+D00823,C0013,R004,PipelineIQ Enterprise — Deal 0823,PipelineIQ Enterprise,190053.19,Closed Won,100,2024-07-03,2024-07-12,,,9.0,190053.19
+D00824,C0472,R001,PipelineIQ Pro — Deal 0824,PipelineIQ Pro,26391.93,Proposal,50,2023-02-07,,2023-02-11,,,13195.97
+D00825,C0096,R002,PipelineIQ Starter — Deal 0825,PipelineIQ Starter,9838.45,Negotiation,75,2023-03-09,,2023-04-18,,,7378.84
+D00826,C0014,R002,PipelineIQ Pro — Deal 0826,PipelineIQ Pro,31209.01,Closed Won,100,2023-05-03,2023-06-27,,,55.0,31209.01
+D00827,C0271,R001,PipelineIQ Enterprise — Deal 0827,PipelineIQ Enterprise,110224.78,Closed Lost,0,2023-08-11,2023-11-17,,Project cancelled,98.0,0.0
+D00828,C0063,R002,PipelineIQ Enterprise — Deal 0828,PipelineIQ Enterprise,188825.55,Proposal,50,2023-02-05,,2023-03-03,,,94412.77
+D00829,C0091,R002,PipelineIQ Starter — Deal 0829,PipelineIQ Starter,8780.83,Qualification,25,2024-06-14,,2024-08-04,,,2195.21
+D00830,C0402,R005,PipelineIQ Enterprise — Deal 0830,PipelineIQ Enterprise,55357.8,Proposal,50,2024-10-08,,2024-12-10,,,27678.9
+D00831,C0350,R005,PipelineIQ Starter — Deal 0831,PipelineIQ Starter,8439.69,Negotiation,75,2023-12-27,,2024-03-21,,,6329.77
+D00832,C0395,R002,PipelineIQ Starter — Deal 0832,PipelineIQ Starter,14095.45,Prospecting,10,2024-10-17,,2025-01-14,,,1409.55
+D00833,C0090,R005,PipelineIQ Pro — Deal 0833,PipelineIQ Pro,22939.38,Proposal,50,2024-09-09,,2024-11-26,,,11469.69
+D00834,C0067,R002,PipelineIQ Starter — Deal 0834,PipelineIQ Starter,7873.29,Closed Won,100,2023-12-29,2024-01-27,,,29.0,7873.29
+D00835,C0204,R003,PipelineIQ Starter — Deal 0835,PipelineIQ Starter,9232.27,Prospecting,10,2023-02-05,,2023-04-07,,,923.23
+D00836,C0096,R004,PipelineIQ Starter — Deal 0836,PipelineIQ Starter,14073.98,Proposal,50,2023-02-16,,2023-04-23,,,7036.99
+D00837,C0425,R001,PipelineIQ Pro — Deal 0837,PipelineIQ Pro,36249.7,Negotiation,75,2024-06-01,,2024-06-22,,,27187.27
+D00838,C0203,R004,PipelineIQ Starter — Deal 0838,PipelineIQ Starter,8811.33,Prospecting,10,2023-05-08,,2023-05-28,,,881.13
+D00839,C0493,R005,PipelineIQ Starter — Deal 0839,PipelineIQ Starter,8542.21,Closed Won,100,2023-08-16,2023-12-09,,,115.0,8542.21
+D00840,C0494,R002,PipelineIQ Enterprise — Deal 0840,PipelineIQ Enterprise,185554.18,Proposal,50,2024-12-24,,2025-01-05,,,92777.09
+D00841,C0135,R004,PipelineIQ Pro — Deal 0841,PipelineIQ Pro,38317.72,Closed Won,100,2024-12-25,2024-12-31,,,6.0,38317.72
+D00842,C0227,R004,PipelineIQ Enterprise — Deal 0842,PipelineIQ Enterprise,221905.86,Negotiation,75,2023-07-25,,2023-09-05,,,166429.39
+D00843,C0073,R002,PipelineIQ Pro — Deal 0843,PipelineIQ Pro,19585.84,Qualification,25,2024-12-08,,2024-12-28,,,4896.46
+D00844,C0130,R001,PipelineIQ Starter — Deal 0844,PipelineIQ Starter,14196.43,Proposal,50,2024-09-14,,2024-10-22,,,7098.22
+D00845,C0351,R005,PipelineIQ Starter — Deal 0845,PipelineIQ Starter,8461.06,Closed Lost,0,2023-06-07,2023-09-07,,No decision made,92.0,0.0
+D00846,C0194,R003,PipelineIQ Enterprise — Deal 0846,PipelineIQ Enterprise,222046.47,Prospecting,10,2024-02-19,,2024-02-27,,,22204.65
+D00847,C0336,R003,PipelineIQ Starter — Deal 0847,PipelineIQ Starter,13210.53,Proposal,50,2023-08-05,,2023-09-22,,,6605.27
+D00848,C0438,R004,PipelineIQ Starter — Deal 0848,PipelineIQ Starter,14002.18,Qualification,25,2023-09-08,,2023-09-17,,,3500.55
+D00849,C0142,R004,PipelineIQ Enterprise — Deal 0849,PipelineIQ Enterprise,72948.07,Prospecting,10,2024-12-01,,2025-02-02,,,7294.81
+D00850,C0487,R003,PipelineIQ Starter — Deal 0850,PipelineIQ Starter,13276.73,Prospecting,10,2023-08-23,,2023-11-03,,,1327.67
+D00851,C0455,R003,PipelineIQ Pro — Deal 0851,PipelineIQ Pro,42025.96,Negotiation,75,2023-06-02,,2023-06-04,,,31519.47
+D00852,C0030,R002,PipelineIQ Enterprise — Deal 0852,PipelineIQ Enterprise,64347.42,Negotiation,75,2024-02-15,,2024-05-10,,,48260.57
+D00853,C0337,R002,PipelineIQ Enterprise — Deal 0853,PipelineIQ Enterprise,206909.02,Negotiation,75,2024-08-07,,2024-10-07,,,155181.76
+D00854,C0186,R003,PipelineIQ Pro — Deal 0854,PipelineIQ Pro,28514.07,Qualification,25,2024-05-02,,2024-05-08,,,7128.52
+D00855,C0035,R002,PipelineIQ Pro — Deal 0855,PipelineIQ Pro,23799.95,Prospecting,10,2024-10-03,,2024-12-27,,,2380.0
+D00856,C0393,R003,PipelineIQ Pro — Deal 0856,PipelineIQ Pro,18026.73,Closed Lost,0,2023-03-15,2023-03-25,,Poor fit,10.0,0.0
+D00857,C0047,R001,PipelineIQ Enterprise — Deal 0857,PipelineIQ Enterprise,118444.18,Qualification,25,2024-08-06,,2024-10-31,,,29611.04
+D00858,C0231,R002,PipelineIQ Enterprise — Deal 0858,PipelineIQ Enterprise,194179.3,Proposal,50,2024-08-28,,2024-10-09,,,97089.65
+D00859,C0001,R001,PipelineIQ Enterprise — Deal 0859,PipelineIQ Enterprise,149330.23,Closed Won,100,2024-05-03,2024-08-14,,,103.0,149330.23
+D00860,C0037,R002,PipelineIQ Starter — Deal 0860,PipelineIQ Starter,5181.6,Prospecting,10,2024-11-13,,2024-11-15,,,518.16
+D00861,C0077,R002,PipelineIQ Enterprise — Deal 0861,PipelineIQ Enterprise,223375.44,Proposal,50,2024-11-08,,2024-11-20,,,111687.72
+D00862,C0207,R002,PipelineIQ Pro — Deal 0862,PipelineIQ Pro,17565.21,Qualification,25,2024-03-16,,2024-06-04,,,4391.3
+D00863,C0489,R004,PipelineIQ Pro — Deal 0863,PipelineIQ Pro,33619.31,Proposal,50,2023-02-07,,2023-04-21,,,16809.65
+D00864,C0119,R004,PipelineIQ Enterprise — Deal 0864,PipelineIQ Enterprise,144913.29,Prospecting,10,2024-05-17,,2024-07-18,,,14491.33
+D00865,C0200,R002,PipelineIQ Starter — Deal 0865,PipelineIQ Starter,12978.9,Closed Lost,0,2023-05-16,2023-07-12,,No decision made,57.0,0.0
+D00866,C0494,R003,PipelineIQ Enterprise — Deal 0866,PipelineIQ Enterprise,202928.13,Proposal,50,2024-12-13,,2025-02-25,,,101464.07
+D00867,C0122,R005,PipelineIQ Enterprise — Deal 0867,PipelineIQ Enterprise,156953.03,Proposal,50,2024-03-06,,2024-04-21,,,78476.51
+D00868,C0104,R005,PipelineIQ Enterprise — Deal 0868,PipelineIQ Enterprise,237193.88,Closed Lost,0,2024-12-16,2024-12-31,,No budget,15.0,0.0
+D00869,C0097,R004,PipelineIQ Starter — Deal 0869,PipelineIQ Starter,11026.18,Proposal,50,2023-12-03,,2024-01-12,,,5513.09
+D00870,C0094,R005,PipelineIQ Starter — Deal 0870,PipelineIQ Starter,14538.13,Negotiation,75,2024-10-14,,2024-11-26,,,10903.6
+D00871,C0181,R001,PipelineIQ Starter — Deal 0871,PipelineIQ Starter,6246.89,Prospecting,10,2024-08-23,,2024-09-01,,,624.69
+D00872,C0289,R004,PipelineIQ Starter — Deal 0872,PipelineIQ Starter,12745.96,Proposal,50,2023-10-06,,2023-11-12,,,6372.98
+D00873,C0001,R004,PipelineIQ Enterprise — Deal 0873,PipelineIQ Enterprise,141218.96,Closed Lost,0,2023-01-08,2023-04-10,,Price too high,92.0,0.0
+D00874,C0279,R004,PipelineIQ Starter — Deal 0874,PipelineIQ Starter,9208.65,Proposal,50,2023-11-10,,2023-12-20,,,4604.32
+D00875,C0304,R003,PipelineIQ Enterprise — Deal 0875,PipelineIQ Enterprise,202503.06,Proposal,50,2024-08-09,,2024-10-06,,,101251.53
+D00876,C0104,R001,PipelineIQ Pro — Deal 0876,PipelineIQ Pro,47317.5,Closed Won,100,2024-03-05,2024-06-18,,,105.0,47317.5
+D00877,C0017,R001,PipelineIQ Pro — Deal 0877,PipelineIQ Pro,46168.42,Qualification,25,2023-09-21,,2023-11-03,,,11542.1
+D00878,C0020,R002,PipelineIQ Starter — Deal 0878,PipelineIQ Starter,9067.06,Qualification,25,2024-04-26,,2024-05-22,,,2266.76
+D00879,C0493,R005,PipelineIQ Enterprise — Deal 0879,PipelineIQ Enterprise,197822.96,Closed Lost,0,2024-03-12,2024-05-30,,Chose competitor,79.0,0.0
+D00880,C0071,R005,PipelineIQ Pro — Deal 0880,PipelineIQ Pro,30448.28,Prospecting,10,2024-10-27,,2024-12-12,,,3044.83
+D00881,C0190,R002,PipelineIQ Enterprise — Deal 0881,PipelineIQ Enterprise,189189.09,Qualification,25,2023-02-20,,2023-05-20,,,47297.27
+D00882,C0083,R003,PipelineIQ Enterprise — Deal 0882,PipelineIQ Enterprise,143190.33,Prospecting,10,2023-12-25,,2024-01-09,,,14319.03
+D00883,C0121,R002,PipelineIQ Enterprise — Deal 0883,PipelineIQ Enterprise,82220.46,Qualification,25,2024-03-12,,2024-04-20,,,20555.12
+D00884,C0431,R005,PipelineIQ Starter — Deal 0884,PipelineIQ Starter,13533.25,Proposal,50,2024-09-27,,2024-12-08,,,6766.62
+D00885,C0337,R003,PipelineIQ Enterprise — Deal 0885,PipelineIQ Enterprise,202690.13,Proposal,50,2023-10-16,,2023-12-08,,,101345.07
+D00886,C0158,R003,PipelineIQ Pro — Deal 0886,PipelineIQ Pro,23680.48,Closed Lost,0,2023-10-27,2024-01-31,,Chose competitor,96.0,0.0
+D00887,C0203,R003,PipelineIQ Enterprise — Deal 0887,PipelineIQ Enterprise,101479.57,Prospecting,10,2024-09-18,,2024-10-04,,,10147.96
+D00888,C0142,R005,PipelineIQ Enterprise — Deal 0888,PipelineIQ Enterprise,235600.61,Proposal,50,2023-09-06,,2023-10-10,,,117800.3
+D00889,C0009,R003,PipelineIQ Enterprise — Deal 0889,PipelineIQ Enterprise,140178.08,Qualification,25,2024-02-24,,2024-03-29,,,35044.52
+D00890,C0115,R005,PipelineIQ Enterprise — Deal 0890,PipelineIQ Enterprise,201814.1,Closed Won,100,2023-06-25,2023-07-14,,,19.0,201814.1
+D00891,C0371,R002,PipelineIQ Starter — Deal 0891,PipelineIQ Starter,10933.21,Proposal,50,2024-09-11,,2024-11-12,,,5466.6
+D00892,C0299,R005,PipelineIQ Starter — Deal 0892,PipelineIQ Starter,14883.27,Negotiation,75,2024-10-19,,2024-12-25,,,11162.45
+D00893,C0067,R001,PipelineIQ Pro — Deal 0893,PipelineIQ Pro,18491.56,Prospecting,10,2024-08-07,,2024-10-04,,,1849.16
+D00894,C0168,R004,PipelineIQ Starter — Deal 0894,PipelineIQ Starter,11912.72,Prospecting,10,2023-02-14,,2023-04-17,,,1191.27
+D00895,C0364,R002,PipelineIQ Pro — Deal 0895,PipelineIQ Pro,46473.32,Proposal,50,2023-10-21,,2024-01-10,,,23236.66
+D00896,C0020,R005,PipelineIQ Pro — Deal 0896,PipelineIQ Pro,27969.04,Proposal,50,2023-05-16,,2023-06-02,,,13984.52
+D00897,C0196,R005,PipelineIQ Starter — Deal 0897,PipelineIQ Starter,5101.61,Qualification,25,2024-03-19,,2024-04-27,,,1275.4
+D00898,C0073,R005,PipelineIQ Starter — Deal 0898,PipelineIQ Starter,6483.82,Proposal,50,2023-02-25,,2023-03-01,,,3241.91
+D00899,C0171,R001,PipelineIQ Enterprise — Deal 0899,PipelineIQ Enterprise,224928.32,Prospecting,10,2023-07-28,,2023-09-26,,,22492.83
+D00900,C0170,R005,PipelineIQ Pro — Deal 0900,PipelineIQ Pro,45251.17,Proposal,50,2024-02-06,,2024-03-02,,,22625.58
+D00901,C0482,R004,PipelineIQ Enterprise — Deal 0901,PipelineIQ Enterprise,117476.36,Negotiation,75,2023-01-03,,2023-03-16,,,88107.27
+D00902,C0484,R005,PipelineIQ Pro — Deal 0902,PipelineIQ Pro,48979.83,Prospecting,10,2024-09-16,,2024-10-14,,,4897.98
+D00903,C0357,R003,PipelineIQ Starter — Deal 0903,PipelineIQ Starter,7610.91,Qualification,25,2023-07-13,,2023-08-16,,,1902.73
+D00904,C0282,R001,PipelineIQ Pro — Deal 0904,PipelineIQ Pro,28879.21,Qualification,25,2023-08-17,,2023-10-26,,,7219.8
+D00905,C0081,R002,PipelineIQ Pro — Deal 0905,PipelineIQ Pro,16682.03,Qualification,25,2023-07-15,,2023-09-06,,,4170.51
+D00906,C0235,R002,PipelineIQ Enterprise — Deal 0906,PipelineIQ Enterprise,198172.34,Prospecting,10,2023-07-19,,2023-08-28,,,19817.23
+D00907,C0119,R001,PipelineIQ Pro — Deal 0907,PipelineIQ Pro,21408.91,Qualification,25,2023-01-20,,2023-02-28,,,5352.23
+D00908,C0411,R005,PipelineIQ Enterprise — Deal 0908,PipelineIQ Enterprise,140152.45,Proposal,50,2024-12-10,,2025-03-07,,,70076.23
+D00909,C0406,R001,PipelineIQ Enterprise — Deal 0909,PipelineIQ Enterprise,129249.01,Closed Won,100,2023-02-03,2023-04-15,,,71.0,129249.01
+D00910,C0196,R002,PipelineIQ Enterprise — Deal 0910,PipelineIQ Enterprise,112758.51,Negotiation,75,2024-08-05,,2024-09-10,,,84568.88
+D00911,C0498,R001,PipelineIQ Enterprise — Deal 0911,PipelineIQ Enterprise,241852.66,Prospecting,10,2024-10-24,,2025-01-17,,,24185.27
+D00912,C0020,R004,PipelineIQ Pro — Deal 0912,PipelineIQ Pro,30335.4,Qualification,25,2023-09-27,,2023-10-22,,,7583.85
+D00913,C0407,R002,PipelineIQ Pro — Deal 0913,PipelineIQ Pro,22274.38,Qualification,25,2023-08-22,,2023-10-30,,,5568.6
+D00914,C0217,R005,PipelineIQ Pro — Deal 0914,PipelineIQ Pro,48153.72,Prospecting,10,2024-09-16,,2024-10-22,,,4815.37
+D00915,C0103,R003,PipelineIQ Pro — Deal 0915,PipelineIQ Pro,26841.92,Qualification,25,2023-06-13,,2023-07-09,,,6710.48
+D00916,C0009,R002,PipelineIQ Starter — Deal 0916,PipelineIQ Starter,10203.14,Prospecting,10,2023-01-10,,2023-01-28,,,1020.31
+D00917,C0450,R001,PipelineIQ Starter — Deal 0917,PipelineIQ Starter,8301.89,Proposal,50,2023-08-09,,2023-09-05,,,4150.94
+D00918,C0226,R003,PipelineIQ Starter — Deal 0918,PipelineIQ Starter,7297.22,Qualification,25,2024-02-23,,2024-04-23,,,1824.31
+D00919,C0478,R004,PipelineIQ Starter — Deal 0919,PipelineIQ Starter,12340.63,Prospecting,10,2024-04-12,,2024-05-29,,,1234.06
+D00920,C0178,R004,PipelineIQ Starter — Deal 0920,PipelineIQ Starter,9375.4,Qualification,25,2024-09-16,,2024-12-04,,,2343.85
+D00921,C0190,R002,PipelineIQ Pro — Deal 0921,PipelineIQ Pro,23719.32,Negotiation,75,2023-10-12,,2024-01-03,,,17789.49
+D00922,C0285,R002,PipelineIQ Starter — Deal 0922,PipelineIQ Starter,5560.5,Closed Lost,0,2023-08-25,2023-11-28,,Poor fit,95.0,0.0
+D00923,C0367,R001,PipelineIQ Pro — Deal 0923,PipelineIQ Pro,43562.27,Prospecting,10,2023-08-10,,2023-09-14,,,4356.23
+D00924,C0415,R004,PipelineIQ Starter — Deal 0924,PipelineIQ Starter,5466.67,Proposal,50,2023-03-11,,2023-05-25,,,2733.34
+D00925,C0368,R001,PipelineIQ Enterprise — Deal 0925,PipelineIQ Enterprise,209432.65,Closed Won,100,2023-04-04,2023-06-02,,,59.0,209432.65
+D00926,C0452,R002,PipelineIQ Starter — Deal 0926,PipelineIQ Starter,14576.12,Negotiation,75,2023-10-27,,2023-11-03,,,10932.09
+D00927,C0453,R004,PipelineIQ Pro — Deal 0927,PipelineIQ Pro,17047.14,Closed Won,100,2023-09-23,2023-12-17,,,85.0,17047.14
+D00928,C0326,R001,PipelineIQ Enterprise — Deal 0928,PipelineIQ Enterprise,142513.99,Negotiation,75,2024-05-02,,2024-07-24,,,106885.49
+D00929,C0403,R004,PipelineIQ Enterprise — Deal 0929,PipelineIQ Enterprise,149038.45,Closed Won,100,2023-04-19,2023-07-08,,,80.0,149038.45
+D00930,C0185,R003,PipelineIQ Enterprise — Deal 0930,PipelineIQ Enterprise,237143.04,Prospecting,10,2023-02-21,,2023-04-12,,,23714.3
+D00931,C0241,R004,PipelineIQ Enterprise — Deal 0931,PipelineIQ Enterprise,158324.8,Proposal,50,2023-06-07,,2023-09-02,,,79162.4
+D00932,C0163,R001,PipelineIQ Enterprise — Deal 0932,PipelineIQ Enterprise,79667.59,Proposal,50,2023-07-04,,2023-07-24,,,39833.79
+D00933,C0145,R003,PipelineIQ Enterprise — Deal 0933,PipelineIQ Enterprise,58020.65,Closed Lost,0,2024-01-30,2024-03-21,,Poor fit,51.0,0.0
+D00934,C0128,R002,PipelineIQ Enterprise — Deal 0934,PipelineIQ Enterprise,100944.49,Proposal,50,2023-09-11,,2023-11-13,,,50472.25
+D00935,C0067,R001,PipelineIQ Enterprise — Deal 0935,PipelineIQ Enterprise,87525.3,Proposal,50,2023-07-10,,2023-07-23,,,43762.65
+D00936,C0022,R005,PipelineIQ Starter — Deal 0936,PipelineIQ Starter,5859.53,Prospecting,10,2024-04-13,,2024-06-18,,,585.95
+D00937,C0315,R005,PipelineIQ Starter — Deal 0937,PipelineIQ Starter,11968.89,Closed Lost,0,2024-03-01,2024-06-13,,No decision made,104.0,0.0
+D00938,C0026,R001,PipelineIQ Starter — Deal 0938,PipelineIQ Starter,11696.1,Closed Won,100,2024-04-10,2024-07-29,,,110.0,11696.1
+D00939,C0181,R002,PipelineIQ Pro — Deal 0939,PipelineIQ Pro,25197.18,Prospecting,10,2024-09-04,,2024-09-24,,,2519.72
+D00940,C0092,R003,PipelineIQ Starter — Deal 0940,PipelineIQ Starter,10877.57,Proposal,50,2024-12-12,,2025-01-27,,,5438.78
+D00941,C0089,R001,PipelineIQ Enterprise — Deal 0941,PipelineIQ Enterprise,113667.89,Closed Won,100,2024-05-20,2024-06-03,,,14.0,113667.89
+D00942,C0113,R004,PipelineIQ Starter — Deal 0942,PipelineIQ Starter,6421.05,Proposal,50,2023-09-18,,2023-10-20,,,3210.53
+D00943,C0074,R003,PipelineIQ Enterprise — Deal 0943,PipelineIQ Enterprise,140880.7,Prospecting,10,2023-10-24,,2023-11-13,,,14088.07
+D00944,C0303,R003,PipelineIQ Starter — Deal 0944,PipelineIQ Starter,8756.8,Qualification,25,2024-12-02,,2025-01-05,,,2189.2
+D00945,C0419,R002,PipelineIQ Enterprise — Deal 0945,PipelineIQ Enterprise,126500.03,Closed Lost,0,2023-01-02,2023-04-01,,Poor fit,89.0,0.0
+D00946,C0157,R003,PipelineIQ Starter — Deal 0946,PipelineIQ Starter,7023.57,Qualification,25,2024-03-29,,2024-04-01,,,1755.89
+D00947,C0007,R005,PipelineIQ Enterprise — Deal 0947,PipelineIQ Enterprise,218123.56,Proposal,50,2024-08-17,,2024-09-29,,,109061.78
+D00948,C0350,R001,PipelineIQ Pro — Deal 0948,PipelineIQ Pro,31261.87,Closed Won,100,2024-01-19,2024-04-07,,,79.0,31261.87
+D00949,C0098,R001,PipelineIQ Pro — Deal 0949,PipelineIQ Pro,41808.43,Negotiation,75,2024-09-18,,2024-10-29,,,31356.32
+D00950,C0325,R002,PipelineIQ Enterprise — Deal 0950,PipelineIQ Enterprise,139639.01,Qualification,25,2024-02-11,,2024-04-06,,,34909.75
+D00951,C0138,R005,PipelineIQ Enterprise — Deal 0951,PipelineIQ Enterprise,91840.61,Closed Lost,0,2023-11-21,2024-01-14,,Chose competitor,54.0,0.0
+D00952,C0467,R003,PipelineIQ Starter — Deal 0952,PipelineIQ Starter,9523.51,Proposal,50,2023-06-24,,2023-07-15,,,4761.76
+D00953,C0278,R001,PipelineIQ Pro — Deal 0953,PipelineIQ Pro,34853.36,Prospecting,10,2024-02-13,,2024-03-29,,,3485.34
+D00954,C0294,R001,PipelineIQ Starter — Deal 0954,PipelineIQ Starter,6417.6,Proposal,50,2024-10-31,,2024-12-18,,,3208.8
+D00955,C0166,R003,PipelineIQ Enterprise — Deal 0955,PipelineIQ Enterprise,235489.29,Prospecting,10,2023-04-30,,2023-05-10,,,23548.93
+D00956,C0359,R003,PipelineIQ Pro — Deal 0956,PipelineIQ Pro,22642.82,Prospecting,10,2023-11-20,,2024-02-14,,,2264.28
+D00957,C0331,R004,PipelineIQ Enterprise — Deal 0957,PipelineIQ Enterprise,130444.64,Qualification,25,2024-11-15,,2024-12-05,,,32611.16
+D00958,C0022,R003,PipelineIQ Pro — Deal 0958,PipelineIQ Pro,21032.62,Proposal,50,2024-11-11,,2024-12-05,,,10516.31
+D00959,C0014,R003,PipelineIQ Pro — Deal 0959,PipelineIQ Pro,28194.41,Qualification,25,2024-09-30,,2024-12-05,,,7048.6
+D00960,C0115,R002,PipelineIQ Enterprise — Deal 0960,PipelineIQ Enterprise,183764.64,Qualification,25,2023-07-29,,2023-08-12,,,45941.16
+D00961,C0274,R001,PipelineIQ Enterprise — Deal 0961,PipelineIQ Enterprise,157661.95,Closed Won,100,2023-10-07,2023-12-20,,,74.0,157661.95
+D00962,C0049,R001,PipelineIQ Starter — Deal 0962,PipelineIQ Starter,12043.72,Prospecting,10,2023-07-01,,2023-07-21,,,1204.37
+D00963,C0467,R003,PipelineIQ Starter — Deal 0963,PipelineIQ Starter,12821.11,Qualification,25,2024-06-07,,2024-08-31,,,3205.28
+D00964,C0275,R004,PipelineIQ Starter — Deal 0964,PipelineIQ Starter,12112.29,Proposal,50,2024-07-10,,2024-09-02,,,6056.15
+D00965,C0057,R001,PipelineIQ Pro — Deal 0965,PipelineIQ Pro,49700.19,Qualification,25,2023-04-17,,2023-07-01,,,12425.05
+D00966,C0157,R001,PipelineIQ Enterprise — Deal 0966,PipelineIQ Enterprise,115343.32,Proposal,50,2024-02-03,,2024-03-14,,,57671.66
+D00967,C0292,R001,PipelineIQ Starter — Deal 0967,PipelineIQ Starter,13371.72,Negotiation,75,2024-02-02,,2024-02-25,,,10028.79
+D00968,C0426,R005,PipelineIQ Enterprise — Deal 0968,PipelineIQ Enterprise,233113.26,Proposal,50,2024-05-06,,2024-06-07,,,116556.63
+D00969,C0145,R004,PipelineIQ Pro — Deal 0969,PipelineIQ Pro,33227.33,Negotiation,75,2024-10-15,,2024-12-06,,,24920.5
+D00970,C0371,R001,PipelineIQ Pro — Deal 0970,PipelineIQ Pro,41212.7,Negotiation,75,2024-09-02,,2024-10-28,,,30909.52
+D00971,C0367,R001,PipelineIQ Starter — Deal 0971,PipelineIQ Starter,7177.12,Negotiation,75,2024-09-17,,2024-10-06,,,5382.84
+D00972,C0157,R002,PipelineIQ Pro — Deal 0972,PipelineIQ Pro,43303.22,Prospecting,10,2023-07-07,,2023-07-10,,,4330.32
+D00973,C0112,R005,PipelineIQ Enterprise — Deal 0973,PipelineIQ Enterprise,62792.77,Qualification,25,2023-09-17,,2023-11-25,,,15698.19
+D00974,C0444,R005,PipelineIQ Starter — Deal 0974,PipelineIQ Starter,7814.05,Proposal,50,2024-08-04,,2024-11-02,,,3907.03
+D00975,C0390,R004,PipelineIQ Starter — Deal 0975,PipelineIQ Starter,5900.48,Closed Won,100,2023-06-07,2023-09-21,,,106.0,5900.48
+D00976,C0354,R005,PipelineIQ Pro — Deal 0976,PipelineIQ Pro,35584.46,Proposal,50,2023-10-12,,2023-12-25,,,17792.23
+D00977,C0011,R002,PipelineIQ Enterprise — Deal 0977,PipelineIQ Enterprise,69307.02,Prospecting,10,2023-04-24,,2023-07-04,,,6930.7
+D00978,C0382,R004,PipelineIQ Starter — Deal 0978,PipelineIQ Starter,7193.4,Qualification,25,2023-01-22,,2023-04-21,,,1798.35
+D00979,C0277,R003,PipelineIQ Starter — Deal 0979,PipelineIQ Starter,12062.3,Prospecting,10,2023-07-21,,2023-08-11,,,1206.23
+D00980,C0324,R001,PipelineIQ Pro — Deal 0980,PipelineIQ Pro,21768.71,Qualification,25,2023-01-04,,2023-02-15,,,5442.18
+D00981,C0282,R002,PipelineIQ Starter — Deal 0981,PipelineIQ Starter,8266.37,Prospecting,10,2024-06-26,,2024-07-27,,,826.64
+D00982,C0088,R002,PipelineIQ Enterprise — Deal 0982,PipelineIQ Enterprise,50382.2,Qualification,25,2024-03-03,,2024-05-21,,,12595.55
+D00983,C0204,R001,PipelineIQ Enterprise — Deal 0983,PipelineIQ Enterprise,205670.68,Negotiation,75,2023-03-03,,2023-04-30,,,154253.01
+D00984,C0440,R004,PipelineIQ Enterprise — Deal 0984,PipelineIQ Enterprise,189501.3,Prospecting,10,2024-03-22,,2024-04-23,,,18950.13
+D00985,C0458,R002,PipelineIQ Starter — Deal 0985,PipelineIQ Starter,6773.1,Proposal,50,2024-05-28,,2024-08-15,,,3386.55
+D00986,C0248,R002,PipelineIQ Pro — Deal 0986,PipelineIQ Pro,38561.12,Closed Won,100,2023-08-08,2023-11-21,,,105.0,38561.12
+D00987,C0453,R003,PipelineIQ Pro — Deal 0987,PipelineIQ Pro,46504.49,Prospecting,10,2024-10-12,,2024-10-27,,,4650.45
+D00988,C0233,R004,PipelineIQ Enterprise — Deal 0988,PipelineIQ Enterprise,242695.01,Closed Won,100,2023-07-01,2023-08-21,,,51.0,242695.01
+D00989,C0098,R001,PipelineIQ Starter — Deal 0989,PipelineIQ Starter,7478.32,Proposal,50,2023-01-01,,2023-01-11,,,3739.16
+D00990,C0079,R002,PipelineIQ Starter — Deal 0990,PipelineIQ Starter,11638.24,Negotiation,75,2023-08-20,,2023-11-06,,,8728.68
+D00991,C0096,R002,PipelineIQ Starter — Deal 0991,PipelineIQ Starter,11730.27,Closed Won,100,2023-12-24,2024-04-17,,,115.0,11730.27
+D00992,C0167,R001,PipelineIQ Pro — Deal 0992,PipelineIQ Pro,40801.06,Negotiation,75,2024-06-25,,2024-08-26,,,30600.79
+D00993,C0253,R001,PipelineIQ Enterprise — Deal 0993,PipelineIQ Enterprise,237579.12,Negotiation,75,2024-02-20,,2024-04-22,,,178184.34
+D00994,C0004,R003,PipelineIQ Pro — Deal 0994,PipelineIQ Pro,18324.02,Prospecting,10,2024-08-18,,2024-09-09,,,1832.4
+D00995,C0127,R001,PipelineIQ Enterprise — Deal 0995,PipelineIQ Enterprise,229770.79,Proposal,50,2024-10-31,,2024-12-05,,,114885.4
+D00996,C0236,R004,PipelineIQ Starter — Deal 0996,PipelineIQ Starter,11211.7,Proposal,50,2024-02-24,,2024-03-10,,,5605.85
+D00997,C0437,R005,PipelineIQ Enterprise — Deal 0997,PipelineIQ Enterprise,188958.71,Qualification,25,2024-03-05,,2024-05-19,,,47239.68
+D00998,C0255,R003,PipelineIQ Enterprise — Deal 0998,PipelineIQ Enterprise,178650.3,Proposal,50,2023-12-25,,2024-03-19,,,89325.15
+D00999,C0193,R002,PipelineIQ Starter — Deal 0999,PipelineIQ Starter,12344.24,Prospecting,10,2024-12-19,,2025-02-08,,,1234.42
+D01000,C0088,R005,PipelineIQ Pro — Deal 1000,PipelineIQ Pro,39357.59,Closed Won,100,2024-01-29,2024-05-06,,,98.0,39357.59
+D01001,C0230,R001,PipelineIQ Enterprise — Deal 1001,PipelineIQ Enterprise,223975.52,Proposal,50,2023-05-22,,2023-07-03,,,111987.76
+D01002,C0167,R005,PipelineIQ Starter — Deal 1002,PipelineIQ Starter,8080.48,Proposal,50,2023-06-16,,2023-07-30,,,4040.24
+D01003,C0454,R001,PipelineIQ Starter — Deal 1003,PipelineIQ Starter,11023.44,Negotiation,75,2024-03-31,,2024-05-09,,,8267.58
+D01004,C0244,R004,PipelineIQ Starter — Deal 1004,PipelineIQ Starter,10793.32,Proposal,50,2023-10-02,,2023-12-22,,,5396.66
+D01005,C0392,R005,PipelineIQ Starter — Deal 1005,PipelineIQ Starter,12648.32,Qualification,25,2023-11-08,,2023-11-17,,,3162.08
+D01006,C0284,R001,PipelineIQ Pro — Deal 1006,PipelineIQ Pro,35093.3,Qualification,25,2024-07-29,,2024-07-30,,,8773.33
+D01007,C0181,R004,PipelineIQ Enterprise — Deal 1007,PipelineIQ Enterprise,141456.87,Negotiation,75,2023-09-19,,2023-11-30,,,106092.65
+D01008,C0489,R004,PipelineIQ Enterprise — Deal 1008,PipelineIQ Enterprise,173561.39,Proposal,50,2023-10-10,,2023-10-20,,,86780.7
+D01009,C0211,R005,PipelineIQ Enterprise — Deal 1009,PipelineIQ Enterprise,88708.25,Proposal,50,2023-11-06,,2023-11-21,,,44354.12
+D01010,C0106,R005,PipelineIQ Pro — Deal 1010,PipelineIQ Pro,23488.62,Closed Won,100,2024-10-07,2024-11-20,,,44.0,23488.62
+D01011,C0150,R005,PipelineIQ Pro — Deal 1011,PipelineIQ Pro,40657.66,Proposal,50,2023-04-20,,2023-06-08,,,20328.83
+D01012,C0086,R003,PipelineIQ Enterprise — Deal 1012,PipelineIQ Enterprise,156740.84,Qualification,25,2023-01-11,,2023-03-30,,,39185.21
+D01013,C0061,R001,PipelineIQ Enterprise — Deal 1013,PipelineIQ Enterprise,178001.95,Closed Won,100,2023-12-01,2023-12-23,,,22.0,178001.95
+D01014,C0205,R004,PipelineIQ Starter — Deal 1014,PipelineIQ Starter,6640.26,Prospecting,10,2023-02-10,,2023-04-02,,,664.03
+D01015,C0139,R001,PipelineIQ Pro — Deal 1015,PipelineIQ Pro,34350.69,Closed Won,100,2024-07-11,2024-08-03,,,23.0,34350.69
+D01016,C0285,R001,PipelineIQ Enterprise — Deal 1016,PipelineIQ Enterprise,216712.76,Qualification,25,2023-08-15,,2023-08-16,,,54178.19
+D01017,C0157,R001,PipelineIQ Enterprise — Deal 1017,PipelineIQ Enterprise,164626.88,Prospecting,10,2023-12-04,,2024-02-04,,,16462.69
+D01018,C0135,R005,PipelineIQ Enterprise — Deal 1018,PipelineIQ Enterprise,212960.7,Proposal,50,2024-09-01,,2024-11-01,,,106480.35
+D01019,C0077,R004,PipelineIQ Enterprise — Deal 1019,PipelineIQ Enterprise,248968.69,Proposal,50,2023-08-31,,2023-09-02,,,124484.35
+D01020,C0024,R001,PipelineIQ Pro — Deal 1020,PipelineIQ Pro,42590.6,Closed Won,100,2023-01-01,2023-01-29,,,28.0,42590.6
+D01021,C0455,R004,PipelineIQ Enterprise — Deal 1021,PipelineIQ Enterprise,118982.68,Qualification,25,2023-04-15,,2023-06-30,,,29745.67
+D01022,C0050,R003,PipelineIQ Enterprise — Deal 1022,PipelineIQ Enterprise,121178.19,Qualification,25,2024-02-01,,2024-03-10,,,30294.55
+D01023,C0433,R004,PipelineIQ Enterprise — Deal 1023,PipelineIQ Enterprise,102211.85,Proposal,50,2024-07-08,,2024-10-02,,,51105.93
+D01024,C0335,R005,PipelineIQ Pro — Deal 1024,PipelineIQ Pro,30119.76,Proposal,50,2024-05-06,,2024-05-09,,,15059.88
+D01025,C0324,R001,PipelineIQ Starter — Deal 1025,PipelineIQ Starter,10308.19,Prospecting,10,2023-02-01,,2023-02-16,,,1030.82
+D01026,C0139,R001,PipelineIQ Starter — Deal 1026,PipelineIQ Starter,9277.27,Closed Won,100,2023-02-18,2023-03-20,,,30.0,9277.27
+D01027,C0202,R002,PipelineIQ Pro — Deal 1027,PipelineIQ Pro,25605.56,Closed Lost,0,2024-09-07,2024-11-23,,Price too high,77.0,0.0
+D01028,C0420,R004,PipelineIQ Pro — Deal 1028,PipelineIQ Pro,24599.06,Qualification,25,2024-07-26,,2024-09-16,,,6149.77
+D01029,C0060,R004,PipelineIQ Pro — Deal 1029,PipelineIQ Pro,20769.21,Closed Lost,0,2023-05-26,2023-09-04,,Chose competitor,101.0,0.0
+D01030,C0162,R004,PipelineIQ Pro — Deal 1030,PipelineIQ Pro,46855.64,Proposal,50,2024-05-04,,2024-05-22,,,23427.82
+D01031,C0005,R002,PipelineIQ Pro — Deal 1031,PipelineIQ Pro,41884.14,Prospecting,10,2023-05-08,,2023-07-25,,,4188.41
+D01032,C0133,R003,PipelineIQ Pro — Deal 1032,PipelineIQ Pro,23256.91,Closed Lost,0,2024-03-26,2024-07-06,,Price too high,102.0,0.0
+D01033,C0351,R003,PipelineIQ Pro — Deal 1033,PipelineIQ Pro,25755.61,Closed Won,100,2024-07-08,2024-08-14,,,37.0,25755.61
+D01034,C0050,R004,PipelineIQ Pro — Deal 1034,PipelineIQ Pro,28032.79,Qualification,25,2023-12-01,,2023-12-23,,,7008.2
+D01035,C0148,R004,PipelineIQ Starter — Deal 1035,PipelineIQ Starter,10343.78,Qualification,25,2023-03-25,,2023-04-12,,,2585.95
+D01036,C0029,R002,PipelineIQ Pro — Deal 1036,PipelineIQ Pro,40502.9,Qualification,25,2024-12-19,,2025-03-06,,,10125.73
+D01037,C0476,R002,PipelineIQ Starter — Deal 1037,PipelineIQ Starter,12410.22,Qualification,25,2023-04-04,,2023-04-13,,,3102.55
+D01038,C0254,R002,PipelineIQ Enterprise — Deal 1038,PipelineIQ Enterprise,205826.54,Qualification,25,2024-10-10,,2024-12-09,,,51456.64
+D01039,C0178,R005,PipelineIQ Starter — Deal 1039,PipelineIQ Starter,9255.99,Qualification,25,2023-09-10,,2023-11-29,,,2314.0
+D01040,C0093,R005,PipelineIQ Enterprise — Deal 1040,PipelineIQ Enterprise,114197.0,Negotiation,75,2023-11-29,,2023-12-21,,,85647.75
+D01041,C0052,R003,PipelineIQ Enterprise — Deal 1041,PipelineIQ Enterprise,183718.68,Prospecting,10,2023-05-24,,2023-07-04,,,18371.87
+D01042,C0044,R004,PipelineIQ Pro — Deal 1042,PipelineIQ Pro,19047.97,Proposal,50,2024-01-13,,2024-04-01,,,9523.99
+D01043,C0025,R001,PipelineIQ Pro — Deal 1043,PipelineIQ Pro,17329.6,Qualification,25,2024-06-25,,2024-09-15,,,4332.4
+D01044,C0138,R004,PipelineIQ Pro — Deal 1044,PipelineIQ Pro,25797.98,Prospecting,10,2024-04-10,,2024-05-20,,,2579.8
+D01045,C0153,R002,PipelineIQ Pro — Deal 1045,PipelineIQ Pro,23061.24,Qualification,25,2024-01-01,,2024-01-20,,,5765.31
+D01046,C0061,R003,PipelineIQ Pro — Deal 1046,PipelineIQ Pro,45584.58,Negotiation,75,2023-04-25,,2023-06-24,,,34188.43
+D01047,C0134,R005,PipelineIQ Pro — Deal 1047,PipelineIQ Pro,35320.33,Negotiation,75,2024-04-15,,2024-05-11,,,26490.25
+D01048,C0251,R001,PipelineIQ Pro — Deal 1048,PipelineIQ Pro,44659.19,Proposal,50,2023-12-08,,2024-01-07,,,22329.6
+D01049,C0216,R001,PipelineIQ Enterprise — Deal 1049,PipelineIQ Enterprise,156863.12,Qualification,25,2024-06-26,,2024-07-24,,,39215.78
+D01050,C0267,R002,PipelineIQ Starter — Deal 1050,PipelineIQ Starter,13738.47,Prospecting,10,2023-09-03,,2023-11-25,,,1373.85
+D01051,C0260,R001,PipelineIQ Enterprise — Deal 1051,PipelineIQ Enterprise,246080.61,Qualification,25,2024-06-09,,2024-08-09,,,61520.15
+D01052,C0407,R005,PipelineIQ Enterprise — Deal 1052,PipelineIQ Enterprise,227924.89,Closed Won,100,2023-03-11,2023-04-26,,,46.0,227924.89
+D01053,C0223,R001,PipelineIQ Starter — Deal 1053,PipelineIQ Starter,9799.19,Proposal,50,2023-10-20,,2023-12-31,,,4899.6
+D01054,C0355,R002,PipelineIQ Starter — Deal 1054,PipelineIQ Starter,8159.7,Prospecting,10,2023-05-06,,2023-07-02,,,815.97
+D01055,C0116,R002,PipelineIQ Pro — Deal 1055,PipelineIQ Pro,29300.78,Closed Won,100,2023-12-02,2024-03-05,,,94.0,29300.78
+D01056,C0290,R001,PipelineIQ Pro — Deal 1056,PipelineIQ Pro,43425.87,Negotiation,75,2023-04-14,,2023-06-19,,,32569.4
+D01057,C0446,R002,PipelineIQ Starter — Deal 1057,PipelineIQ Starter,8562.4,Negotiation,75,2023-10-27,,2023-12-02,,,6421.8
+D01058,C0304,R004,PipelineIQ Pro — Deal 1058,PipelineIQ Pro,32379.74,Negotiation,75,2024-01-23,,2024-02-13,,,24284.81
+D01059,C0417,R003,PipelineIQ Pro — Deal 1059,PipelineIQ Pro,35609.76,Prospecting,10,2023-08-18,,2023-09-14,,,3560.98
+D01060,C0407,R003,PipelineIQ Pro — Deal 1060,PipelineIQ Pro,19779.31,Proposal,50,2024-01-21,,2024-04-11,,,9889.66
+D01061,C0295,R001,PipelineIQ Pro — Deal 1061,PipelineIQ Pro,24169.76,Closed Won,100,2024-09-16,2024-12-01,,,76.0,24169.76
+D01062,C0305,R001,PipelineIQ Enterprise — Deal 1062,PipelineIQ Enterprise,208059.32,Negotiation,75,2023-02-19,,2023-04-29,,,156044.49
+D01063,C0427,R001,PipelineIQ Enterprise — Deal 1063,PipelineIQ Enterprise,118056.87,Qualification,25,2024-06-28,,2024-07-28,,,29514.22
+D01064,C0210,R001,PipelineIQ Enterprise — Deal 1064,PipelineIQ Enterprise,191774.05,Prospecting,10,2024-07-07,,2024-09-22,,,19177.4
+D01065,C0200,R002,PipelineIQ Enterprise — Deal 1065,PipelineIQ Enterprise,154413.44,Closed Won,100,2024-10-28,2024-12-05,,,38.0,154413.44
+D01066,C0385,R005,PipelineIQ Pro — Deal 1066,PipelineIQ Pro,40764.29,Proposal,50,2023-11-01,,2024-01-20,,,20382.15
+D01067,C0288,R003,PipelineIQ Enterprise — Deal 1067,PipelineIQ Enterprise,173014.43,Proposal,50,2024-03-24,,2024-04-15,,,86507.21
+D01068,C0293,R003,PipelineIQ Pro — Deal 1068,PipelineIQ Pro,43835.98,Closed Won,100,2024-10-12,2024-12-31,,,80.0,43835.98
+D01069,C0027,R005,PipelineIQ Pro — Deal 1069,PipelineIQ Pro,41398.18,Prospecting,10,2023-04-24,,2023-07-09,,,4139.82
+D01070,C0312,R005,PipelineIQ Starter — Deal 1070,PipelineIQ Starter,6434.59,Qualification,25,2024-04-18,,2024-06-26,,,1608.65
+D01071,C0271,R001,PipelineIQ Enterprise — Deal 1071,PipelineIQ Enterprise,229438.81,Closed Won,100,2023-05-21,2023-06-29,,,39.0,229438.81
+D01072,C0008,R004,PipelineIQ Enterprise — Deal 1072,PipelineIQ Enterprise,87506.29,Proposal,50,2023-03-25,,2023-05-24,,,43753.14
+D01073,C0405,R003,PipelineIQ Pro — Deal 1073,PipelineIQ Pro,41271.45,Proposal,50,2023-12-03,,2023-12-16,,,20635.72
+D01074,C0201,R004,PipelineIQ Pro — Deal 1074,PipelineIQ Pro,42818.18,Qualification,25,2023-06-13,,2023-08-19,,,10704.55
+D01075,C0108,R002,PipelineIQ Enterprise — Deal 1075,PipelineIQ Enterprise,70962.23,Prospecting,10,2024-10-15,,2024-10-19,,,7096.22
+D01076,C0296,R005,PipelineIQ Enterprise — Deal 1076,PipelineIQ Enterprise,150555.5,Negotiation,75,2023-04-27,,2023-05-08,,,112916.62
+D01077,C0296,R005,PipelineIQ Starter — Deal 1077,PipelineIQ Starter,11097.55,Closed Lost,0,2023-03-23,2023-04-28,,No budget,36.0,0.0
+D01078,C0323,R005,PipelineIQ Starter — Deal 1078,PipelineIQ Starter,13875.08,Prospecting,10,2024-11-03,,2025-01-16,,,1387.51
+D01079,C0162,R005,PipelineIQ Starter — Deal 1079,PipelineIQ Starter,13333.95,Qualification,25,2023-02-18,,2023-04-07,,,3333.49
+D01080,C0114,R004,PipelineIQ Starter — Deal 1080,PipelineIQ Starter,10602.74,Qualification,25,2024-08-22,,2024-09-18,,,2650.68
+D01081,C0385,R003,PipelineIQ Pro — Deal 1081,PipelineIQ Pro,18130.06,Closed Won,100,2024-05-31,2024-08-08,,,69.0,18130.06
+D01082,C0100,R001,PipelineIQ Starter — Deal 1082,PipelineIQ Starter,12545.44,Proposal,50,2024-11-15,,2024-12-26,,,6272.72
+D01083,C0124,R001,PipelineIQ Starter — Deal 1083,PipelineIQ Starter,11733.35,Prospecting,10,2023-05-05,,2023-07-18,,,1173.34
+D01084,C0243,R005,PipelineIQ Enterprise — Deal 1084,PipelineIQ Enterprise,65964.04,Qualification,25,2023-05-09,,2023-07-22,,,16491.01
+D01085,C0371,R003,PipelineIQ Pro — Deal 1085,PipelineIQ Pro,19704.04,Closed Won,100,2023-05-05,2023-06-06,,,32.0,19704.04
+D01086,C0409,R005,PipelineIQ Pro — Deal 1086,PipelineIQ Pro,16479.19,Prospecting,10,2023-12-02,,2024-02-09,,,1647.92
+D01087,C0032,R001,PipelineIQ Starter — Deal 1087,PipelineIQ Starter,13555.85,Negotiation,75,2023-10-18,,2023-11-29,,,10166.89
+D01088,C0464,R002,PipelineIQ Starter — Deal 1088,PipelineIQ Starter,7993.37,Negotiation,75,2024-02-15,,2024-02-24,,,5995.03
+D01089,C0195,R005,PipelineIQ Pro — Deal 1089,PipelineIQ Pro,47643.32,Negotiation,75,2024-05-23,,2024-06-19,,,35732.49
+D01090,C0261,R002,PipelineIQ Pro — Deal 1090,PipelineIQ Pro,19895.13,Qualification,25,2024-12-07,,2025-01-21,,,4973.78
+D01091,C0409,R002,PipelineIQ Enterprise — Deal 1091,PipelineIQ Enterprise,169916.77,Proposal,50,2023-12-28,,2024-01-28,,,84958.38
+D01092,C0500,R003,PipelineIQ Enterprise — Deal 1092,PipelineIQ Enterprise,62070.73,Prospecting,10,2024-07-11,,2024-08-22,,,6207.07
+D01093,C0127,R003,PipelineIQ Pro — Deal 1093,PipelineIQ Pro,18162.17,Proposal,50,2024-04-06,,2024-07-01,,,9081.08
+D01094,C0250,R004,PipelineIQ Starter — Deal 1094,PipelineIQ Starter,11506.62,Closed Won,100,2023-09-03,2023-11-17,,,75.0,11506.62
+D01095,C0149,R001,PipelineIQ Enterprise — Deal 1095,PipelineIQ Enterprise,87187.48,Qualification,25,2023-04-14,,2023-06-02,,,21796.87
+D01096,C0430,R001,PipelineIQ Starter — Deal 1096,PipelineIQ Starter,8928.87,Negotiation,75,2024-11-06,,2024-11-24,,,6696.65
+D01097,C0438,R002,PipelineIQ Enterprise — Deal 1097,PipelineIQ Enterprise,232202.71,Proposal,50,2024-04-12,,2024-04-16,,,116101.35
+D01098,C0176,R004,PipelineIQ Starter — Deal 1098,PipelineIQ Starter,10447.02,Qualification,25,2024-02-24,,2024-02-25,,,2611.76
+D01099,C0036,R004,PipelineIQ Starter — Deal 1099,PipelineIQ Starter,7949.85,Proposal,50,2023-09-19,,2023-10-22,,,3974.93
+D01100,C0237,R001,PipelineIQ Enterprise — Deal 1100,PipelineIQ Enterprise,186591.53,Prospecting,10,2024-09-30,,2024-12-29,,,18659.15
+D01101,C0210,R005,PipelineIQ Pro — Deal 1101,PipelineIQ Pro,37211.21,Qualification,25,2024-10-12,,2024-11-20,,,9302.8
+D01102,C0343,R001,PipelineIQ Pro — Deal 1102,PipelineIQ Pro,16499.88,Qualification,25,2023-02-08,,2023-03-05,,,4124.97
+D01103,C0074,R002,PipelineIQ Enterprise — Deal 1103,PipelineIQ Enterprise,159372.59,Prospecting,10,2023-01-09,,2023-02-12,,,15937.26
+D01104,C0325,R005,PipelineIQ Pro — Deal 1104,PipelineIQ Pro,29689.44,Qualification,25,2023-04-15,,2023-05-19,,,7422.36
+D01105,C0304,R005,PipelineIQ Pro — Deal 1105,PipelineIQ Pro,38675.13,Proposal,50,2024-08-15,,2024-09-14,,,19337.56
+D01106,C0215,R005,PipelineIQ Pro — Deal 1106,PipelineIQ Pro,42798.64,Closed Lost,0,2024-02-26,2024-05-10,,Price too high,74.0,0.0
+D01107,C0471,R005,PipelineIQ Pro — Deal 1107,PipelineIQ Pro,29074.62,Negotiation,75,2024-10-03,,2024-12-31,,,21805.97
+D01108,C0261,R005,PipelineIQ Starter — Deal 1108,PipelineIQ Starter,10696.68,Prospecting,10,2023-10-12,,2023-12-30,,,1069.67
+D01109,C0362,R003,PipelineIQ Pro — Deal 1109,PipelineIQ Pro,41784.13,Closed Won,100,2023-04-25,2023-08-13,,,110.0,41784.13
+D01110,C0434,R005,PipelineIQ Starter — Deal 1110,PipelineIQ Starter,13311.58,Negotiation,75,2024-04-09,,2024-04-27,,,9983.68
+D01111,C0496,R002,PipelineIQ Pro — Deal 1111,PipelineIQ Pro,19315.01,Qualification,25,2023-01-22,,2023-04-15,,,4828.75
+D01112,C0430,R001,PipelineIQ Pro — Deal 1112,PipelineIQ Pro,43211.54,Closed Lost,0,2023-04-19,2023-07-25,,Project cancelled,97.0,0.0
+D01113,C0485,R001,PipelineIQ Pro — Deal 1113,PipelineIQ Pro,42148.09,Negotiation,75,2023-07-27,,2023-09-05,,,31611.07
+D01114,C0106,R001,PipelineIQ Starter — Deal 1114,PipelineIQ Starter,10906.48,Negotiation,75,2024-06-03,,2024-08-06,,,8179.86
+D01115,C0375,R003,PipelineIQ Enterprise — Deal 1115,PipelineIQ Enterprise,143978.66,Negotiation,75,2024-06-08,,2024-07-07,,,107983.99
+D01116,C0425,R004,PipelineIQ Starter — Deal 1116,PipelineIQ Starter,7144.49,Qualification,25,2024-04-05,,2024-04-07,,,1786.12
+D01117,C0468,R005,PipelineIQ Pro — Deal 1117,PipelineIQ Pro,18300.26,Negotiation,75,2023-01-13,,2023-04-03,,,13725.19
+D01118,C0497,R005,PipelineIQ Starter — Deal 1118,PipelineIQ Starter,14420.8,Qualification,25,2024-10-14,,2024-12-07,,,3605.2
+D01119,C0404,R002,PipelineIQ Starter — Deal 1119,PipelineIQ Starter,6862.9,Prospecting,10,2023-12-24,,2024-01-27,,,686.29
+D01120,C0442,R001,PipelineIQ Starter — Deal 1120,PipelineIQ Starter,14698.88,Closed Lost,0,2024-11-01,2024-12-31,,Chose competitor,60.0,0.0
+D01121,C0069,R003,PipelineIQ Starter — Deal 1121,PipelineIQ Starter,13944.39,Proposal,50,2024-04-06,,2024-06-05,,,6972.19
+D01122,C0254,R001,PipelineIQ Starter — Deal 1122,PipelineIQ Starter,7685.31,Qualification,25,2023-02-27,,2023-05-27,,,1921.33
+D01123,C0082,R001,PipelineIQ Enterprise — Deal 1123,PipelineIQ Enterprise,168313.03,Negotiation,75,2024-08-01,,2024-08-29,,,126234.77
+D01124,C0031,R005,PipelineIQ Pro — Deal 1124,PipelineIQ Pro,27993.1,Negotiation,75,2024-10-20,,2024-10-30,,,20994.82
+D01125,C0074,R001,PipelineIQ Enterprise — Deal 1125,PipelineIQ Enterprise,146544.24,Proposal,50,2024-10-11,,2024-10-30,,,73272.12
+D01126,C0078,R005,PipelineIQ Pro — Deal 1126,PipelineIQ Pro,34039.51,Proposal,50,2024-07-25,,2024-09-24,,,17019.76
+D01127,C0094,R005,PipelineIQ Enterprise — Deal 1127,PipelineIQ Enterprise,127954.92,Qualification,25,2024-02-21,,2024-03-19,,,31988.73
+D01128,C0008,R003,PipelineIQ Starter — Deal 1128,PipelineIQ Starter,8731.94,Closed Lost,0,2023-05-28,2023-06-21,,No budget,24.0,0.0
+D01129,C0052,R002,PipelineIQ Pro — Deal 1129,PipelineIQ Pro,44133.36,Negotiation,75,2023-06-26,,2023-08-19,,,33100.02
+D01130,C0196,R001,PipelineIQ Starter — Deal 1130,PipelineIQ Starter,10335.69,Proposal,50,2023-07-17,,2023-08-26,,,5167.85
+D01131,C0007,R002,PipelineIQ Enterprise — Deal 1131,PipelineIQ Enterprise,136324.23,Negotiation,75,2023-02-21,,2023-04-23,,,102243.17
+D01132,C0399,R002,PipelineIQ Starter — Deal 1132,PipelineIQ Starter,10461.55,Qualification,25,2023-02-27,,2023-03-19,,,2615.39
+D01133,C0370,R002,PipelineIQ Starter — Deal 1133,PipelineIQ Starter,5317.98,Qualification,25,2024-02-05,,2024-03-30,,,1329.49
+D01134,C0016,R004,PipelineIQ Starter — Deal 1134,PipelineIQ Starter,5700.78,Qualification,25,2024-07-10,,2024-09-23,,,1425.19
+D01135,C0050,R003,PipelineIQ Starter — Deal 1135,PipelineIQ Starter,8389.64,Proposal,50,2023-01-31,,2023-02-08,,,4194.82
+D01136,C0409,R005,PipelineIQ Pro — Deal 1136,PipelineIQ Pro,23518.83,Qualification,25,2023-01-13,,2023-01-17,,,5879.71
+D01137,C0232,R002,PipelineIQ Pro — Deal 1137,PipelineIQ Pro,22566.58,Proposal,50,2023-02-05,,2023-04-30,,,11283.29
+D01138,C0022,R005,PipelineIQ Starter — Deal 1138,PipelineIQ Starter,6602.48,Prospecting,10,2024-01-25,,2024-04-07,,,660.25
+D01139,C0096,R004,PipelineIQ Enterprise — Deal 1139,PipelineIQ Enterprise,151863.22,Closed Won,100,2024-05-22,2024-06-10,,,19.0,151863.22
+D01140,C0144,R003,PipelineIQ Starter — Deal 1140,PipelineIQ Starter,5249.52,Closed Won,100,2024-12-27,2024-12-31,,,4.0,5249.52
+D01141,C0086,R004,PipelineIQ Enterprise — Deal 1141,PipelineIQ Enterprise,131502.54,Prospecting,10,2023-04-24,,2023-07-06,,,13150.25
+D01142,C0157,R004,PipelineIQ Enterprise — Deal 1142,PipelineIQ Enterprise,211548.62,Closed Lost,0,2023-01-07,2023-03-07,,No budget,59.0,0.0
+D01143,C0151,R002,PipelineIQ Starter — Deal 1143,PipelineIQ Starter,9070.62,Closed Lost,0,2023-08-19,2023-11-25,,No budget,98.0,0.0
+D01144,C0176,R004,PipelineIQ Starter — Deal 1144,PipelineIQ Starter,6836.67,Prospecting,10,2023-01-16,,2023-02-04,,,683.67
+D01145,C0374,R001,PipelineIQ Starter — Deal 1145,PipelineIQ Starter,7146.74,Proposal,50,2023-05-26,,2023-08-20,,,3573.37
+D01146,C0193,R004,PipelineIQ Starter — Deal 1146,PipelineIQ Starter,10833.41,Qualification,25,2024-04-30,,2024-05-24,,,2708.35
+D01147,C0181,R004,PipelineIQ Enterprise — Deal 1147,PipelineIQ Enterprise,54520.79,Negotiation,75,2024-10-18,,2025-01-07,,,40890.59
+D01148,C0239,R004,PipelineIQ Pro — Deal 1148,PipelineIQ Pro,18303.07,Closed Lost,0,2024-02-23,2024-03-05,,No decision made,11.0,0.0
+D01149,C0139,R001,PipelineIQ Enterprise — Deal 1149,PipelineIQ Enterprise,213668.24,Negotiation,75,2024-11-24,,2024-12-12,,,160251.18
+D01150,C0196,R005,PipelineIQ Pro — Deal 1150,PipelineIQ Pro,43950.64,Qualification,25,2023-12-26,,2024-01-10,,,10987.66
+D01151,C0298,R001,PipelineIQ Starter — Deal 1151,PipelineIQ Starter,6314.13,Prospecting,10,2023-11-24,,2024-02-01,,,631.41
+D01152,C0376,R004,PipelineIQ Starter — Deal 1152,PipelineIQ Starter,6707.3,Qualification,25,2024-12-20,,2025-01-26,,,1676.83
+D01153,C0220,R003,PipelineIQ Enterprise — Deal 1153,PipelineIQ Enterprise,210466.75,Closed Won,100,2024-05-05,2024-07-16,,,72.0,210466.75
+D01154,C0465,R004,PipelineIQ Enterprise — Deal 1154,PipelineIQ Enterprise,184892.9,Prospecting,10,2024-01-24,,2024-02-01,,,18489.29
+D01155,C0262,R004,PipelineIQ Starter — Deal 1155,PipelineIQ Starter,10002.0,Qualification,25,2023-09-23,,2023-09-27,,,2500.5
+D01156,C0057,R005,PipelineIQ Enterprise — Deal 1156,PipelineIQ Enterprise,96144.26,Closed Won,100,2023-04-01,2023-06-13,,,73.0,96144.26
+D01157,C0224,R005,PipelineIQ Enterprise — Deal 1157,PipelineIQ Enterprise,56505.8,Qualification,25,2023-05-14,,2023-05-25,,,14126.45
+D01158,C0312,R005,PipelineIQ Pro — Deal 1158,PipelineIQ Pro,16526.42,Qualification,25,2023-07-26,,2023-09-15,,,4131.6
+D01159,C0277,R003,PipelineIQ Enterprise — Deal 1159,PipelineIQ Enterprise,175065.45,Closed Won,100,2023-08-24,2023-09-29,,,36.0,175065.45
+D01160,C0061,R001,PipelineIQ Pro — Deal 1160,PipelineIQ Pro,32845.15,Qualification,25,2024-05-31,,2024-06-21,,,8211.29
+D01161,C0096,R003,PipelineIQ Starter — Deal 1161,PipelineIQ Starter,10740.84,Proposal,50,2023-10-08,,2023-12-03,,,5370.42
+D01162,C0381,R001,PipelineIQ Starter — Deal 1162,PipelineIQ Starter,12144.16,Prospecting,10,2023-06-20,,2023-07-16,,,1214.42
+D01163,C0001,R002,PipelineIQ Enterprise — Deal 1163,PipelineIQ Enterprise,148333.6,Closed Lost,0,2023-01-15,2023-03-02,,No budget,46.0,0.0
+D01164,C0266,R001,PipelineIQ Starter — Deal 1164,PipelineIQ Starter,12613.62,Prospecting,10,2023-01-19,,2023-03-31,,,1261.36
+D01165,C0304,R004,PipelineIQ Pro — Deal 1165,PipelineIQ Pro,23703.34,Qualification,25,2024-04-09,,2024-05-10,,,5925.84
+D01166,C0047,R005,PipelineIQ Starter — Deal 1166,PipelineIQ Starter,11121.86,Prospecting,10,2024-08-08,,2024-10-20,,,1112.19
+D01167,C0489,R001,PipelineIQ Starter — Deal 1167,PipelineIQ Starter,7521.23,Qualification,25,2023-01-24,,2023-04-09,,,1880.31
+D01168,C0351,R002,PipelineIQ Starter — Deal 1168,PipelineIQ Starter,8844.83,Negotiation,75,2023-08-29,,2023-09-16,,,6633.62
+D01169,C0484,R005,PipelineIQ Pro — Deal 1169,PipelineIQ Pro,22053.95,Proposal,50,2024-11-20,,2025-01-28,,,11026.98
+D01170,C0005,R005,PipelineIQ Enterprise — Deal 1170,PipelineIQ Enterprise,195351.14,Negotiation,75,2023-02-15,,2023-04-06,,,146513.36
+D01171,C0218,R005,PipelineIQ Enterprise — Deal 1171,PipelineIQ Enterprise,209031.34,Qualification,25,2023-03-26,,2023-06-05,,,52257.83
+D01172,C0472,R001,PipelineIQ Pro — Deal 1172,PipelineIQ Pro,49999.12,Qualification,25,2023-02-21,,2023-02-24,,,12499.78
+D01173,C0128,R005,PipelineIQ Enterprise — Deal 1173,PipelineIQ Enterprise,213187.13,Closed Lost,0,2023-10-11,2024-01-07,,Chose competitor,88.0,0.0
+D01174,C0476,R002,PipelineIQ Pro — Deal 1174,PipelineIQ Pro,19155.92,Prospecting,10,2024-04-01,,2024-04-12,,,1915.59
+D01175,C0285,R001,PipelineIQ Starter — Deal 1175,PipelineIQ Starter,10233.91,Prospecting,10,2024-11-09,,2025-01-26,,,1023.39
+D01176,C0493,R005,PipelineIQ Enterprise — Deal 1176,PipelineIQ Enterprise,123876.0,Qualification,25,2023-05-25,,2023-08-07,,,30969.0
+D01177,C0036,R003,PipelineIQ Pro — Deal 1177,PipelineIQ Pro,20252.84,Prospecting,10,2024-11-11,,2024-11-13,,,2025.28
+D01178,C0016,R003,PipelineIQ Pro — Deal 1178,PipelineIQ Pro,22120.87,Negotiation,75,2024-02-27,,2024-04-20,,,16590.65
+D01179,C0298,R005,PipelineIQ Pro — Deal 1179,PipelineIQ Pro,26257.81,Closed Lost,0,2024-09-03,2024-10-06,,No budget,33.0,0.0
+D01180,C0049,R004,PipelineIQ Enterprise — Deal 1180,PipelineIQ Enterprise,104667.65,Qualification,25,2023-06-01,,2023-06-08,,,26166.91
+D01181,C0467,R001,PipelineIQ Starter — Deal 1181,PipelineIQ Starter,10505.36,Qualification,25,2023-05-23,,2023-08-01,,,2626.34
+D01182,C0263,R002,PipelineIQ Starter — Deal 1182,PipelineIQ Starter,11887.18,Prospecting,10,2024-10-30,,2024-11-28,,,1188.72
+D01183,C0073,R001,PipelineIQ Pro — Deal 1183,PipelineIQ Pro,35876.22,Negotiation,75,2023-06-02,,2023-07-23,,,26907.17
+D01184,C0353,R001,PipelineIQ Starter — Deal 1184,PipelineIQ Starter,10308.78,Proposal,50,2024-05-23,,2024-06-26,,,5154.39
+D01185,C0211,R003,PipelineIQ Pro — Deal 1185,PipelineIQ Pro,46669.21,Proposal,50,2024-10-14,,2024-11-08,,,23334.6
+D01186,C0151,R003,PipelineIQ Pro — Deal 1186,PipelineIQ Pro,20591.93,Closed Lost,0,2024-04-10,2024-04-13,,Price too high,3.0,0.0
+D01187,C0360,R005,PipelineIQ Starter — Deal 1187,PipelineIQ Starter,6594.7,Prospecting,10,2023-05-23,,2023-08-02,,,659.47
+D01188,C0091,R004,PipelineIQ Pro — Deal 1188,PipelineIQ Pro,18751.4,Prospecting,10,2023-03-13,,2023-06-02,,,1875.14
+D01189,C0444,R001,PipelineIQ Enterprise — Deal 1189,PipelineIQ Enterprise,244910.57,Qualification,25,2023-10-21,,2024-01-15,,,61227.64
+D01190,C0113,R004,PipelineIQ Pro — Deal 1190,PipelineIQ Pro,19004.78,Prospecting,10,2024-09-08,,2024-10-01,,,1900.48
+D01191,C0288,R001,PipelineIQ Starter — Deal 1191,PipelineIQ Starter,7645.02,Qualification,25,2023-03-29,,2023-04-15,,,1911.26
+D01192,C0103,R001,PipelineIQ Starter — Deal 1192,PipelineIQ Starter,10223.72,Proposal,50,2023-04-02,,2023-04-25,,,5111.86
+D01193,C0065,R004,PipelineIQ Starter — Deal 1193,PipelineIQ Starter,10677.98,Closed Lost,0,2023-03-12,2023-04-26,,Price too high,45.0,0.0
+D01194,C0255,R005,PipelineIQ Starter — Deal 1194,PipelineIQ Starter,11548.64,Qualification,25,2024-01-19,,2024-01-21,,,2887.16
+D01195,C0196,R002,PipelineIQ Enterprise — Deal 1195,PipelineIQ Enterprise,135876.64,Negotiation,75,2023-09-22,,2023-11-01,,,101907.48
+D01196,C0215,R002,PipelineIQ Enterprise — Deal 1196,PipelineIQ Enterprise,59200.7,Closed Won,100,2023-05-28,2023-07-24,,,57.0,59200.7
+D01197,C0046,R001,PipelineIQ Starter — Deal 1197,PipelineIQ Starter,13521.3,Qualification,25,2023-04-20,,2023-07-09,,,3380.32
+D01198,C0433,R002,PipelineIQ Pro — Deal 1198,PipelineIQ Pro,23280.92,Qualification,25,2023-11-13,,2024-01-15,,,5820.23
+D01199,C0210,R004,PipelineIQ Starter — Deal 1199,PipelineIQ Starter,7594.73,Qualification,25,2023-03-27,,2023-05-29,,,1898.68
+D01200,C0343,R001,PipelineIQ Enterprise — Deal 1200,PipelineIQ Enterprise,83815.39,Closed Lost,0,2024-11-26,2024-12-13,,Project cancelled,17.0,0.0

@@ -1,0 +1,501 @@
+company_id,company_name,industry,company_size,region,annual_revenue,churn_score,customer_ltv,created_date,is_active
+C0001,Apex Technologies 001,RetailTech,11-50,Middle East & Africa,5000000.0,0.354,23002.63,2022-04-12,True
+C0002,Cobalt Global 002,PropTech,11-50,Latin America,5000000.0,0.249,146313.45,2022-01-04,True
+C0003,Nova Innovations 003,LegalTech,51-200,Europe,100000.0,0.416,479034.41,2022-06-22,True
+C0004,Solara Ventures 004,LegalTech,51-200,Middle East & Africa,500000.0,0.16,405492.85,2022-08-24,True
+C0005,Solara Technologies 005,HRTech,1000+,Middle East & Africa,50000000.0,0.55,187201.16,2022-04-09,True
+C0006,Nexus Analytics 006,HRTech,1-10,Europe,50000000.0,0.111,59490.7,2022-05-23,True
+C0007,Harbor Platforms 007,EdTech,51-200,APAC,100000.0,0.51,338385.84,2022-12-26,False
+C0008,Quantum Technologies 008,EdTech,501-1000,Europe,100000.0,0.177,236507.5,2022-05-19,False
+C0009,Quantum Global 009,RetailTech,1000+,APAC,50000000.0,0.198,386473.65,2022-01-29,True
+C0010,Nexus Networks 010,PropTech,51-200,North America,100000.0,0.376,457436.7,2022-10-18,False
+C0011,Stratos Digital 011,CyberSecurity,201-500,Latin America,100000.0,0.543,139791.28,2022-05-07,True
+C0012,Redpoint Consulting 012,PropTech,501-1000,Latin America,500000.0,0.085,117467.17,2022-03-12,True
+C0013,Orion Systems 013,HealthTech,11-50,Europe,50000000.0,0.358,343435.79,2022-11-02,True
+C0014,Solara Data 014,CyberSecurity,501-1000,APAC,5000000.0,0.273,431782.05,2022-01-06,True
+C0015,Vega Global 015,HRTech,1000+,APAC,,0.134,153815.06,2022-03-22,True
+C0016,Ember Consulting 016,EdTech,501-1000,North America,50000000.0,0.353,316397.09,2022-11-24,True
+C0017,Helix Group 017,LegalTech,11-50,Middle East & Africa,50000000.0,0.133,461992.7,2022-01-01,True
+C0018,Irongate Solutions 018,HealthTech,51-200,APAC,100000.0,0.326,38383.33,2022-10-18,False
+C0019,Orion Partners 019,HealthTech,501-1000,Europe,100000.0,0.166,333277.9,2022-10-09,True
+C0020,Bluewave Data 020,PropTech,11-50,Middle East & Africa,50000000.0,0.208,367666.22,2022-04-13,True
+C0021,Solara Platforms 021,CyberSecurity,501-1000,Latin America,,0.263,131473.75,2022-02-02,True
+C0022,Horizon Global 022,RetailTech,501-1000,Europe,,0.39,44786.61,2022-11-20,True
+C0023,Orion Systems 023,LegalTech,1-10,Middle East & Africa,100000.0,0.154,146453.86,2022-09-06,True
+C0024,Atlas Cloud 024,CyberSecurity,11-50,Latin America,50000000.0,0.306,209459.38,2022-02-18,True
+C0025,Lumex Platforms 025,PropTech,201-500,Latin America,50000000.0,0.203,367247.17,2022-12-11,True
+C0026,Quantum Ventures 026,FinTech,201-500,APAC,50000000.0,0.184,432219.54,2022-05-08,True
+C0027,Redpoint Enterprises 027,EdTech,201-500,Europe,500000.0,0.368,236687.75,2022-02-08,True
+C0028,Indigo Global 028,HealthTech,1-10,Middle East & Africa,50000000.0,0.202,17231.35,2022-02-17,False
+C0029,Indigo Analytics 029,EdTech,201-500,Latin America,1000000.0,0.186,114736.18,2022-07-25,False
+C0030,Nova Intelligence 030,FinTech,201-500,APAC,50000000.0,0.284,394713.38,2022-05-27,True
+C0031,Ember Global 031,CyberSecurity,11-50,Europe,500000.0,0.1,116673.44,2022-01-30,True
+C0032,Redpoint Systems 032,LegalTech,1-10,North America,5000000.0,0.208,243626.37,2022-09-29,True
+C0033,Bluewave Technologies 033,EdTech,1-10,Middle East & Africa,,0.31,340854.15,2022-05-01,True
+C0034,Horizon Analytics 034,FinTech,501-1000,North America,1000000.0,0.044,332112.85,2022-10-17,True
+C0035,Pinnacle Digital 035,LegalTech,11-50,APAC,1000000.0,0.125,74130.36,2022-11-27,True
+C0036,Stratos Technologies 036,FinTech,201-500,Middle East & Africa,5000000.0,0.211,498087.26,2022-02-07,True
+C0037,Bluewave Consulting 037,EdTech,51-200,North America,100000.0,0.358,191068.27,2022-03-22,True
+C0038,Redpoint Dynamics 038,FinTech,1000+,Middle East & Africa,500000.0,0.652,466560.46,2022-02-23,False
+C0039,Atlas Consulting 039,HealthTech,1-10,Middle East & Africa,100000.0,0.162,143450.62,2022-11-06,True
+C0040,Stratos Digital 040,HRTech,501-1000,Latin America,500000.0,0.069,453614.88,2022-01-27,True
+C0041,Lumex Consulting 041,FinTech,1-10,APAC,50000000.0,0.077,74101.63,2022-05-15,True
+C0042,Crestline Global 042,PropTech,501-1000,North America,,0.174,46869.49,2022-12-20,False
+C0043,Redpoint Systems 043,LegalTech,501-1000,Middle East & Africa,100000.0,0.543,220595.49,2022-01-22,True
+C0044,Glacier Systems 044,LegalTech,11-50,Europe,10000000.0,0.062,60368.87,2022-10-14,False
+C0045,Lumex Data 045,EdTech,11-50,Europe,50000000.0,0.236,407278.14,2022-07-31,True
+C0046,Ember Networks 046,PropTech,1000+,Europe,500000.0,0.313,88006.94,2022-12-26,True
+C0047,Indigo Systems 047,CyberSecurity,11-50,Europe,50000000.0,0.153,460041.43,2022-06-29,True
+C0048,Glacier Analytics 048,RetailTech,1-10,Europe,1000000.0,0.387,170848.36,2022-02-05,False
+C0049,Pinnacle Platforms 049,PropTech,1000+,Middle East & Africa,500000.0,0.485,470226.2,2022-03-01,False
+C0050,Pinnacle Labs 050,HRTech,1-10,North America,5000000.0,0.096,222936.24,2022-06-10,True
+C0051,Bluewave Ventures 051,PropTech,501-1000,Europe,500000.0,0.366,31749.4,2022-08-12,True
+C0052,Glacier Global 052,RetailTech,51-200,Latin America,,0.298,474948.5,2022-06-19,True
+C0053,Radiant Ventures 053,HRTech,501-1000,APAC,10000000.0,0.224,210112.53,2022-07-26,True
+C0054,Redpoint Group 054,RetailTech,201-500,Latin America,10000000.0,0.164,376585.93,2022-03-31,True
+C0055,Vertex Intelligence 055,FinTech,51-200,APAC,100000.0,0.461,220645.19,2022-10-24,True
+C0056,Stratos Enterprises 056,CyberSecurity,201-500,Europe,5000000.0,0.098,241861.23,2022-03-28,True
+C0057,Vertex Services 057,LegalTech,1-10,Europe,10000000.0,0.179,162105.54,2022-04-12,True
+C0058,Nexus Analytics 058,CyberSecurity,501-1000,North America,1000000.0,0.343,213076.1,2022-11-19,True
+C0059,Cobalt Intelligence 059,CyberSecurity,201-500,Europe,100000.0,0.275,331468.43,2022-01-03,False
+C0060,Indigo Ventures 060,PropTech,11-50,Europe,50000000.0,0.443,479403.36,2022-09-23,True
+C0061,Redpoint Analytics 061,HealthTech,201-500,Europe,50000000.0,0.133,237675.19,2022-09-29,False
+C0062,Meridian Networks 062,CyberSecurity,501-1000,Middle East & Africa,1000000.0,0.401,416978.89,2022-10-08,True
+C0063,Nova Partners 063,CyberSecurity,51-200,Europe,50000000.0,0.323,322454.1,2022-09-24,True
+C0064,Zenith Consulting 064,CyberSecurity,1-10,APAC,100000.0,0.292,143140.4,2022-06-13,False
+C0065,Orion Group 065,EdTech,11-50,Latin America,10000000.0,0.114,84874.58,2022-04-20,True
+C0066,Lumex Networks 066,CyberSecurity,201-500,North America,100000.0,0.342,418116.67,2022-07-19,False
+C0067,Horizon Solutions 067,PropTech,201-500,North America,500000.0,0.17,156320.2,2022-07-19,False
+C0068,Harbor Innovations 068,RetailTech,201-500,Europe,500000.0,0.801,223559.63,2022-01-15,True
+C0069,Radiant Intelligence 069,EdTech,201-500,Europe,5000000.0,0.132,271720.58,2022-07-21,True
+C0070,Radiant Solutions 070,HealthTech,1000+,Latin America,100000.0,0.125,434757.16,2022-04-04,True
+C0071,Solara Networks 071,RetailTech,201-500,APAC,500000.0,0.337,383002.56,2022-07-14,True
+C0072,Harbor Innovations 072,HRTech,1-10,Latin America,,0.034,377021.89,2022-01-27,False
+C0073,Arcus Analytics 073,HealthTech,1000+,North America,50000000.0,0.159,25204.7,2022-05-07,True
+C0074,Apex Data 074,EdTech,11-50,Europe,1000000.0,0.262,338034.83,2022-10-16,False
+C0075,Crestline Consulting 075,LegalTech,11-50,Middle East & Africa,5000000.0,0.249,482230.02,2022-02-28,True
+C0076,Nova Dynamics 076,HealthTech,501-1000,North America,500000.0,0.069,292140.4,2022-07-12,True
+C0077,Cobalt Digital 077,HealthTech,501-1000,Europe,,0.46,351624.57,2022-06-04,False
+C0078,Meridian Ventures 078,FinTech,51-200,Middle East & Africa,1000000.0,0.541,334145.46,2022-02-05,True
+C0079,Stratos Solutions 079,PropTech,201-500,North America,1000000.0,0.261,480785.91,2022-11-22,False
+C0080,Crestline Group 080,PropTech,11-50,Middle East & Africa,10000000.0,0.068,142340.37,2022-10-03,True
+C0081,Crestline Innovations 081,HRTech,51-200,Europe,50000000.0,0.047,467964.72,2022-05-23,False
+C0082,Zenith Enterprises 082,PropTech,51-200,North America,1000000.0,0.127,426966.89,2022-04-04,True
+C0083,Arcus Consulting 083,LegalTech,51-200,Middle East & Africa,10000000.0,0.327,441252.6,2022-10-12,True
+C0084,Helix Technologies 084,RetailTech,1000+,Latin America,1000000.0,0.119,282036.34,2022-05-04,True
+C0085,Quantum Partners 085,CyberSecurity,1-10,North America,500000.0,0.108,118582.24,2022-12-21,True
+C0086,Radiant Cloud 086,LegalTech,201-500,Middle East & Africa,5000000.0,0.325,178441.12,2022-10-09,True
+C0087,Cobalt Enterprises 087,HRTech,51-200,APAC,100000.0,0.219,69121.38,2022-04-09,True
+C0088,Ember Global 088,EdTech,11-50,Europe,10000000.0,0.305,247257.31,2022-10-29,False
+C0089,Bluewave Data 089,HRTech,1-10,Europe,500000.0,0.404,121466.75,2022-04-02,True
+C0090,Cobalt Global 090,EdTech,51-200,North America,,0.184,281145.89,2022-12-24,False
+C0091,Quantum Partners 091,HealthTech,1-10,Middle East & Africa,500000.0,0.234,240004.5,2022-08-14,True
+C0092,Nexus Consulting 092,CyberSecurity,1-10,North America,1000000.0,0.175,250955.81,2022-10-23,True
+C0093,Nexus Group 093,EdTech,501-1000,APAC,,0.267,497019.88,2022-03-02,True
+C0094,Lumex Data 094,RetailTech,501-1000,Latin America,1000000.0,0.239,455167.15,2022-06-02,False
+C0095,Lumex Dynamics 095,FinTech,501-1000,North America,50000000.0,0.326,111816.07,2022-04-19,True
+C0096,Orion Labs 096,RetailTech,11-50,Middle East & Africa,,0.443,86700.98,2022-07-29,True
+C0097,Meridian Partners 097,HRTech,1-10,Europe,500000.0,0.386,356408.36,2022-12-26,False
+C0098,Orion Analytics 098,HRTech,1000+,Middle East & Africa,10000000.0,0.096,403913.78,2022-04-12,True
+C0099,Redpoint Analytics 099,EdTech,51-200,Europe,,0.209,39222.64,2022-06-07,True
+C0100,Harbor Cloud 100,HRTech,201-500,North America,1000000.0,0.166,347452.22,2022-12-25,True
+C0101,Pinnacle Services 101,CyberSecurity,201-500,North America,5000000.0,0.227,29531.78,2022-08-10,True
+C0102,Meridian Consulting 102,FinTech,1-10,Europe,10000000.0,0.476,419619.72,2022-10-22,True
+C0103,Apex Consulting 103,FinTech,11-50,Latin America,5000000.0,0.116,329239.65,2022-05-23,True
+C0104,Horizon Innovations 104,CyberSecurity,1-10,Latin America,500000.0,0.172,210090.57,2022-06-14,True
+C0105,Indigo Labs 105,LegalTech,201-500,Latin America,500000.0,0.241,334665.93,2022-07-25,True
+C0106,Redpoint Systems 106,CyberSecurity,1-10,APAC,500000.0,0.197,168404.16,2022-07-26,False
+C0107,Harbor Solutions 107,CyberSecurity,201-500,North America,100000.0,0.155,264035.3,2022-11-15,True
+C0108,Quantum Enterprises 108,FinTech,11-50,APAC,5000000.0,0.302,74196.48,2022-05-28,True
+C0109,Cobalt Partners 109,HealthTech,1-10,Middle East & Africa,50000000.0,0.263,127255.76,2022-03-23,True
+C0110,Apex Global 110,PropTech,1-10,Europe,50000000.0,0.178,457335.64,2022-08-25,False
+C0111,Quantum Group 111,CyberSecurity,1000+,APAC,5000000.0,0.071,355651.7,2022-08-01,False
+C0112,Irongate Analytics 112,CyberSecurity,501-1000,Europe,1000000.0,0.368,103399.08,2022-11-03,True
+C0113,Atlas Technologies 113,HRTech,201-500,APAC,50000000.0,0.165,258791.46,2022-01-02,True
+C0114,Vertex Cloud 114,CyberSecurity,11-50,Latin America,5000000.0,0.646,247327.28,2022-06-20,True
+C0115,Redpoint Intelligence 115,CyberSecurity,51-200,Europe,10000000.0,0.503,127014.72,2022-07-16,True
+C0116,Flint Innovations 116,FinTech,51-200,Latin America,10000000.0,0.409,457580.78,2022-07-15,True
+C0117,Radiant Group 117,CyberSecurity,1-10,Europe,5000000.0,0.378,483023.26,2022-06-19,False
+C0118,Indigo Enterprises 118,HealthTech,501-1000,Latin America,,0.481,363997.48,2022-07-29,False
+C0119,Atlas Technologies 119,CyberSecurity,51-200,APAC,5000000.0,0.45,349425.25,2022-11-29,True
+C0120,Stratos Global 120,PropTech,51-200,Latin America,50000000.0,0.315,275097.85,2022-11-13,True
+C0121,Quantum Dynamics 121,RetailTech,1000+,North America,1000000.0,0.346,489385.49,2022-11-21,True
+C0122,Vega Enterprises 122,EdTech,1000+,APAC,,0.539,32535.57,2022-01-29,True
+C0123,Arcus Innovations 123,EdTech,11-50,Middle East & Africa,1000000.0,0.306,287304.75,2022-04-03,True
+C0124,Orion Data 124,PropTech,501-1000,Europe,1000000.0,0.146,457286.22,2022-03-15,True
+C0125,Quantum Consulting 125,CyberSecurity,51-200,North America,50000000.0,0.452,237974.1,2022-05-28,True
+C0126,Nova Technologies 126,CyberSecurity,51-200,Middle East & Africa,500000.0,0.36,323079.96,2022-08-06,True
+C0127,Crestline Dynamics 127,RetailTech,201-500,Latin America,,0.062,126230.79,2022-10-20,True
+C0128,Vertex Dynamics 128,FinTech,1000+,Latin America,500000.0,0.233,13968.0,2022-12-18,True
+C0129,Nexus Data 129,CyberSecurity,51-200,Europe,5000000.0,0.192,402946.66,2022-04-23,True
+C0130,Meridian Consulting 130,EdTech,1000+,North America,10000000.0,0.52,326706.9,2022-06-08,True
+C0131,Nexus Cloud 131,LegalTech,1000+,Europe,,0.22,455717.63,2022-06-17,True
+C0132,Nova Digital 132,EdTech,501-1000,APAC,5000000.0,0.138,255879.43,2022-05-20,False
+C0133,Pinnacle Partners 133,HRTech,1000+,APAC,50000000.0,0.472,66433.16,2022-02-08,True
+C0134,Zenith Intelligence 134,LegalTech,1-10,Latin America,,0.159,139584.7,2022-03-05,True
+C0135,Radiant Consulting 135,PropTech,1000+,APAC,,0.06,340669.91,2022-08-30,True
+C0136,Redpoint Networks 136,RetailTech,1000+,North America,10000000.0,0.341,413689.12,2022-12-25,True
+C0137,Lumex Ventures 137,EdTech,1-10,North America,500000.0,0.307,498004.41,2022-03-01,True
+C0138,Redpoint Group 138,PropTech,201-500,APAC,10000000.0,0.279,475196.58,2022-12-23,False
+C0139,Lumex Cloud 139,EdTech,201-500,North America,50000000.0,0.329,249780.05,2022-07-28,False
+C0140,Pinnacle Systems 140,LegalTech,11-50,Latin America,1000000.0,0.406,475772.03,2022-07-05,True
+C0141,Radiant Platforms 141,LegalTech,1-10,Latin America,500000.0,0.323,103006.2,2022-03-04,False
+C0142,Harbor Enterprises 142,HealthTech,1000+,Europe,10000000.0,0.181,323351.53,2022-01-11,True
+C0143,Stratos Analytics 143,EdTech,501-1000,Europe,,0.11,416610.74,2022-10-11,True
+C0144,Helix Analytics 144,LegalTech,11-50,Middle East & Africa,,0.063,145864.67,2022-03-16,False
+C0145,Redpoint Consulting 145,EdTech,1-10,North America,100000.0,0.389,17281.56,2022-05-02,True
+C0146,Apex Labs 146,HRTech,1-10,Europe,10000000.0,0.221,216270.67,2022-02-28,True
+C0147,Irongate Enterprises 147,LegalTech,501-1000,Middle East & Africa,,0.171,231482.66,2022-04-24,False
+C0148,Nexus Services 148,HRTech,201-500,North America,,0.068,499307.51,2022-07-25,True
+C0149,Vega Partners 149,CyberSecurity,1-10,North America,500000.0,0.206,308065.74,2022-02-03,True
+C0150,Meridian Cloud 150,LegalTech,201-500,Middle East & Africa,5000000.0,0.359,154499.9,2022-09-16,True
+C0151,Vega Ventures 151,RetailTech,201-500,Latin America,100000.0,0.317,212768.65,2022-08-21,True
+C0152,Ember Ventures 152,LegalTech,201-500,APAC,10000000.0,0.137,134896.0,2022-03-20,True
+C0153,Irongate Technologies 153,HealthTech,1-10,North America,1000000.0,0.217,57316.57,2022-07-10,True
+C0154,Redpoint Systems 154,LegalTech,1000+,North America,1000000.0,0.136,183263.06,2022-12-07,False
+C0155,Lumex Systems 155,HRTech,501-1000,APAC,500000.0,0.064,60764.28,2022-09-17,True
+C0156,Radiant Partners 156,RetailTech,1-10,APAC,50000000.0,0.579,282570.08,2022-02-28,True
+C0157,Horizon Analytics 157,PropTech,501-1000,Middle East & Africa,5000000.0,0.167,340738.59,2022-10-13,True
+C0158,Radiant Consulting 158,FinTech,11-50,APAC,10000000.0,0.486,383580.66,2022-06-23,True
+C0159,Nova Group 159,PropTech,1-10,Europe,10000000.0,0.223,320254.29,2022-01-16,True
+C0160,Bluewave Digital 160,PropTech,201-500,Latin America,500000.0,0.373,87130.55,2022-06-09,True
+C0161,Flint Cloud 161,HealthTech,1-10,Europe,100000.0,0.387,379673.58,2022-01-26,True
+C0162,Pinnacle Enterprises 162,PropTech,201-500,Middle East & Africa,1000000.0,0.291,212950.03,2022-04-21,True
+C0163,Vega Platforms 163,PropTech,1-10,APAC,10000000.0,0.358,342458.26,2022-09-07,True
+C0164,Vertex Systems 164,RetailTech,201-500,Middle East & Africa,,0.369,13766.67,2022-06-04,False
+C0165,Flint Group 165,HRTech,51-200,APAC,,0.434,13787.65,2022-08-09,True
+C0166,Solara Global 166,RetailTech,501-1000,Middle East & Africa,50000000.0,0.059,337343.6,2022-07-01,True
+C0167,Indigo Systems 167,PropTech,1-10,Latin America,,0.154,432433.91,2022-10-22,True
+C0168,Solara Innovations 168,HRTech,1-10,Latin America,,0.691,483437.85,2022-03-29,True
+C0169,Meridian Enterprises 169,LegalTech,1-10,Latin America,50000000.0,0.049,61872.94,2022-08-12,True
+C0170,Bluewave Technologies 170,PropTech,51-200,APAC,100000.0,0.186,173203.63,2022-03-28,True
+C0171,Quantum Ventures 171,RetailTech,51-200,APAC,10000000.0,0.272,479529.44,2022-11-27,True
+C0172,Zenith Ventures 172,EdTech,51-200,Europe,100000.0,0.322,305175.5,2022-12-02,True
+C0173,Flint Partners 173,CyberSecurity,501-1000,Middle East & Africa,1000000.0,0.482,343755.4,2022-10-17,True
+C0174,Meridian Networks 174,LegalTech,11-50,Latin America,,0.32,239771.33,2022-11-20,True
+C0175,Pinnacle Cloud 175,FinTech,51-200,Middle East & Africa,,0.492,162099.85,2022-08-20,True
+C0176,Arcus Dynamics 176,HealthTech,1000+,North America,5000000.0,0.184,301099.11,2022-07-16,True
+C0177,Redpoint Systems 177,CyberSecurity,501-1000,Europe,500000.0,0.029,306452.86,2022-09-14,True
+C0178,Nexus Enterprises 178,HealthTech,51-200,North America,5000000.0,0.438,326602.27,2022-01-21,True
+C0179,Crestline Enterprises 179,EdTech,51-200,APAC,500000.0,0.22,199834.11,2022-06-23,True
+C0180,Nexus Networks 180,HealthTech,51-200,North America,5000000.0,0.127,342405.88,2022-05-26,True
+C0181,Indigo Data 181,EdTech,51-200,North America,5000000.0,0.562,335169.93,2022-06-29,True
+C0182,Quantum Intelligence 182,EdTech,501-1000,North America,500000.0,0.135,283871.81,2022-11-26,True
+C0183,Harbor Group 183,HealthTech,1000+,Latin America,5000000.0,0.189,187295.77,2022-07-05,True
+C0184,Helix Networks 184,CyberSecurity,11-50,Europe,100000.0,0.279,85923.13,2022-06-01,False
+C0185,Vega Services 185,FinTech,1000+,APAC,50000000.0,0.258,312835.42,2022-11-02,True
+C0186,Nova Labs 186,EdTech,1000+,Latin America,,0.171,211320.72,2022-12-13,True
+C0187,Crestline Data 187,HRTech,1000+,Latin America,100000.0,0.39,271665.46,2022-06-08,False
+C0188,Glacier Partners 188,RetailTech,51-200,Middle East & Africa,1000000.0,0.139,236223.19,2022-05-25,True
+C0189,Bluewave Services 189,PropTech,11-50,Europe,50000000.0,0.466,306285.09,2022-05-09,True
+C0190,Irongate Platforms 190,HealthTech,1000+,Middle East & Africa,50000000.0,0.616,71092.11,2022-02-12,True
+C0191,Pinnacle Enterprises 191,EdTech,201-500,North America,100000.0,0.307,410184.6,2022-06-28,False
+C0192,Lumex Systems 192,PropTech,501-1000,APAC,100000.0,0.312,199221.4,2022-02-11,True
+C0193,Apex Networks 193,HealthTech,1000+,APAC,50000000.0,0.135,81564.16,2022-01-20,True
+C0194,Harbor Partners 194,EdTech,1000+,Latin America,1000000.0,0.724,311520.65,2022-02-10,True
+C0195,Helix Group 195,PropTech,1-10,APAC,100000.0,0.119,157564.09,2022-01-25,True
+C0196,Quantum Data 196,CyberSecurity,1-10,North America,50000000.0,0.285,453521.97,2022-11-02,True
+C0197,Quantum Services 197,RetailTech,1000+,Europe,500000.0,0.514,220327.06,2022-11-11,True
+C0198,Horizon Innovations 198,EdTech,1000+,North America,5000000.0,0.156,487580.7,2022-02-04,False
+C0199,Redpoint Services 199,FinTech,201-500,Latin America,,0.261,321478.69,2022-07-11,True
+C0200,Apex Platforms 200,HealthTech,51-200,Europe,10000000.0,0.14,331981.16,2022-02-23,True
+C0201,Ember Networks 201,EdTech,1-10,APAC,5000000.0,0.388,175888.16,2022-11-26,True
+C0202,Flint Enterprises 202,CyberSecurity,1000+,Europe,50000000.0,0.464,76077.76,2022-08-23,True
+C0203,Helix Systems 203,RetailTech,1-10,APAC,500000.0,0.128,262537.96,2022-10-06,True
+C0204,Nexus Digital 204,HRTech,51-200,North America,50000000.0,0.055,331308.37,2022-05-20,True
+C0205,Arcus Innovations 205,PropTech,1000+,Latin America,1000000.0,0.017,176127.95,2022-04-06,True
+C0206,Irongate Platforms 206,HRTech,1-10,Latin America,,0.159,220997.5,2022-04-03,True
+C0207,Stratos Ventures 207,HealthTech,51-200,APAC,500000.0,0.267,228498.72,2022-08-07,True
+C0208,Crestline Platforms 208,CyberSecurity,1-10,APAC,5000000.0,0.53,499093.79,2022-05-21,True
+C0209,Glacier Systems 209,HealthTech,1000+,Latin America,500000.0,0.307,261412.15,2022-12-14,True
+C0210,Apex Group 210,CyberSecurity,1-10,Europe,,0.25,125637.74,2022-11-27,True
+C0211,Solara Cloud 211,FinTech,501-1000,Europe,10000000.0,0.404,230462.06,2022-07-09,True
+C0212,Flint Technologies 212,EdTech,501-1000,APAC,1000000.0,0.37,164048.87,2022-05-23,True
+C0213,Vega Solutions 213,EdTech,201-500,Middle East & Africa,1000000.0,0.221,457635.83,2022-03-02,True
+C0214,Pinnacle Enterprises 214,RetailTech,501-1000,APAC,10000000.0,0.091,459074.67,2022-09-09,True
+C0215,Atlas Technologies 215,CyberSecurity,11-50,Latin America,,0.426,407151.48,2022-06-13,True
+C0216,Cobalt Technologies 216,HRTech,51-200,Europe,10000000.0,0.308,357686.26,2022-12-25,True
+C0217,Glacier Platforms 217,RetailTech,1-10,Europe,50000000.0,0.087,78049.67,2022-09-10,True
+C0218,Redpoint Cloud 218,LegalTech,201-500,Middle East & Africa,100000.0,0.32,309854.7,2022-02-14,True
+C0219,Solara Partners 219,PropTech,201-500,Middle East & Africa,,0.172,71410.12,2022-06-12,True
+C0220,Crestline Enterprises 220,LegalTech,11-50,Middle East & Africa,10000000.0,0.524,298015.14,2022-03-08,True
+C0221,Indigo Systems 221,HealthTech,501-1000,Europe,500000.0,0.144,90681.97,2022-06-15,False
+C0222,Zenith Platforms 222,HRTech,1-10,APAC,100000.0,0.437,321177.97,2022-10-10,True
+C0223,Quantum Dynamics 223,HealthTech,501-1000,Europe,5000000.0,0.562,471387.42,2022-03-20,True
+C0224,Meridian Data 224,LegalTech,501-1000,North America,50000000.0,0.204,433252.78,2022-02-11,True
+C0225,Quantum Cloud 225,HRTech,1000+,Europe,50000000.0,0.265,290347.23,2022-11-13,True
+C0226,Irongate Global 226,HRTech,1000+,APAC,1000000.0,0.343,129990.18,2022-12-17,True
+C0227,Crestline Technologies 227,FinTech,11-50,Latin America,1000000.0,0.308,247283.05,2022-04-15,True
+C0228,Atlas Networks 228,LegalTech,1000+,APAC,1000000.0,0.078,74075.41,2022-07-09,True
+C0229,Vega Networks 229,RetailTech,201-500,North America,500000.0,0.204,230302.05,2022-03-14,True
+C0230,Vertex Intelligence 230,PropTech,11-50,Europe,50000000.0,0.468,170443.55,2022-10-23,True
+C0231,Helix Labs 231,CyberSecurity,501-1000,Latin America,1000000.0,0.224,440747.08,2022-09-12,True
+C0232,Solara Services 232,CyberSecurity,11-50,Europe,5000000.0,0.564,182918.59,2022-01-26,True
+C0233,Meridian Partners 233,HRTech,501-1000,North America,50000000.0,0.458,62673.57,2022-03-10,False
+C0234,Ember Platforms 234,PropTech,51-200,North America,1000000.0,0.229,35067.27,2022-10-15,True
+C0235,Redpoint Dynamics 235,HealthTech,201-500,Middle East & Africa,1000000.0,0.194,384558.02,2022-05-24,False
+C0236,Meridian Data 236,HealthTech,11-50,North America,1000000.0,0.114,192867.18,2022-06-23,True
+C0237,Arcus Group 237,RetailTech,501-1000,Middle East & Africa,1000000.0,0.119,255038.17,2022-01-24,True
+C0238,Cobalt Networks 238,CyberSecurity,501-1000,Latin America,100000.0,0.224,307067.66,2022-09-21,True
+C0239,Meridian Networks 239,EdTech,201-500,Middle East & Africa,10000000.0,0.175,422874.94,2022-10-31,True
+C0240,Harbor Services 240,CyberSecurity,1000+,Middle East & Africa,500000.0,0.238,242697.37,2022-01-09,True
+C0241,Radiant Ventures 241,PropTech,501-1000,APAC,50000000.0,0.438,450395.88,2022-12-19,True
+C0242,Meridian Partners 242,HRTech,1000+,Middle East & Africa,5000000.0,0.305,121496.18,2022-01-27,True
+C0243,Nova Services 243,PropTech,11-50,Europe,,0.411,290559.43,2022-12-25,True
+C0244,Apex Enterprises 244,LegalTech,201-500,Europe,1000000.0,0.238,348345.13,2022-07-30,True
+C0245,Meridian Partners 245,FinTech,1000+,Europe,5000000.0,0.306,111597.44,2022-06-16,False
+C0246,Irongate Services 246,PropTech,51-200,Europe,1000000.0,0.224,456940.84,2022-06-25,True
+C0247,Radiant Consulting 247,CyberSecurity,11-50,Europe,500000.0,0.228,283462.46,2022-04-26,False
+C0248,Vertex Dynamics 248,RetailTech,1000+,Latin America,500000.0,0.601,245103.68,2022-10-14,False
+C0249,Glacier Consulting 249,HRTech,1-10,Middle East & Africa,10000000.0,0.186,276163.53,2022-07-22,True
+C0250,Flint Group 250,HRTech,1-10,APAC,10000000.0,0.332,48724.42,2022-08-15,True
+C0251,Ember Partners 251,RetailTech,11-50,Middle East & Africa,500000.0,0.154,467181.73,2022-12-23,True
+C0252,Vega Data 252,RetailTech,11-50,North America,10000000.0,0.59,453540.25,2022-04-26,True
+C0253,Nexus Ventures 253,PropTech,51-200,Latin America,,0.136,343784.07,2022-03-12,True
+C0254,Redpoint Labs 254,PropTech,1000+,Latin America,1000000.0,0.145,328763.96,2022-05-28,True
+C0255,Quantum Systems 255,HealthTech,1000+,Middle East & Africa,100000.0,0.47,272224.62,2022-01-20,False
+C0256,Nova Innovations 256,EdTech,1-10,Latin America,50000000.0,0.347,252738.11,2022-05-29,False
+C0257,Apex Dynamics 257,HealthTech,51-200,APAC,1000000.0,0.224,494658.74,2022-10-06,True
+C0258,Atlas Services 258,CyberSecurity,51-200,Europe,50000000.0,0.381,65196.91,2022-03-25,True
+C0259,Quantum Consulting 259,EdTech,1-10,APAC,50000000.0,0.253,154561.89,2022-12-12,True
+C0260,Nova Data 260,PropTech,201-500,Middle East & Africa,500000.0,0.192,52501.51,2022-12-09,True
+C0261,Atlas Partners 261,LegalTech,11-50,North America,500000.0,0.218,197951.45,2022-08-17,True
+C0262,Stratos Dynamics 262,FinTech,51-200,APAC,10000000.0,0.547,125788.26,2022-12-08,True
+C0263,Vertex Labs 263,PropTech,1000+,Middle East & Africa,10000000.0,0.432,387222.11,2022-12-20,True
+C0264,Vertex Platforms 264,RetailTech,11-50,Europe,1000000.0,0.338,85060.93,2022-11-07,True
+C0265,Cobalt Global 265,CyberSecurity,501-1000,Europe,50000000.0,0.28,131258.06,2022-11-02,False
+C0266,Orion Services 266,CyberSecurity,501-1000,APAC,,0.205,459449.91,2022-02-27,True
+C0267,Redpoint Services 267,RetailTech,501-1000,Middle East & Africa,100000.0,0.198,90623.21,2022-09-24,True
+C0268,Radiant Digital 268,CyberSecurity,1-10,Middle East & Africa,1000000.0,0.42,406259.12,2022-08-21,True
+C0269,Lumex Enterprises 269,FinTech,501-1000,Latin America,10000000.0,0.095,405388.52,2022-01-12,True
+C0270,Harbor Solutions 270,RetailTech,501-1000,North America,,0.068,217611.72,2022-12-25,True
+C0271,Nexus Technologies 271,CyberSecurity,1-10,APAC,1000000.0,0.373,98190.85,2022-03-11,True
+C0272,Ember Innovations 272,LegalTech,201-500,Latin America,50000000.0,0.181,459386.39,2022-07-13,True
+C0273,Radiant Global 273,EdTech,1000+,APAC,,0.469,97452.08,2022-10-03,True
+C0274,Atlas Analytics 274,FinTech,1-10,APAC,1000000.0,0.442,340014.93,2022-10-06,True
+C0275,Solara Analytics 275,RetailTech,201-500,APAC,100000.0,0.273,145068.37,2022-02-27,True
+C0276,Radiant Innovations 276,FinTech,11-50,Europe,,0.442,59439.39,2022-01-18,True
+C0277,Radiant Systems 277,RetailTech,1000+,North America,1000000.0,0.451,225091.78,2022-10-04,True
+C0278,Indigo Systems 278,EdTech,501-1000,APAC,100000.0,0.514,409735.27,2022-10-22,True
+C0279,Meridian Networks 279,RetailTech,51-200,Europe,10000000.0,0.198,265413.02,2022-07-31,True
+C0280,Nexus Global 280,EdTech,1000+,Latin America,5000000.0,0.056,252854.19,2022-06-26,False
+C0281,Radiant Intelligence 281,LegalTech,1000+,Latin America,1000000.0,0.013,83116.63,2022-07-12,True
+C0282,Redpoint Partners 282,RetailTech,11-50,APAC,50000000.0,0.442,356712.63,2022-08-26,False
+C0283,Redpoint Innovations 283,PropTech,501-1000,Middle East & Africa,100000.0,0.256,200325.33,2022-05-11,True
+C0284,Quantum Technologies 284,CyberSecurity,51-200,North America,5000000.0,0.12,365046.51,2022-04-08,True
+C0285,Solara Data 285,FinTech,1-10,Europe,50000000.0,0.291,383231.24,2022-12-10,True
+C0286,Irongate Digital 286,LegalTech,51-200,North America,100000.0,0.248,469208.28,2022-03-02,True
+C0287,Flint Partners 287,RetailTech,1000+,Middle East & Africa,10000000.0,0.273,110211.44,2022-05-03,True
+C0288,Flint Dynamics 288,PropTech,201-500,Middle East & Africa,10000000.0,0.231,186037.18,2022-05-14,True
+C0289,Irongate Enterprises 289,HealthTech,1000+,Latin America,50000000.0,0.398,421468.28,2022-04-15,True
+C0290,Lumex Systems 290,RetailTech,1000+,Europe,,0.123,137779.31,2022-10-27,True
+C0291,Lumex Dynamics 291,EdTech,11-50,APAC,100000.0,0.244,196121.49,2022-05-06,True
+C0292,Quantum Networks 292,HRTech,201-500,Latin America,1000000.0,0.169,92434.49,2022-06-30,True
+C0293,Ember Global 293,CyberSecurity,11-50,Middle East & Africa,10000000.0,0.363,479046.08,2022-09-26,True
+C0294,Indigo Technologies 294,FinTech,1-10,Latin America,100000.0,0.159,422846.91,2022-04-29,True
+C0295,Atlas Solutions 295,RetailTech,501-1000,Latin America,500000.0,0.098,39620.56,2022-11-23,True
+C0296,Meridian Partners 296,CyberSecurity,1-10,North America,5000000.0,0.326,280305.34,2022-01-07,True
+C0297,Ember Consulting 297,HRTech,1-10,Middle East & Africa,50000000.0,0.307,351950.95,2022-08-09,True
+C0298,Nova Ventures 298,HealthTech,501-1000,Europe,100000.0,0.077,104046.71,2022-09-27,True
+C0299,Arcus Consulting 299,PropTech,1-10,APAC,1000000.0,0.473,234908.9,2022-05-05,False
+C0300,Zenith Dynamics 300,HealthTech,1000+,North America,,0.316,208586.37,2022-07-13,True
+C0301,Nexus Solutions 301,EdTech,1-10,Latin America,50000000.0,0.206,222615.73,2022-06-19,True
+C0302,Indigo Ventures 302,FinTech,11-50,Europe,50000000.0,0.039,349220.98,2022-10-18,True
+C0303,Nexus Technologies 303,HRTech,501-1000,Middle East & Africa,10000000.0,0.417,26121.87,2022-06-11,True
+C0304,Helix Cloud 304,EdTech,1000+,Latin America,,0.305,156645.68,2022-10-16,True
+C0305,Harbor Intelligence 305,LegalTech,201-500,Europe,50000000.0,0.36,494354.2,2022-02-10,True
+C0306,Arcus Systems 306,HealthTech,201-500,Europe,50000000.0,0.32,47248.94,2022-11-06,True
+C0307,Meridian Intelligence 307,LegalTech,1-10,APAC,50000000.0,0.06,496367.08,2022-09-09,True
+C0308,Redpoint Intelligence 308,PropTech,11-50,Middle East & Africa,10000000.0,0.218,196235.63,2022-11-13,True
+C0309,Zenith Technologies 309,HealthTech,51-200,Europe,1000000.0,0.423,358721.81,2022-11-21,True
+C0310,Solara Networks 310,LegalTech,1-10,North America,,0.086,472050.51,2022-08-16,True
+C0311,Pinnacle Ventures 311,EdTech,1-10,Europe,1000000.0,0.241,229933.4,2022-10-12,True
+C0312,Vega Solutions 312,HealthTech,51-200,Middle East & Africa,,0.107,302493.03,2022-06-16,False
+C0313,Apex Dynamics 313,PropTech,201-500,North America,10000000.0,0.394,451556.66,2022-05-05,True
+C0314,Nova Intelligence 314,EdTech,11-50,APAC,500000.0,0.256,141519.33,2022-03-16,True
+C0315,Lumex Consulting 315,PropTech,51-200,Latin America,50000000.0,0.384,47691.47,2022-05-09,False
+C0316,Ember Partners 316,RetailTech,201-500,North America,100000.0,0.366,159282.42,2022-07-22,True
+C0317,Meridian Intelligence 317,LegalTech,201-500,APAC,1000000.0,0.582,409582.98,2022-11-30,False
+C0318,Atlas Dynamics 318,LegalTech,501-1000,Europe,1000000.0,0.562,163949.81,2022-07-23,False
+C0319,Vertex Partners 319,RetailTech,51-200,Latin America,500000.0,0.088,410082.31,2022-07-21,True
+C0320,Horizon Digital 320,EdTech,1000+,Middle East & Africa,,0.345,476972.26,2022-08-25,False
+C0321,Helix Enterprises 321,HRTech,1000+,North America,50000000.0,0.61,425416.09,2022-07-29,True
+C0322,Atlas Dynamics 322,RetailTech,51-200,Europe,10000000.0,0.314,217332.7,2022-07-13,True
+C0323,Meridian Partners 323,PropTech,501-1000,Middle East & Africa,50000000.0,0.648,348937.34,2022-10-06,True
+C0324,Arcus Global 324,HealthTech,1-10,Europe,10000000.0,0.227,335700.0,2022-03-27,True
+C0325,Nexus Cloud 325,PropTech,51-200,Latin America,,0.453,15168.41,2022-05-13,True
+C0326,Ember Services 326,RetailTech,201-500,APAC,1000000.0,0.6,236900.97,2022-12-14,True
+C0327,Bluewave Group 327,LegalTech,1-10,Latin America,,0.136,154761.79,2022-02-13,True
+C0328,Ember Group 328,LegalTech,51-200,APAC,1000000.0,0.236,394292.3,2022-09-24,True
+C0329,Irongate Ventures 329,CyberSecurity,1000+,Latin America,500000.0,0.605,42915.43,2022-01-23,True
+C0330,Vega Solutions 330,LegalTech,1000+,North America,10000000.0,0.292,402024.56,2022-05-05,True
+C0331,Redpoint Labs 331,LegalTech,501-1000,Latin America,1000000.0,0.4,123609.22,2022-07-27,True
+C0332,Nova Innovations 332,PropTech,1-10,Middle East & Africa,100000.0,0.451,230291.76,2022-08-08,True
+C0333,Cobalt Digital 333,RetailTech,51-200,North America,5000000.0,0.185,59858.5,2022-10-02,True
+C0334,Stratos Digital 334,CyberSecurity,1-10,APAC,10000000.0,0.41,432691.91,2022-09-28,False
+C0335,Stratos Data 335,PropTech,501-1000,Latin America,5000000.0,0.35,65973.72,2022-06-30,False
+C0336,Meridian Labs 336,HRTech,501-1000,Middle East & Africa,,0.176,339333.94,2022-06-10,True
+C0337,Vertex Ventures 337,EdTech,51-200,Europe,5000000.0,0.205,200347.0,2022-11-02,True
+C0338,Solara Innovations 338,EdTech,201-500,Middle East & Africa,10000000.0,0.609,460388.89,2022-03-30,True
+C0339,Irongate Dynamics 339,EdTech,11-50,APAC,50000000.0,0.142,230990.48,2022-01-28,False
+C0340,Apex Partners 340,EdTech,11-50,Latin America,5000000.0,0.436,257664.63,2022-09-11,True
+C0341,Irongate Innovations 341,CyberSecurity,201-500,Europe,,0.308,287044.92,2022-04-23,True
+C0342,Pinnacle Analytics 342,HRTech,11-50,Latin America,5000000.0,0.455,373833.94,2022-09-11,True
+C0343,Vega Cloud 343,HealthTech,51-200,Middle East & Africa,50000000.0,0.428,495537.87,2022-10-05,False
+C0344,Nexus Enterprises 344,RetailTech,201-500,North America,10000000.0,0.278,416734.65,2022-05-07,True
+C0345,Nexus Enterprises 345,HRTech,51-200,North America,1000000.0,0.185,433992.33,2022-03-02,True
+C0346,Zenith Digital 346,LegalTech,1000+,Middle East & Africa,10000000.0,0.555,219801.86,2022-11-12,True
+C0347,Helix Digital 347,FinTech,501-1000,APAC,5000000.0,0.503,147731.66,2022-10-03,True
+C0348,Cobalt Dynamics 348,HRTech,501-1000,APAC,50000000.0,0.322,262063.34,2022-12-14,True
+C0349,Atlas Innovations 349,FinTech,51-200,Europe,10000000.0,0.294,434378.61,2022-05-08,True
+C0350,Stratos Analytics 350,PropTech,201-500,Europe,5000000.0,0.125,319876.97,2022-11-18,True
+C0351,Crestline Technologies 351,HealthTech,201-500,Middle East & Africa,10000000.0,0.444,146330.59,2022-07-08,True
+C0352,Irongate Networks 352,FinTech,1000+,North America,10000000.0,0.576,486353.64,2022-11-22,True
+C0353,Arcus Technologies 353,PropTech,11-50,Latin America,50000000.0,0.124,113807.22,2022-05-18,True
+C0354,Vertex Networks 354,EdTech,501-1000,Latin America,50000000.0,0.142,178432.41,2022-12-16,True
+C0355,Nexus Ventures 355,CyberSecurity,1-10,North America,50000000.0,0.187,87411.92,2022-08-22,True
+C0356,Lumex Digital 356,EdTech,1000+,APAC,100000.0,0.191,438467.45,2022-05-21,True
+C0357,Arcus Consulting 357,HealthTech,51-200,Europe,,0.275,204207.37,2022-06-06,True
+C0358,Flint Analytics 358,PropTech,1000+,North America,10000000.0,0.259,56640.0,2022-04-20,True
+C0359,Atlas Cloud 359,RetailTech,501-1000,Latin America,,0.116,13950.66,2022-06-25,True
+C0360,Indigo Innovations 360,EdTech,201-500,North America,100000.0,0.588,197704.26,2022-02-22,True
+C0361,Arcus Dynamics 361,EdTech,201-500,Europe,10000000.0,0.142,496540.68,2022-03-15,True
+C0362,Horizon Solutions 362,EdTech,201-500,APAC,10000000.0,0.267,114397.17,2022-03-19,False
+C0363,Meridian Enterprises 363,RetailTech,1-10,North America,100000.0,0.169,378698.37,2022-10-29,True
+C0364,Arcus Innovations 364,LegalTech,11-50,Europe,500000.0,0.505,325864.08,2022-05-08,True
+C0365,Meridian Data 365,HRTech,1000+,North America,50000000.0,0.215,425064.31,2022-06-04,True
+C0366,Meridian Services 366,RetailTech,1000+,Latin America,500000.0,0.303,326623.19,2022-05-03,True
+C0367,Vega Analytics 367,CyberSecurity,1000+,Middle East & Africa,,0.604,268860.39,2022-01-07,False
+C0368,Stratos Group 368,PropTech,501-1000,Latin America,500000.0,0.226,277714.55,2022-03-30,True
+C0369,Flint Technologies 369,FinTech,501-1000,North America,,0.33,138470.79,2022-01-21,False
+C0370,Glacier Intelligence 370,HRTech,1000+,Middle East & Africa,50000000.0,0.155,213561.68,2022-12-26,True
+C0371,Quantum Global 371,EdTech,51-200,North America,500000.0,0.264,48720.57,2022-04-15,False
+C0372,Atlas Global 372,LegalTech,201-500,Middle East & Africa,10000000.0,0.387,383979.82,2022-11-29,True
+C0373,Orion Dynamics 373,PropTech,1000+,Europe,,0.122,129795.08,2022-08-11,True
+C0374,Meridian Data 374,FinTech,51-200,Europe,,0.231,16205.84,2022-03-12,True
+C0375,Nova Partners 375,LegalTech,501-1000,Middle East & Africa,50000000.0,0.337,413028.37,2022-05-13,True
+C0376,Atlas Consulting 376,HealthTech,1-10,APAC,50000000.0,0.072,220369.04,2022-09-26,True
+C0377,Cobalt Cloud 377,HealthTech,201-500,Latin America,5000000.0,0.378,186460.71,2022-09-13,False
+C0378,Nova Platforms 378,EdTech,51-200,North America,5000000.0,0.319,340319.01,2022-03-01,True
+C0379,Bluewave Solutions 379,FinTech,1-10,Europe,,0.197,241164.65,2022-07-16,False
+C0380,Nova Systems 380,PropTech,11-50,APAC,100000.0,0.287,213965.73,2022-06-13,True
+C0381,Orion Cloud 381,LegalTech,1-10,Middle East & Africa,10000000.0,0.601,451951.09,2022-04-02,True
+C0382,Bluewave Systems 382,PropTech,1-10,Latin America,50000000.0,0.097,148330.37,2022-06-09,True
+C0383,Redpoint Enterprises 383,FinTech,51-200,Europe,500000.0,0.275,286265.3,2022-06-05,True
+C0384,Zenith Enterprises 384,LegalTech,501-1000,Latin America,50000000.0,0.505,390184.12,2022-10-07,True
+C0385,Zenith Group 385,FinTech,201-500,North America,100000.0,0.16,275357.15,2022-11-22,False
+C0386,Apex Networks 386,FinTech,1000+,Latin America,50000000.0,0.214,371660.5,2022-06-07,True
+C0387,Bluewave Analytics 387,PropTech,201-500,North America,100000.0,0.463,358709.71,2022-02-17,True
+C0388,Zenith Services 388,PropTech,1000+,APAC,1000000.0,0.278,487531.85,2022-02-13,True
+C0389,Bluewave Group 389,PropTech,1-10,Middle East & Africa,5000000.0,0.185,40518.6,2022-12-06,False
+C0390,Zenith Dynamics 390,HRTech,51-200,Latin America,10000000.0,0.115,417630.92,2022-06-17,True
+C0391,Pinnacle Analytics 391,HealthTech,11-50,Europe,50000000.0,0.423,387371.84,2022-02-25,True
+C0392,Nova Enterprises 392,CyberSecurity,51-200,Latin America,,0.644,272603.03,2022-04-17,True
+C0393,Crestline Consulting 393,HealthTech,1-10,Europe,50000000.0,0.308,346166.87,2022-12-27,True
+C0394,Nexus Digital 394,LegalTech,11-50,North America,10000000.0,0.411,131627.21,2022-07-02,True
+C0395,Nexus Dynamics 395,HRTech,11-50,North America,1000000.0,0.196,428754.64,2022-10-12,True
+C0396,Zenith Ventures 396,CyberSecurity,1-10,Europe,,0.139,15858.89,2022-04-24,True
+C0397,Harbor Intelligence 397,LegalTech,1000+,North America,5000000.0,0.099,297198.19,2022-02-08,True
+C0398,Orion Digital 398,CyberSecurity,11-50,North America,50000000.0,0.367,416384.53,2022-06-19,True
+C0399,Crestline Systems 399,EdTech,501-1000,Latin America,50000000.0,0.507,364971.12,2022-09-12,True
+C0400,Radiant Innovations 400,EdTech,51-200,Europe,100000.0,0.236,144741.07,2022-08-17,False
+C0401,Nexus Data 401,RetailTech,1000+,APAC,1000000.0,0.406,211876.18,2022-10-09,True
+C0402,Orion Consulting 402,PropTech,11-50,Latin America,100000.0,0.265,324899.74,2022-09-27,True
+C0403,Glacier Global 403,FinTech,201-500,APAC,1000000.0,0.381,276813.72,2022-09-06,True
+C0404,Horizon Services 404,LegalTech,201-500,APAC,100000.0,0.225,22770.85,2022-11-02,True
+C0405,Glacier Consulting 405,FinTech,201-500,Middle East & Africa,500000.0,0.045,385752.66,2022-04-30,False
+C0406,Vega Analytics 406,RetailTech,51-200,Middle East & Africa,50000000.0,0.164,397706.23,2022-01-29,True
+C0407,Zenith Cloud 407,PropTech,51-200,Europe,100000.0,0.191,125910.06,2022-06-12,True
+C0408,Cobalt Platforms 408,FinTech,1000+,APAC,5000000.0,0.262,286167.18,2022-10-16,False
+C0409,Harbor Partners 409,HRTech,11-50,Latin America,,0.356,54226.11,2022-04-30,True
+C0410,Apex Services 410,CyberSecurity,1-10,APAC,5000000.0,0.081,108717.55,2022-03-08,True
+C0411,Nova Networks 411,FinTech,1-10,Europe,5000000.0,0.108,355301.21,2022-03-14,True
+C0412,Indigo Services 412,LegalTech,1-10,APAC,10000000.0,0.246,471542.37,2022-07-22,True
+C0413,Stratos Dynamics 413,LegalTech,11-50,Europe,10000000.0,0.545,474859.83,2022-11-24,False
+C0414,Quantum Networks 414,EdTech,1000+,Middle East & Africa,10000000.0,0.336,445904.11,2022-11-11,True
+C0415,Zenith Cloud 415,EdTech,201-500,APAC,10000000.0,0.112,347364.24,2022-03-07,True
+C0416,Apex Cloud 416,PropTech,501-1000,North America,100000.0,0.079,305170.45,2022-11-10,True
+C0417,Horizon Ventures 417,CyberSecurity,11-50,APAC,10000000.0,0.223,48125.25,2022-06-27,False
+C0418,Nova Technologies 418,LegalTech,201-500,North America,500000.0,0.239,112745.3,2022-12-21,True
+C0419,Pinnacle Ventures 419,FinTech,1-10,Latin America,1000000.0,0.469,368966.4,2022-03-27,False
+C0420,Irongate Intelligence 420,LegalTech,501-1000,Latin America,,0.109,416115.42,2022-10-23,True
+C0421,Radiant Analytics 421,EdTech,201-500,North America,50000000.0,0.351,424423.62,2022-05-31,True
+C0422,Pinnacle Ventures 422,HealthTech,51-200,Europe,1000000.0,0.115,88843.2,2022-02-08,True
+C0423,Orion Networks 423,CyberSecurity,1000+,North America,1000000.0,0.521,471796.71,2022-03-26,True
+C0424,Lumex Labs 424,FinTech,1-10,APAC,100000.0,0.463,487455.23,2022-07-29,True
+C0425,Ember Global 425,HRTech,1000+,APAC,500000.0,0.446,126398.66,2022-01-26,True
+C0426,Redpoint Partners 426,EdTech,1-10,APAC,,0.451,219526.92,2022-05-31,False
+C0427,Quantum Data 427,CyberSecurity,11-50,North America,,0.208,111406.96,2022-11-23,True
+C0428,Orion Partners 428,HealthTech,51-200,Latin America,1000000.0,0.553,249657.44,2022-12-05,True
+C0429,Quantum Global 429,PropTech,11-50,APAC,1000000.0,0.241,191006.82,2022-08-17,True
+C0430,Crestline Enterprises 430,HRTech,11-50,APAC,5000000.0,0.352,40203.29,2022-12-23,True
+C0431,Orion Platforms 431,PropTech,501-1000,Europe,5000000.0,0.562,39882.04,2022-07-18,True
+C0432,Lumex Global 432,CyberSecurity,501-1000,Europe,1000000.0,0.066,156437.53,2022-07-22,False
+C0433,Cobalt Systems 433,EdTech,1-10,Latin America,100000.0,0.478,475040.13,2022-03-27,False
+C0434,Glacier Digital 434,EdTech,1-10,Latin America,,0.362,494257.17,2022-08-11,True
+C0435,Harbor Group 435,HRTech,51-200,North America,,0.402,200168.58,2022-07-23,True
+C0436,Indigo Consulting 436,CyberSecurity,1-10,Middle East & Africa,5000000.0,0.145,266055.39,2022-08-03,True
+C0437,Atlas Group 437,HealthTech,1-10,Middle East & Africa,50000000.0,0.149,59485.32,2022-05-27,False
+C0438,Arcus Innovations 438,HRTech,201-500,Latin America,5000000.0,0.267,308391.45,2022-01-20,True
+C0439,Solara Group 439,PropTech,1-10,Latin America,500000.0,0.267,348351.74,2022-01-26,True
+C0440,Pinnacle Platforms 440,FinTech,51-200,APAC,500000.0,0.202,147369.86,2022-09-09,False
+C0441,Radiant Ventures 441,RetailTech,11-50,APAC,10000000.0,0.519,227124.2,2022-06-14,True
+C0442,Lumex Data 442,HealthTech,11-50,Latin America,100000.0,0.013,457582.07,2022-07-28,True
+C0443,Flint Services 443,LegalTech,1-10,Middle East & Africa,50000000.0,0.23,87896.5,2022-06-09,True
+C0444,Solara Group 444,FinTech,11-50,Europe,50000000.0,0.089,108356.12,2022-01-30,True
+C0445,Crestline Systems 445,LegalTech,1000+,Europe,500000.0,0.544,190492.44,2022-08-26,True
+C0446,Quantum Ventures 446,FinTech,11-50,APAC,1000000.0,0.338,301081.36,2022-04-01,False
+C0447,Irongate Cloud 447,LegalTech,51-200,Europe,50000000.0,0.221,448301.04,2022-12-19,True
+C0448,Apex Intelligence 448,FinTech,11-50,Middle East & Africa,50000000.0,0.122,482809.63,2022-04-24,True
+C0449,Radiant Digital 449,HRTech,1000+,Latin America,5000000.0,0.327,19825.66,2022-12-16,True
+C0450,Atlas Labs 450,FinTech,11-50,APAC,5000000.0,0.1,404491.93,2022-06-06,True
+C0451,Cobalt Consulting 451,PropTech,201-500,APAC,1000000.0,0.338,133479.37,2022-08-27,True
+C0452,Bluewave Data 452,PropTech,501-1000,North America,,0.583,260641.72,2022-12-06,False
+C0453,Harbor Platforms 453,HRTech,51-200,North America,1000000.0,0.549,41280.16,2022-05-22,True
+C0454,Indigo Consulting 454,HRTech,1000+,APAC,100000.0,0.144,83465.36,2022-05-04,False
+C0455,Glacier Data 455,PropTech,1000+,APAC,10000000.0,0.54,78565.46,2022-01-14,True
+C0456,Vertex Consulting 456,PropTech,201-500,Latin America,10000000.0,0.049,27306.31,2022-12-29,False
+C0457,Harbor Digital 457,LegalTech,1000+,Europe,10000000.0,0.227,271971.2,2022-09-01,False
+C0458,Radiant Platforms 458,HRTech,11-50,Middle East & Africa,100000.0,0.151,153954.19,2022-08-30,True
+C0459,Pinnacle Global 459,EdTech,1000+,APAC,10000000.0,0.04,53756.91,2022-07-01,True
+C0460,Indigo Dynamics 460,PropTech,51-200,APAC,500000.0,0.42,296929.64,2022-08-26,False
+C0461,Irongate Systems 461,HealthTech,201-500,Europe,5000000.0,0.47,68709.81,2022-12-15,True
+C0462,Vertex Innovations 462,FinTech,11-50,Europe,100000.0,0.459,177908.24,2022-10-19,False
+C0463,Crestline Group 463,LegalTech,1000+,Europe,50000000.0,0.293,49597.62,2022-06-20,True
+C0464,Nova Networks 464,FinTech,1-10,Latin America,500000.0,0.325,112597.36,2022-03-28,True
+C0465,Nova Partners 465,HealthTech,11-50,Middle East & Africa,1000000.0,0.608,320408.89,2022-07-26,True
+C0466,Irongate Intelligence 466,FinTech,1-10,Middle East & Africa,100000.0,0.228,368022.94,2022-01-08,False
+C0467,Flint Services 467,RetailTech,1-10,North America,10000000.0,0.329,369465.59,2022-04-26,True
+C0468,Arcus Dynamics 468,EdTech,1-10,Latin America,5000000.0,0.189,298448.64,2022-03-27,True
+C0469,Nexus Dynamics 469,HRTech,201-500,Middle East & Africa,5000000.0,0.476,266817.65,2022-08-11,False
+C0470,Atlas Networks 470,CyberSecurity,51-200,Europe,100000.0,0.462,474561.33,2022-07-26,True
+C0471,Zenith Group 471,RetailTech,1000+,North America,5000000.0,0.336,257270.44,2022-03-05,True
+C0472,Quantum Systems 472,PropTech,1000+,APAC,50000000.0,0.291,272019.38,2022-01-25,True
+C0473,Nexus Ventures 473,FinTech,1-10,North America,1000000.0,0.301,227714.0,2022-03-05,True
+C0474,Irongate Group 474,RetailTech,1000+,North America,500000.0,0.327,216227.01,2022-02-21,True
+C0475,Pinnacle Data 475,EdTech,201-500,North America,5000000.0,0.068,362195.45,2022-03-02,True
+C0476,Glacier Ventures 476,CyberSecurity,11-50,Middle East & Africa,100000.0,0.333,391199.87,2022-09-25,False
+C0477,Arcus Innovations 477,HRTech,11-50,North America,5000000.0,0.569,253213.81,2022-04-17,True
+C0478,Irongate Networks 478,RetailTech,1-10,North America,10000000.0,0.169,53611.39,2022-02-26,False
+C0479,Radiant Partners 479,EdTech,1-10,Middle East & Africa,,0.323,364546.17,2022-02-21,False
+C0480,Quantum Analytics 480,CyberSecurity,51-200,APAC,1000000.0,0.26,34539.3,2022-03-31,False
+C0481,Indigo Dynamics 481,LegalTech,1000+,APAC,1000000.0,0.211,371884.7,2022-02-18,False
+C0482,Nexus Solutions 482,EdTech,1000+,Europe,500000.0,0.445,185188.43,2022-08-13,False
+C0483,Pinnacle Technologies 483,LegalTech,51-200,Europe,,0.193,206380.98,2022-08-22,True
+C0484,Solara Partners 484,PropTech,1000+,Europe,,0.422,74930.67,2022-01-31,False
+C0485,Indigo Labs 485,HealthTech,201-500,Middle East & Africa,1000000.0,0.315,403109.74,2022-12-14,True
+C0486,Meridian Intelligence 486,LegalTech,501-1000,North America,50000000.0,0.089,345387.43,2022-03-08,True
+C0487,Irongate Ventures 487,PropTech,201-500,North America,,0.181,138190.3,2022-06-10,True
+C0488,Indigo Services 488,RetailTech,1000+,APAC,5000000.0,0.289,266320.56,2022-12-25,True
+C0489,Lumex Analytics 489,CyberSecurity,51-200,Latin America,100000.0,0.191,421126.18,2022-10-13,False
+C0490,Meridian Systems 490,FinTech,1000+,Europe,5000000.0,0.255,425934.33,2022-09-11,False
+C0491,Orion Partners 491,LegalTech,11-50,APAC,500000.0,0.263,34671.85,2022-04-25,True
+C0492,Solara Intelligence 492,RetailTech,1-10,Latin America,1000000.0,0.187,402618.03,2022-08-18,True
+C0493,Irongate Enterprises 493,LegalTech,1-10,Latin America,10000000.0,0.124,330152.77,2022-02-22,True
+C0494,Nexus Global 494,FinTech,1-10,Middle East & Africa,5000000.0,0.359,322393.68,2022-09-18,True
+C0495,Quantum Enterprises 495,LegalTech,51-200,North America,50000000.0,0.007,119229.88,2022-08-21,True
+C0496,Flint Data 496,CyberSecurity,1000+,APAC,10000000.0,0.225,231740.9,2022-02-19,True
+C0497,Zenith Solutions 497,LegalTech,51-200,APAC,5000000.0,0.368,265772.69,2022-12-26,True
+C0498,Nova Partners 498,EdTech,1000+,Latin America,,0.47,134601.76,2022-04-11,True
+C0499,Indigo Intelligence 499,RetailTech,201-500,Europe,10000000.0,0.233,175587.44,2022-08-01,True
+C0500,Quantum Cloud 500,HealthTech,201-500,Latin America,10000000.0,0.605,298764.92,2022-09-16,True

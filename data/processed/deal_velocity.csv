@@ -1,0 +1,4 @@
+product,avg_velocity,median_velocity,min_velocity,max_velocity,deal_count
+PipelineIQ Enterprise,60.2,59.0,1.0,118.0,73
+PipelineIQ Pro,60.4,60.0,2.0,118.0,77
+PipelineIQ Starter,54.6,51.0,0.0,115.0,69

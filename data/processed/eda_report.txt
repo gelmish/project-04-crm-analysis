@@ -1,0 +1,185 @@
+
+============================================================
+  1. DATASET OVERVIEW
+============================================================
+  Sales Reps   :      5 rows | 8 columns
+  Companies    :    500 rows | 12 columns
+  Contacts     :  1,500 rows | 11 columns
+  Deals        :  1,200 rows | 19 columns
+  Activities   :  4,800 rows | 10 columns
+
+  Date range   : 2023-01-01 to 2024-12-31
+  Total deal value : $  76,310,481.87
+  Won deal value   : $   9,553,444.16
+
+============================================================
+  2. PIPELINE HEALTH
+============================================================
+               deal_count  total_value  avg_value    weighted
+stage                                                        
+Closed Lost            80   5260978.42   65762.23        0.00
+Closed Won            139   9553444.16   68729.81  9553444.16
+Negotiation           201  12999016.86   64671.73  9749262.59
+Proposal              249  15962778.85   64107.55  7981389.45
+Prospecting           233  14464734.22   62080.40  1446473.52
+Qualification         298  18069529.36   60636.00  4517382.38
+
+  Win Rate    : 63.5%
+  Won deals   : 139  ($9,553,444.16)
+  Lost deals  : 80  ($5,260,978.42)
+
+  Pipeline by Product:
+                       count        value  won  win_rate_%
+product                                                   
+PipelineIQ Enterprise    378  59071157.43   46        12.2
+PipelineIQ Pro           410  13106030.94   47        11.5
+PipelineIQ Starter       412   4133293.50   46        11.2
+
+============================================================
+  3. DEAL VELOCITY
+============================================================
+  Avg velocity (all closed) : 58.5 days
+  Avg velocity (Won)        : 56.6 days
+  Avg velocity (Lost)       : 61.7 days
+  Median velocity           : 57.0 days
+  Fastest deal              : 0 days
+  Slowest deal              : 118 days
+
+============================================================
+  4. SALES REP PERFORMANCE
+============================================================
+                total_deals  won_deals  lost_deals  total_value  avg_deal  avg_velocity  win_rate_%  revenue_won
+rep_name                                                                                                        
+Carlos Herrera          212         17          15  12781589.30  60290.52         56.09         8.0   1234540.51
+Emma Thornton           268         20          20  16923636.17  63147.90         59.38         7.5   1218445.67
+James Okafor            244         37          13  16551240.70  67832.95         64.58        15.2   2626867.39
+Priya Nair              203         31          15  13539330.87  66696.21         56.65        15.3   1870387.13
+Sarah Mitchell          273         34          17  16514684.83  60493.35         54.96        12.5   2603203.46
+
+============================================================
+  5. CUSTOMER & CHURN ANALYSIS
+============================================================
+  Companies by Industry:
+industry
+PropTech         74
+EdTech           71
+CyberSecurity    69
+LegalTech        67
+RetailTech       58
+HRTech           54
+FinTech          54
+HealthTech       53
+
+  Companies by Churn Risk Band:
+churn_risk_band
+Medium      213
+Low         168
+High        103
+Critical     16
+
+  Companies by LTV Band:
+ltv_band
+Platinum    213
+Gold        150
+Silver      100
+Bronze       37
+
+  Active vs Inactive:
+is_active
+True     400
+False    100
+
+  Top 10 Companies by LTV:
+             company_name      industry               region  customer_ltv  churn_score
+       Nexus Services 148        HRTech        North America     499307.51        0.068
+  Crestline Platforms 208 CyberSecurity                 APAC     499093.79        0.530
+ Stratos Technologies 036       FinTech Middle East & Africa     498087.26        0.211
+       Lumex Ventures 137        EdTech        North America     498004.41        0.307
+          Nexus Group 093        EdTech                 APAC     497019.88        0.267
+       Arcus Dynamics 361        EdTech               Europe     496540.68        0.142
+Meridian Intelligence 307     LegalTech                 APAC     496367.08        0.060
+           Vega Cloud 343    HealthTech Middle East & Africa     495537.87        0.428
+        Apex Dynamics 257    HealthTech                 APAC     494658.74        0.224
+  Harbor Intelligence 305     LegalTech               Europe     494354.20        0.360
+
+============================================================
+  6. MONTHLY REVENUE TREND
+============================================================
+  month  deals   revenue
+2023-01      1  42590.60
+2023-02      4 225099.84
+2023-03      4 247845.53
+2023-04      6 664725.16
+2023-05      5 403022.79
+2023-06      8 751949.31
+2023-07      7 850724.99
+2023-08      4 339965.07
+2023-09      5 489242.51
+2023-10      5  63552.00
+2023-11      8 395141.87
+2023-12      8 593689.12
+2024-01      4 346543.45
+2024-02      2  87197.40
+2024-03      7 146546.22
+2024-04      4 108655.79
+2024-05      2  84993.51
+2024-06      8 590840.78
+2024-07      8 837021.68
+2024-08      9 628819.79
+2024-09      2 171212.63
+2024-10      6 427226.17
+2024-11      7 119594.73
+2024-12     15 937243.22
+
+  Best month  : 2024-12 ($937,243.22)
+  Worst month : 2023-01 ($42,590.60)
+  Avg monthly : $398,060.17
+
+============================================================
+  7. SALES ACTIVITY ANALYSIS
+============================================================
+  Activity Type Breakdown:
+activity_type
+Follow-up        837
+Email            822
+Meeting          806
+Call             796
+Proposal Sent    790
+Demo             749
+
+  Outcome Distribution:
+outcome
+Positive       1929
+Neutral        1440
+Negative        743
+No Response     688
+
+  Activities per Won Deal:
+    Mean : 4.1
+    Max  : 12
+    Min  : 1
+
+============================================================
+  8. LOSS REASON ANALYSIS
+============================================================
+  Total Lost Deals : 80
+  Total Lost Value : $5,260,978.42
+
+  Loss Reasons:
+loss_reason
+Chose competitor     18
+Price too high       15
+No budget            14
+Poor fit             12
+No decision made     11
+Project cancelled    10
+
+  Lost Value by Reason:
+                   count         sum      mean
+loss_reason                                   
+Chose competitor      18  1398505.14  77694.73
+No budget             14   938971.49  67069.39
+No decision made      11   781925.46  71084.13
+Poor fit              12   575594.94  47966.24
+Price too high        15   812219.07  54147.94
+Project cancelled     10   753762.32  75376.23

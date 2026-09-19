@@ -1,0 +1,7 @@
+stage,deal_count,total_value,avg_value,weighted_value,avg_velocity,conversion_pct
+Prospecting,233,14464734.22,62080.4,1446473.52,,19.4
+Qualification,298,18069529.36,60636.0,4517382.38,,24.8
+Proposal,249,15962778.85,64107.55,7981389.45,,20.8
+Negotiation,201,12999016.86,64671.73,9749262.59,,16.8
+Closed Won,139,9553444.16,68729.81,9553444.16,56.64,11.6
+Closed Lost,80,5260978.42,65762.23,0.0,61.69,6.7

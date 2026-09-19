@@ -1,0 +1,5 @@
+churn_risk_band,company_count,avg_ltv,avg_churn_score,total_ltv
+Critical,16,308677.98,0.64,4938847.73
+High,103,273008.67,0.48,28119892.75
+Low,168,254996.76,0.13,42839454.91
+Medium,213,257938.91,0.29,54940987.75
